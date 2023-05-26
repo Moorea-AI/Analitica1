@@ -1,20 +1,123 @@
-#pip install streamlit en la consola para instalar streamlit
-#streamlit run app.py en el CMD
+Introducción a la Analítica de Negocios
+Tablón
+Trabajo de clase
+Personas
+Introducción a la Analítica de Negocios
+Próximas entregas
+¡Yuju! ¡No tienes que entregar nada pronto!
+
+Anuncia algo a tu clase
+Tarea: "Tercera Entrega - Trabajo Final"
+LAURA MARIA YARCE GOMEZ ha publicado una nueva tarea: Tercera Entrega - Trabajo Final
+Fecha de creación: 23 may23 may
+
+Anuncio: "Semana 14 - Dashboards"
+LAURA MARIA YARCE GOMEZ
+Fecha de creación: 12 may12 may (Última modificación: 23 may)
+Semana 14 - Dashboards
+
+historico.csv
+Valores separados por comas
+
+actual.csv
+Valores separados por comas
+
+Procfile
+Archivo binario
+
+requirements.txt
+Texto
+
+setup.sh
+Texto
+
+app.py
+Texto
+
+Tarea: "Seguimiento 4"
+LAURA MARIA YARCE GOMEZ ha publicado una nueva tarea: Seguimiento 4
+Fecha de creación: 28 abr28 abr
+
+Anuncio: "Semana 13 - Visualización de datos…"
+LAURA MARIA YARCE GOMEZ
+Fecha de creación: 28 abr28 abr
+Semana 13 - Visualización de datos (completa)
+
+Visualización_de_datos.ipynb
+Archivo binario
+
+
+Anuncio: "Semana 13 - Visualización de datos…"
+LAURA MARIA YARCE GOMEZ
+Fecha de creación: 21 abr21 abr
+Semana 13 - Visualización de datos (Primera parte)
+
+Visualización_de_datos_estudiante.ipynb
+Archivo binario
+
+
+Anuncio: "Semana 12 - Tratar datos faltantes y…"
+LAURA MARIA YARCE GOMEZ
+Fecha de creación: 21 abr21 abr
+Semana 12 - Tratar datos faltantes y duplicados
+
+Tratar datos faltantes o duplicados.ipynb
+Archivo binario
+
+
+Anuncio: "Semana 11 - Series de tiempo"
+LAURA MARIA YARCE GOMEZ
+Fecha de creación: 20 abr20 abr
+Semana 11 - Series de tiempo
+
+Series de tiempo.ipynb
+Archivo binario
+
+Tarea: "Taller 2 - Python"
+LAURA MARIA YARCE GOMEZ ha publicado una nueva tarea: Taller 2 - Python
+Fecha de creación: 16 abr16 abr (Última modificación: 11 may)
+Tarea: "Segunda Entrega - Trabajo Final"
+LAURA MARIA YARCE GOMEZ ha publicado una nueva tarea: Segunda Entrega - Trabajo Final
+Fecha de creación: 16 abr16 abr (Última modificación: 19 may)
+
+Anuncio: "Semana 10 - Relacionar y resumir tablas"
+LAURA MARIA YARCE GOMEZ
+Fecha de creación: 15 abr15 abr
+Semana 10 - Relacionar y resumir tablas
+
+Relacionar_y_resumir_tablas.ipynb
+Archivo binario
+
+Tablón
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Fri May 12 17:28:25 2023
+
+@author: lyarce
+"""
 
 # Cargar datos
 import streamlit as st
 import pandas as pd
-import pydeck as pdk
+import pydeck as pdk #Mapas avanzados
 import plotly.express as px
 import plotly.graph_objects as go
 import base64
 
+# Función para descargar base de datos
+def get_table_download_link(df):
+    csv = df.to_csv(index=False)
+    b64 = base64.b64encode(csv.encode()).decode()  # some strings <-> bytes conversions necessary here
+    href = f'<a href="data:file/csv;base64,{b64}" download="datos.csv">Descargar archivo csv</a>'
+    return href
+
 # Utilizar la página completa en lugar de una columna central estrecha
 st.set_page_config(layout="wide")
 
+
 # Título principal, h1 denota el estilo del título 1
 st.markdown("<h1 style='text-align: center; color: #951F0F;'>Histórico de disparos en Nueva York 🗽💥🔫 </h1>", unsafe_allow_html=True)
-#----------------------------------------
 
 # Cargar datos
 @st.cache(persist=True) # Código para que quede almacenada la información en el cache
@@ -31,13 +134,7 @@ def load_data(url1, url2):
     return df
 
 df = load_data('historico.csv', 'actual.csv')
-    
-# Función para descargar base de datos
-def get_table_download_link(df):
-    csv = df.to_csv(index=False)
-    b64 = base64.b64encode(csv.encode()).decode()  # some strings <-> bytes conversions necessary here
-    href = f'<a href="data:file/csv;base64,{b64}" download="datos.csv">Descargar archivo csv</a>'
-    return href
+
 
 #----------------------------------------
 c1, c2, c3, c4, c5= st.columns((1,1,1,1,1)) # Dividir el ancho en 5 columnas de igual tamaño
@@ -48,7 +145,7 @@ c1.markdown("<h3 style='text-align: left; color: gray;'> Top Sexo </h3>", unsafe
 top_perp_name = (df['perp_sex'].value_counts().index[0])
 top_perp_num = (round(df['perp_sex'].value_counts()/df['perp_sex'].value_counts().sum(),2)*100)[0]
 top_vic_name = (df['vic_sex'].value_counts().index[0])
-0top_vic_num = (round(df['vic_sex'].value_counts()/df['vic_sex'].value_counts().sum(),2)*100)[0]
+top_vic_num = (round(df['vic_sex'].value_counts()/df['vic_sex'].value_counts().sum(),2)*100)[0]
 
 c1.text('Atacante: '+str(top_perp_name)+', '+str(top_perp_num)+'%')
 c1.text('Víctima: '+str(top_vic_name)+', '+str(top_vic_num)+'%')
@@ -94,20 +191,17 @@ c5.text('Hora: '+str(top_perp_name)+', '+str(top_perp_num)+'%')
 
 #---------------------------------------------------------------------
 
-# Dividir el layout en cuatro partes
-c1, c2= st.columns((1,1)) # Entre paréntesis se indica el tamaño de las columnas
-
+c1, c2= st.columns(2) 
 
 # Hacer código de la primera columna (Mapa sencillo):
 c1.markdown("<h3 style='text-align: center; color: black;'> ¿Dónde han ocurrido disparos en Nueva York? </h3>", unsafe_allow_html=True)
-year = c1.slider('Año en el que se presento el suceso', 2006, 2020) # Crear variable que me almacene el año seleccionado
-c1.map(df[df['year']==year][['latitude', 'longitude']].dropna()) # Generar mapa
-
+anio = c1.slider('Año en el que se presento el suceso', 2006, 2023) # Crear variable que me almacene el año seleccionado
+c1.map(df[df['year']==anio][['latitude', 'longitude']].dropna()) # Generar mapa
   
 # Hacer código de la segunda columna:
 c2.markdown("<h3 style='text-align: center; color: black;'> ¿A qué horas ocurren disparos en Nueva York? </h3>", unsafe_allow_html=True)
 hora = c2.slider('Hora en la que se presento el suceso', 0, 23) # Crear variable que me almacene la hora seleccionada
-df2 = df[df['hour']==hora] # Filtrar DataFrame
+df2 = df[df['hour']==hora].dropna(subset =['latitude','longitude']) # Filtrar DataFrame
 
 c2.write(pdk.Deck( # Código para crear el mapa
     
@@ -123,7 +217,7 @@ c2.write(pdk.Deck( # Código para crear el mapa
     # Capa con información
     layers = [pdk.Layer(
         'HexagonLayer',
-        data = df2[['incident_key','latitude','longitude']],
+        data = df2[['latitude','longitude']],
         get_position = ['longitude','latitude'],
         radius = 100,
         extruded = True,
@@ -132,7 +226,6 @@ c2.write(pdk.Deck( # Código para crear el mapa
     ))
 
 #---------------------------------------------------------------------
-
 # Título de la siguiente sección
 st.markdown("<h3 style='text-align: center; color: black;'> ¿Cómo ha sido la evolución de disparos por barrio? </h3>", unsafe_allow_html=True)
 
@@ -140,8 +233,7 @@ st.markdown("<h3 style='text-align: center; color: black;'> ¿Cómo ha sido la e
 df2 = df.groupby(['yearmonth','boro'])[['incident_key']].count().reset_index().rename(columns = {'incident_key':'disparos'})
 
 # Generar gráfica
-fig = px.line(df2, x='yearmonth', y='disparos', color = 'boro', width=1650, height=450)
-
+fig = px.line(df2, x='yearmonth', y='disparos', color = 'boro', width=1500, height=450)
 # Editar gráfica
 fig.update_layout(
         title_x=0.5,
@@ -158,13 +250,10 @@ fig.update_layout(
             y=1.02,
             xanchor="right",
             x=0.7))
-
-# Enviar gráfica a streamlit
 st.plotly_chart(fig)
 
 #---------------------------------------------------------------------
 
-# Dividir siguiente sección
 c4, c5, c6, c7= st.columns((1,1,1,1))
 
 ################ ---- Primera Gráfica
@@ -172,28 +261,31 @@ c4, c5, c6, c7= st.columns((1,1,1,1))
 # Definir título
 c4.markdown("<h3 style='text-align: center; color: black;'> ¿Qué edad tienen los atacantes? </h3>", unsafe_allow_html=True)
 
+
 # Organizar DataFrame
 df2 = df.groupby(['perp_age_group'])[['incident_key']].count().reset_index().rename(columns = {'incident_key':'disparos'})
 
-# Editar categorías mal escritas
 df2['perp_age_group'] = df2['perp_age_group'].replace({'940':'N/A',
-                              '224':'N/A','1020':'N/A', '(null)':'N/A','UNKNOWN':'N/A'})
+                              '224':'N/A','1020':'N/A', '1028':'N/A', '(null)':'N/A','UNKNOWN':'N/A'})
+
+df2 = df2.groupby(['perp_age_group'])[['disparos']].sum().reset_index()
+
 
 # Crear categoría para organizar el orden de las edades
 df2['perp_age_group2'] = df2['perp_age_group'].replace({'<18':'1',
                               '18-24':'2',
-                              '25.44':'3',
+                              '25-44':'3',
                               '45-64':'4',
                               '65+':'5',
-                              'UNKNOWN': '6'})
+                              'N/A': '6'})
 
 # Aplicar orden al DataFrame
 df2= df2.sort_values('perp_age_group2',ascending = False)
 
 # Hacer gráfica
 fig = px.bar(df2, x="disparos", y="perp_age_group", orientation='h', width=370,  height=370)
-fig.update_layout(xaxis_title="<b>Atacante<b>",
-                  yaxis_title="<b>Edades<b>", template = 'simple_white',
+fig.update_layout(xaxis_title="<b>Cant. Atacantes<b>",
+                  yaxis_title="<b>Rango Edad<b>", template = 'simple_white',
                   paper_bgcolor='rgba(0,0,0,0)',
                   plot_bgcolor='rgba(0,0,0,0)')
 
@@ -202,32 +294,35 @@ c4.plotly_chart(fig)
 
 ################ ---- Segunda Gráfica
 
-
 # Definir título
-c5.markdown("<h3 style='text-align: center; color: black;'> ¿Qué edad tienen las víctimas? </h3>", unsafe_allow_html=True)
+c5.markdown("<h3 style='text-align: center; color: black;'> ¿Qué edad tienen las victimas? </h3>", unsafe_allow_html=True)
+
 
 # Organizar DataFrame
 df2 = df.groupby(['vic_age_group'])[['incident_key']].count().reset_index().rename(columns = {'incident_key':'disparos'})
 
+df2['vic_age_group'] = df2['vic_age_group'].replace({'940':'N/A',
+                              '224':'N/A','1020':'N/A', '1028':'N/A', '(null)':'N/A','UNKNOWN':'N/A',
+                              '1022':'N/A'})
+
+df2 = df2.groupby(['vic_age_group'])[['disparos']].sum().reset_index()
+
+
 # Crear categoría para organizar el orden de las edades
 df2['vic_age_group2'] = df2['vic_age_group'].replace({'<18':'1',
                               '18-24':'2',
-                              '25.44':'3',
+                              '25-44':'3',
                               '45-64':'4',
                               '65+':'5',
-                              'UNKNOWN': '6'})
-
-# Cambiar UNKNOWN por un nombre más corto
-df2['vic_age_group'] = df2['vic_age_group'].replace({
-                              'UNKNOWN': 'N/A'})
+                              'N/A': '6'})
 
 # Aplicar orden al DataFrame
 df2= df2.sort_values('vic_age_group2',ascending = False)
 
 # Hacer gráfica
 fig = px.bar(df2, x="disparos", y="vic_age_group", orientation='h', width=370,  height=370)
-fig.update_layout(xaxis_title="<b>Víctimas<b>",
-                  yaxis_title="<b><b>", template = 'simple_white',
+fig.update_layout(xaxis_title="<b>Cant. Victimas<b>",
+                  yaxis_title="<b>Rango Edad<b>", template = 'simple_white',
                   paper_bgcolor='rgba(0,0,0,0)',
                   plot_bgcolor='rgba(0,0,0,0)')
 
@@ -241,11 +336,17 @@ c6.markdown("<h3 style='text-align: center; color: Black;'> ¿Cuál es el sexo d
 
 # Organizar DataFrame
 df2 = df.groupby('perp_sex')[['incident_key']].count().reset_index().sort_values('incident_key', ascending = False)
+
 df2['perp_sex'] = df2['perp_sex'].replace({'(null)':'U'})
+
+# Organizar DataFrame
+df2 = df2.groupby('perp_sex')[['incident_key']].sum().reset_index().sort_values('incident_key', ascending = False)
+
 
 # Hacer gráfica
 fig = px.pie(df2, values = 'incident_key', names="perp_sex",
              width=370, height=370)
+
 fig.update_layout(template = 'simple_white',
                   paper_bgcolor='rgba(0,0,0,0)',
                   plot_bgcolor='rgba(0,0,0,0)',
@@ -268,10 +369,14 @@ df2 = df.groupby('vic_sex')[['incident_key']].count().reset_index().sort_values(
 
 # Hacer gráfica
 fig = px.pie(df2, values = 'incident_key', names="vic_sex",
-             width=370, height=370)
+             width=370, height=370,   
+             color_discrete_map={
+                "M": "red",
+                "F": "green",
+                "U": "blue"})
+
 fig.update_layout(template = 'simple_white',
                   paper_bgcolor='rgba(0,0,0,0)',
-                  plot_bgcolor='rgba(0,0,0,0)',
                   legend=dict(orientation="h",
                               yanchor="bottom",
                               y=-0.4,
@@ -281,19 +386,19 @@ fig.update_layout(template = 'simple_white',
 # Enviar gráfica a streamlit
 c7.plotly_chart(fig)
 
-
 #---------------------------------------------------------------------
 
 # Definir título
 st.markdown("<h3 style='text-align: center; color: Black;'> Evolución de disparos por año en las horas con más y menos sucesos </h3>", unsafe_allow_html=True)
 
 # Organizar DataFrame
-df2 = df[df['hour'].isin([23,9])].groupby(['year','hour'])[['incident_key']].sum().sort_values('incident_key', ascending = False).reset_index() 
+df2 = df[df['hour'].isin([23,9])].groupby(['year','hour'])[['incident_key']].count().sort_values('incident_key', ascending = False).reset_index() 
+
 df2['hour'] = df2['hour'].astype('category')
 
 
 # Hacer gráfica
-fig = px.bar(df2, x='year', y='incident_key', color ='hour', barmode='group', width=1650, height=450)
+fig = px.bar(df2, x='year', y='incident_key', color ='hour', barmode='group', width=1500, height=450)
 fig.update_layout(
         title_x=0.5,
         paper_bgcolor='rgba(0,0,0,0)',
@@ -307,6 +412,7 @@ fig.update_layout(
 st.plotly_chart(fig)
 
 #---------------------------------------------------------------------
+
 
 # Hacer un checkbox
 if st.checkbox('Obtener datos por fecha y barrio', False):
@@ -326,6 +432,10 @@ if st.checkbox('Obtener datos por fecha y barrio', False):
 
 # Enviar tabla a streamlit
     st.write(fig)
+
     
 # Generar link de descarga
     st.markdown(get_table_download_link(df2), unsafe_allow_html=True)
+
+app.py
+Mostrando app.py.
