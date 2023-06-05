@@ -243,7 +243,7 @@ DESA = DESA.drop('EVENT START DATE', axis=1)
 
 #INICIAMOS CON LOS ENCABEZADOS
 st.set_page_config(layout="wide")
-st.markdown("<h5 style='text-align: center; color: #50668a;'>UNIVERSIDAD DE ANTIOQUIA / FACULTAD DE INGENIERÍA / DEPARTAMENTO DE INGENIERÍA INDUSTRIAL / INTRODUCCIÓN A LA ANALÍTICA DE NEGOCIOS</h5>", unsafe_allow_html=True)
+st.markdown("<h5 style='text-align: center; color: #50668a;'>UNIVERSIDAD DE ANTIOQUIA <br> FACULTAD DE INGENIERÍA <br> DEPARTAMENTO DE INGENIERÍA INDUSTRIAL <br> INTRODUCCIÓN A LA ANALÍTICA DE NEGOCIOS</h5>", unsafe_allow_html=True)
 
 st.markdown("<h6 style='text-align: center; color: #50668a;'>Equipo de trabajo: Aura Luz Moreno Díaz, Marcelo Lemus, Verónica Andrea Morales González</h6>", unsafe_allow_html=True)
 st.markdown("<h6 style='text-align: center; color: #50668a;'>Semestre: 2023-1</h6>", unsafe_allow_html=True)
