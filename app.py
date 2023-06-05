@@ -244,23 +244,23 @@ DESA = DESA.drop('EVENT START DATE', axis=1)
 #INICIAMOS CON LOS ENCABEZADOS
 st.set_page_config(layout="wide")
 
-st.markdown("<h5 style='text-align: center; color: #50668a;'>UNIVERSIDAD DE ANTIOQUIA <br> FACULTAD DE INGENIERÍA <br> DEPARTAMENTO DE INGENIERÍA INDUSTRIAL <br> INTRODUCCIÓN A LA ANALÍTICA DE NEGOCIOS</h5>", unsafe_allow_html=True)
+st.markdown("<h5 style='text-align: center; color: red;'>UNIVERSIDAD DE ANTIOQUIA <br> FACULTAD DE INGENIERÍA <br> DEPARTAMENTO DE INGENIERÍA INDUSTRIAL <br> INTRODUCCIÓN A LA ANALÍTICA DE NEGOCIOS</h5>", unsafe_allow_html=True)
 
-st.markdown("<h6 style='text-align: center; color: #50668a;'>Equipo de trabajo: Aura Luz Moreno Díaz, Marcelo Lemus, Verónica Andrea Morales González</h6>", unsafe_allow_html=True)
-st.markdown("<h6 style='text-align: center; color: #50668a;'>Semestre: 2023-1</h6>", unsafe_allow_html=True)
+st.markdown("<h6 style='text-align: center; color: red;'>Equipo de trabajo: Aura Luz Moreno Díaz, Marcelo Lemus, Verónica Andrea Morales González</h6>", unsafe_allow_html=True)
+st.markdown("<h6 style='text-align: center; color: red;'>Semestre: 2023-1</h6>", unsafe_allow_html=True)
 
 # Ruta de la imagen
 image_path = "Bandera.jpg"
 
 html_code = f"""
 <div style="display: flex; justify-content: center;">
-    <img src="data:image/jpeg;base64,{base64.b64encode(open(image_path, "rb").read()).decode()}">
+    <img src="data:image/jpeg;base64,{base64.b64encode(open(image_path, "rb").read()).decode()}" width=100px>
 </div>
 """
 st.markdown(html_code, unsafe_allow_html=True)
 
 # Título principal, h1 denota el estilo del título 1
-st.markdown("<h1 style='text-align: center; color: #0066FF; font-family: system-ui; margin-top: 20px;'>Eficacia de los sistemas de incendio en Canadá</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: red; font-family: system-ui; margin-top: 20px;'>Eficacia de los sistemas de incendio en Canadá</h1>", unsafe_allow_html=True)
 st.markdown("<h3 style='text-align: center; color: #666666;'>Comparativo entre aspersores y alarmas de humo</h2>", unsafe_allow_html=True)
 
 #1
