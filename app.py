@@ -21,7 +21,6 @@ Equipo de trabajo: Aura Luz Moreno Díaz, Marcelo Lemus, Verónica Andrea Morale
 import streamlit as st
 import pandas as pd
 import pydeck as pdk #Mapas avanzados
-pip install plotly
 import plotly as pl
 import plotly.express as px
 import plotly.graph_objects as go
