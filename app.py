@@ -249,15 +249,19 @@ st.markdown("<h5 style='text-align: center; color: #50668a;'>UNIVERSIDAD DE ANTI
 st.markdown("<h6 style='text-align: center; color: #50668a;'>Equipo de trabajo: Aura Luz Moreno Díaz, Marcelo Lemus, Verónica Andrea Morales González</h6>", unsafe_allow_html=True)
 st.markdown("<h6 style='text-align: center; color: #50668a;'>Semestre: 2023-1</h6>", unsafe_allow_html=True)
 
-#AGREGAMOS IMAGEN BANDERA DE CANADÁ PREVIO AL TITULO
 # Ruta de la imagen
-image_path = "Bandera.jpg"
+image_path = "canada.jpg"
+
 html_code = f"""
 <div style="display: flex; justify-content: center;">
     <img src="data:image/jpeg;base64,{base64.b64encode(open(image_path, "rb").read()).decode()}">
 </div>
 """
-st.markdown("<h6 style='text-align: center; color: #50668a;'>Desastres en Canadá: Énfasis en los incendios, ¿Podemos hacer algo para controlarlos?</h1>", unsafe_allow_html=True)
+st.markdown(html_code, unsafe_allow_html=True)
+
+# Título principal, h1 denota el estilo del título 1
+st.markdown("<h1 style='text-align: center; color: #0066FF; font-family: system-ui; margin-top: 20px;'>Eficacia de los sistemas de incendio en Canadá</h1>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center; color: #666666;'>Comparativo entre aspersores y alarmas de humo</h2>", unsafe_allow_html=True)
 
 #1
 ###
