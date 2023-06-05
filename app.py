@@ -252,14 +252,11 @@ st.markdown("<h6 style='text-align: center; color: #50668a;'>Semestre: 2023-1</h
 #AGREGAMOS IMAGEN BANDERA DE CANADÁ PREVIO AL TITULO
 # Ruta de la imagen
 image_path = "Bandera.jpg"
-
 html_code = f"""
 <div style="display: flex; justify-content: center;">
     <img src="data:image/jpeg;base64,{base64.b64encode(open(image_path, "rb").read()).decode()}">
 </div>
 """
-st.markdown(html_code, unsafe_allow_html=True)
-
 st.markdown("<h6 style='text-align: center; color: #50668a;'>Desastres en Canadá: Énfasis en los incendios, ¿Podemos hacer algo para controlarlos?</h1>", unsafe_allow_html=True)
 
 #1
