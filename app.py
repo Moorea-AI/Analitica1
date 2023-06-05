@@ -250,7 +250,7 @@ st.markdown("<h6 style='text-align: center; color: #50668a;'>Equipo de trabajo: 
 st.markdown("<h6 style='text-align: center; color: #50668a;'>Semestre: 2023-1</h6>", unsafe_allow_html=True)
 
 # Ruta de la imagen
-image_path = "canada.jpg"
+image_path = "Bandera.jpg"
 
 html_code = f"""
 <div style="display: flex; justify-content: center;">
