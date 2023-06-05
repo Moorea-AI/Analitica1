@@ -27,7 +27,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import base64
 import numpy as np
-from PIL import Image
+from PIL import Image 
 
 
 ###Hemos montado los archivos de la base de datos a un hosting para poder trabajar los 3. Modificamos los permisos y se puede acceder a los datos desde cualquier lugar, de esta manera cualquier usuario puede ejecutar la BD desde cualquier parte."""
