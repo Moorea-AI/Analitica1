@@ -80,16 +80,23 @@ st.markdown("<hr>", unsafe_allow_html=True)
 c1, c2, c3 = st.columns((1,1,1)) # Dividir el ancho en  columnas de igual tamaño
 
 #--------------- Top inundaciones
+#--------------- Top inundaciones
 c1.markdown("<h3 style='text-align: left; color: gray;'> Top inundaciones </h3>", unsafe_allow_html=True)
+
+# Eliminar los espacios en blanco del campo 'Flood'
+DESA['EVENT TYPE'] = DESA['EVENT TYPE'].str.strip()
 
 # Filtrar los datos por el tipo de evento 'flood'
 filtro_inundaciones = DESA['EVENT TYPE'] == 'flood'
 datos_inundaciones = DESA[filtro_inundaciones]
 
+# Limpiar los datos eliminando los valores 'SIN'
 datos_limpios = datos_inundaciones[datos_inundaciones['FATALITIES'] != 'SIN']
 
+# Convertir la columna 'FATALITIES' a tipo numérico
 datos_limpios['FATALITIES'] = pd.to_numeric(datos_limpios['FATALITIES'])
 
+# Calcular el número total de muertes por inundaciones
 muertes_inundaciones = datos_limpios['FATALITIES'].sum()
 
 # Mostrar el resultado en Streamlit
@@ -97,10 +104,11 @@ c1.text("Inundaciones: {}".format(muertes_inundaciones))
 
 
 
+
 #--------------- Top inundaciones
 c2.markdown("<h3 style='text-align: left; color: gray;'> Top Tormentas </h3>", unsafe_allow_html=True)
 
-# Filtrar los datos por el tipo de evento 'flood'
+# Filtrar los datos por el tipo de evento 'storm'
 filtro_tormentas = DESA['EVENT TYPE'] == 'storm'
 datos_tormentas = DESA[filtro_tormentas]
 
