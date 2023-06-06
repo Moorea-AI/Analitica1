@@ -97,11 +97,14 @@ datos_filtrados = datos_filtrados.dropna(subset=['FATALITIES'])
 muertes = datos_filtrados.groupby('EVENT TYPE')['FATALITIES'].sum().reset_index()
 df_muertes = pd.DataFrame({'Tipo de evento': muertes['EVENT TYPE'], 'Cantidad de muertes': muertes['FATALITIES']})
 
-fig.update_layout(width=600, height=500)
-fig.update_layout(margin=dict(l=50, r=50, t=50, b=50)) 
+
 fig = px.pie(df_muertes, values='Cantidad de muertes', names='Tipo de evento', 
              labels={'Cantidad de muertes': 'Cantidad de muertes', 'Tipo de evento': 'Tipo de evento'},
              title='Cantidad de muertes por tipo de evento')
+
+fig.update_layout(width=600, height=500)
+fig.update_layout(margin=dict(l=50, r=50, t=50, b=50)) 
+
 st.plotly_chart(fig)
 
 
