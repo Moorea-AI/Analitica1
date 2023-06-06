@@ -132,10 +132,11 @@ DESA['EVENT TYPE'] = DESA['EVENT TYPE'].str.strip()
 pe1filtro_inundaciones = DESA['EVENT TYPE'] == 'flood'
 pe1datos_inundaciones = DESA[pe1filtro_inundaciones]
 pe1datos_limpios = pe1datos_inundaciones[pe1datos_inundaciones['ESTIMATED TOTAL COST'] != 'SIN']
-pe1datos_limpios['ESTIMATED TOTAL COST'] = pe1datos_limpios['ESTIMATED TOTAL COST'].str.replace(',', '').astype(float)
-perdidas_inundaciones = datos_limpios['ESTIMATED TOTAL COST'].sum()
+pe1datos_limpios['ESTIMATED TOTAL COST'] = pd.to_numeric(pe1datos_limpios['ESTIMATED TOTAL COST'], errors='coerce')
+pe1perdidas_inundaciones = pe1datos_limpios['ESTIMATED TOTAL COST'].sum()
 pe1perdidas_formateadas = f"${pe1perdidas_inundaciones:,.2f}"
 pe1.text("Pérdidas económicas por inundaciones:", pe1perdidas_formateadas)
+
 
 
 
