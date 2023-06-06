@@ -80,7 +80,7 @@ st.markdown("<h6 style='text-align: left; color: #990000; font-family: helvetica
 c1, c2, c3 = st.columns((1,1,1)) 
 
 #--------------- Top inundaciones
-c1.markdown("<h3 style='text-align: left; color: gray;'> Top inundaciones </h3>", unsafe_allow_html=True)
+c1.markdown("<h3 style='text-align: left; color: gray;'> INUNDACIONES </h3>", unsafe_allow_html=True)
 
 DESA['EVENT TYPE'] = DESA['EVENT TYPE'].str.strip()
 filtro_inundaciones = DESA['EVENT TYPE'] == 'flood'
@@ -91,7 +91,7 @@ muertes_inundaciones = datos_limpios['FATALITIES'].sum()
 c1.text("Inundaciones: {}".format(muertes_inundaciones))
 
 #--------------- Top Tormentas
-c2.markdown("<h3 style='text-align: left; color: gray;'> Top Tormentas </h3>", unsafe_allow_html=True)
+c2.markdown("<h3 style='text-align: left; color: gray;'> TORMENTAS </h3>", unsafe_allow_html=True)
 
 DESA['EVENT TYPE'] = DESA['EVENT TYPE'].str.strip()
 filtro_tormentas = DESA['EVENT TYPE'] == 'storm'
@@ -102,7 +102,7 @@ muertes_tormentas = datos_limpios_tormentas['FATALITIES'].sum()
 c2.text("Tormentas: {}".format(muertes_tormentas))
 
 #--------------- Top incendios
-c3.markdown("<h3 style='text-align: left; color: gray;'> Top Incendios </h3>", unsafe_allow_html=True)
+c3.markdown("<h3 style='text-align: left; color: gray;'> INCENDIOS </h3>", unsafe_allow_html=True)
 
 DESA['EVENT TYPE'] = DESA['EVENT TYPE'].str.strip()
 filtro_incendios = DESA['EVENT TYPE'] == 'fire'
@@ -126,26 +126,15 @@ c1, c2, c3 = st.columns((1,1,1)) # Dividir el ancho en  columnas de igual tamañ
 
 
 #--------------- Top inundaciones
-c1.markdown("<h3 style='text-align: left; color: gray;'> Top inundaciones </h3>", unsafe_allow_html=True)
+c1.markdown("<h3 style='text-align: left; color: gray;'> INUNDACIONES </h3>", unsafe_allow_html=True)
 
-# Eliminar los espacios en blanco del campo 'Flood'
 DESA['EVENT TYPE'] = DESA['EVENT TYPE'].str.strip()
-
-# Filtrar los datos por el tipo de evento 'flood'
 filtro_inundaciones = DESA['EVENT TYPE'] == 'flood'
 datos_inundaciones = DESA[filtro_inundaciones]
-
-# Limpiar los datos eliminando los valores 'SIN'
-datos_limpios = datos_inundaciones[datos_inundaciones['FATALITIES'] != 'SIN']
-
-# Convertir la columna 'FATALITIES' a tipo numérico
-datos_limpios['FATALITIES'] = pd.to_numeric(datos_limpios['FATALITIES'])
-
-# Calcular el número total de muertes por inundaciones
-muertes_inundaciones = datos_limpios['FATALITIES'].sum()
-
-# Mostrar el resultado en Streamlit
-c1.text("Inundaciones: {}".format(muertes_inundaciones))
+datos_limpios = datos_inundaciones[datos_inundaciones['ESTIMATED TOTAL COST'] != 'SIN']
+datos_limpios['ESTIMATED TOTAL COST'] = pd.to_numeric(datos_limpios['ESTIMATED TOTAL COST'])
+perdidas_economicas = datos_limpios['ESTIMATED TOTAL COST'].sum()
+c1.text("Inundaciones: {}".format(perdidas_economicas))
 
 
 #--------------- Top inundaciones
