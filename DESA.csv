@@ -1,0 +1,1450 @@
+YEAR,MONTH,DAY,EVENT GROUP,EVENT SUBGROUP,EVENT TYPE,FATALITIES,INJURED / INFECTED,ESTIMATED TOTAL COST,NORMALIZED TOTAL COST,MAGNITUDE,PLACE
+1987,Nov,17,technology,transportation accident,marine,34,0.0,,nan,0.0,400 km off cape race nl
+1998,Jan,16,natural,meteorological - hydrological,storm,21,0.0,51093580000,3357738,0.0,45 miles southwest of the islands of saint-pierre-et-miquelon
+2005,Sep,28,technology,hazardous chemicals,leak / spill release,SIN,SIN,00000,00,0.0,abbotsford bc
+1918,Jan,1,natural,biological,infestation/epidemic/pandemic,50000,2000000.0,,nan,0.0,across canada
+2008,Aug,1,natural,biological,infestation/epidemic/pandemic,22,57.0,00000,00,0.0,across canada
+2009,Apr,1,natural,biological,infestation/epidemic/pandemic,425,8582.0,00000,00,0.0,across canada
+1927,Mar,1,natural,biological,infestation/epidemic/pandemic,SIN,0.0,,nan,0.0,across canada
+1936,Jul,5,natural,meteorological - hydrological,head event/drought,1180,0.0,,nan,0.0,across canada
+1982,Jan,5,natural,meteorological - hydrological,cold event,0,0.0,,nan,0.0,across canada
+2001,Jun,1,natural,meteorological - hydrological,head event/drought,0,0.0,00000,00,0.0,"across canada, concentrated in saskatchewan and alberta"
+2003,Mar,13,natural,biological,infestation/epidemic/pandemic,44,375.0,,nan,0.0,"across canada, largely in the greater toronto area"
+1999,Jul,16,technology,infrastructure failure,communications,0,2.0,,nan,0.0,"across toronto, canada, and internationally"
+2006,May,27,natural,meteorological - hydrological,flood,0,0.0,31408290000,1727312,0.0,aklavik nt
+1982,Jun,1,natural,meteorological - hydrological,flood,0,0.0,1414120000,154549,0.0,aklavik nt
+1989,Jan,1,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,albany and attawapiskat river on
+2008,Apr,25,natural,meteorological - hydrological,flood,0,0.0,00000,00,0.0,albany river on
+1984,Oct,6,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,alberta
+1994,Jan,23,natural,meteorological - hydrological,cold event,0,0.0,459950000,32202,0.0,alberta to maritimes
+1943,Sep,10,technology,transportation accident,rail,12,2.0,,nan,0.0,aldershot on
+1942,Dec,27,technology,transportation accident,rail,36,155.0,,nan,0.0,almonte on
+1958,Jan,1,natural,meteorological - hydrological,air,0,0.0,,nan,0.0,amaranth mb
+2006,Aug,15,technology,hazardous chemicals,fire,0,3.0,00000,00,0.0,amherstburg on
+1976,Apr,1,natural,meteorological - hydrological,flood,0,0.0,45451030000,8768687,0.0,assiniboine river mb
+1997,Apr,22,natural,meteorological - hydrological,flood,0,0.0,4985135770000,330871843,0.0,"assiniboine, red and winnipeg rivers mb"
+2011,Apr,19,natural,meteorological - hydrological,flood,0,0.0,6998840000000,350233862,0.0,"assiniboine, roseau and red rivers mb"
+1996,Jul,5,natural,meteorological - hydrological,flood,0,0.0,2780610000,187668,0.0,atikokan on
+2002,May,1,natural,meteorological - hydrological,flood,0,0.0,00000,00,0.0,attawapiskat first nation on
+1992,May,18,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,attawapiskat on
+2004,May,19,natural,meteorological - hydrological,flood,SIN,SIN,57000000000,3266476,0.0,attawapiskat on
+1992,Oct,6,natural,meteorological - hydrological,storm,0,0.0,89450370000,6389312,0.0,"avalon and burin peninsulas and bonavista, trinity and conception bays nl"
+1994,Dec,8,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,avalon area of newfoundland and labrador
+1983,Dec,22,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,avalon peninsula nl
+1994,Aug,4,natural,meteorological - hydrological,air,0,4.0,77863930000,5451384,0.0,aylmer qc
+1999,Jun,28,natural,meteorological - hydrological,fire,0,0.0,,nan,0.0,badger nl
+2003,Feb,15,natural,meteorological - hydrological,flood,SIN,SIN,46815530000,2732424,0.0,badger nl
+1983,Feb,28,natural,meteorological - hydrological,flood,SIN,SIN,,nan,0.0,badger nl
+1933,Nov,20,natural,geological,earthquake,0,0.0,,nan,7.0,baffin bay nu
+2006,Apr,17,natural,meteorological - hydrological,flood,0,0.0,32358130000,1779549,0.0,baie verte peninsula nl
+1966,Nov,3,natural,meteorological - hydrological,flood,5,0.0,,nan,0.0,baie-comeau qc
+2010,Jan,2,natural,meteorological - hydrological,storm surge,0,0.0,6276730000,323265,0.0,baie-verte and port elgin nb
+1999,Sep,7,natural,meteorological - hydrological,storm,SIN,SIN,17267660000,1115242,0.0,balmoral and val d'amour areas in restigouche county nb
+1990,Feb,11,natural,meteorological - hydrological,avalanche,4,0.0,,nan,0.0,banff ab
+1999,Feb,13,natural,meteorological - hydrological,storm,0,30.0,,nan,0.0,barrie on
+1973,Mar,18,natural,meteorological - hydrological,storm,12,43.0,,nan,0.0,barrie on
+1997,Jan,1,natural,biological,infestation/epidemic/pandemic,0,0.0,258814030000,17177922,0.0,bay of fundy nb
+1999,May,4,natural,meteorological - hydrological,fire,0,0.0,,nan,0.0,beardmore on
+2007,May,10,technology,hazardous chemicals,derailment release,0,0.0,00000,00,0.0,bellefleur nb
+2008,Apr,14,natural,meteorological - hydrological,flood,0,0.0,00000,00,0.0,belleville on
+1980,May,20,natural,geological,landslide,8,0.0,,nan,0.0,"belmoral mine, val d'or, qc"
+1991,Jun,29,natural,meteorological - hydrological,fire,0,0.0,,nan,0.0,"betsiamites, ragueneau et baie-comeau qc"
+1995,Mar,10,natural,meteorological - hydrological,avalanche,2,0.0,3681600000,252164,0.0,blanc sablon qc
+1987,Mar,23,natural,meteorological - hydrological,avalanche,7,0.0,,nan,0.0,blue river bc
+2006,Aug,15,technology,hazardous chemicals,fire,0,0.0,00000,00,0.0,boisbriand qc
+1951,Jan,1,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,bow river bc
+2011,May,10,natural,meteorological - hydrological,flood,0,0.0,00000,00,SIN,brandon mb
+2002,Nov,16,technology,transportation accident,rail,1,0.0,00000,00,0.0,brantford on
+1986,Jan,1,natural,geological,landslide,0,0.0,,nan,0.0,brantford on
+2005,May,25,natural,meteorological - hydrological,flood,0,0.0,14479040000,811909,0.0,bridgewater ns
+1947,Apr,30,natural,meteorological - hydrological,flood,2,0.0,,nan,0.0,bristol nb
+1921,Oct,28,natural,geological,landslide,37,0.0,,nan,0.0,britannia beach bc
+1994,Jul,24,natural,meteorological - hydrological,fire,0,0.0,,nan,0.0,british columbia
+1998,Aug,1,natural,meteorological - hydrological,fire,0,0.0,27950000,1837,0.0,british columbia
+1999,Mar,1,natural,meteorological - hydrological,flood,SIN,SIN,224266950000,14484410,0.0,british columbia
+1999,Jun,16,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,british columbia
+2002,May,20,natural,meteorological - hydrological,flood,SIN,SIN,00000,00,0.0,british columbia
+2010,Jul,28,natural,meteorological - hydrological,fire,2,0.0,2573390000000,132535107,0.0,british columbia
+1924,Oct,29,conflict,terrorist,bomb attacks,9,0.0,00000,00,0.0,british columbia
+1944,Jan,1,conflict,fire,non-residential,1,0.0,,nan,0.0,british columbia
+1960,May,22,natural,geological,tsunami,0,0.0,,nan,9.0,british columbia
+1989,Dec,18,natural,meteorological - hydrological,cold event,7,0.0,5364880000,430338,0.0,british columbia to ontario
+1918,Oct,23,technology,transportation accident,marine,343,0.0,,nan,0.0,"british columbia, off coast"
+1963,Jun,3,technology,transportation accident,air,101,0.0,,nan,0.0,"british columbia, pacific coast"
+2002,Apr,14,technology,explosion,non-residential,SIN,SIN,00000,00,0.0,brookdale mb
+1991,Mar,12,natural,meteorological - hydrological,avalanche,9,0.0,,nan,0.0,bugaboo glacier provincial park bc
+1995,Sep,11,natural,meteorological - hydrological,storm,0,0.0,26618900000,1823212,0.0,burin peninsula nl
+1929,Nov,18,natural,geological,tsunami,28,0.0,,nan,7.0,burin peninsula nl
+1941,Aug,2,natural,meteorological - hydrological,flood,2,0.0,,nan,0.0,"burin peninsula, st. john's and little st. lawrence nl"
+1909,Nov,28,natural,geological,landslide,22,15.0,,nan,0.0,burnaby and new westminster bc
+1999,Jun,12,natural,meteorological - hydrological,fire,0,0.0,9223230000,595688,0.0,burwash landing yt
+1995,Jul,17,natural,meteorological - hydrological,storm,0,0.0,745596120000,51068227,0.0,calgary ab
+1988,Aug,16,natural,meteorological - hydrological,storm,0,0.0,398278720000,33562813,0.0,calgary ab
+1990,Jul,9,natural,meteorological - hydrological,storm,0,0.0,192954040000,14766891,0.0,calgary ab
+1991,Sep,7,natural,meteorological - hydrological,storm,0,0.0,8845953720000,641011139,0.0,calgary ab
+1992,Jul,31,natural,meteorological - hydrological,storm,0,0.0,384954970000,27496784,0.0,calgary ab
+1996,Jul,16,natural,meteorological - hydrological,storm,0,0.0,1030000000000,69516310,0.0,calgary ab
+1996,Jul,24,natural,meteorological - hydrological,storm,0,0.0,878776430000,59309995,0.0,calgary ab
+1998,Jul,4,natural,meteorological - hydrological,storm,0,0.0,652580000000,42885871,0.0,calgary ab
+1999,Aug,9,technology,explosion,non-residential,2,5.0,,nan,0.0,calgary ab
+2002,May,30,technology,fire,residential,0,0.0,00000,00,0.0,calgary ab
+1979,Jan,1,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,calgary ab
+1981,Jul,28,natural,meteorological - hydrological,storm,2,0.0,,nan,0.0,calgary ab
+2011,May,29,natural,meteorological - hydrological,flood,0,0.0,00000,00,SIN,calgary ab
+2007,Jun,5,natural,meteorological - hydrological,storm,0,0.0,163962130000,8823074,0.0,"calgary, edmonton, st. albert, the town of stony plain, parkland county, two hills county, kneehill county, camrose, and the municipal districts of rocky view and bighorn ab"
+1974,May,17,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,cambridge/waterloo region on
+1968,Jun,5,natural,geological,landslide,4,0.0,,nan,0.0,camp creek bc
+1953,Apr,18,natural,biological,infestation/epidemic/pandemic,506,9037.0,,nan,SIN,canada
+1986,May,30,technology,hazardous chemicals,fire,0,0.0,,nan,0.0,canning ns
+1950,Nov,21,technology,transportation accident,rail,21,53.0,,nan,0.0,canoe river bc
+1991,Oct,8,technology,hazardous chemicals,leak / spill release,0,0.0,,nan,0.0,canso ns
+1983,Oct,25,natural,meteorological - hydrological,storm surge,0,0.0,,nan,0.0,cape breton island ns
+1930,Jun,26,natural,geological,landslide,4,0.0,,nan,0.0,capreol on
+1904,Jan,1,technology,explosion,non-residential,14,0.0,,nan,0.0,carbonado bc
+2006,Jul,6,natural,meteorological - hydrological,fire,0,0.0,00000,00,0.0,cariboo-chilcotin bc
+1973,Aug,27,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,cedoux sk
+1953,Jul,14,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,central alberta
+1983,Jan,1,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,central alberta
+1974,Mar,1,natural,meteorological - hydrological,flood,0,0.0,85320000000,19538931,0.0,central and northern alberta
+1988,Jun,28,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,central and southern alberta
+1974,Apr,1,natural,meteorological - hydrological,flood,0,0.0,145230610000,33258918,0.0,central and southern manitoba
+1991,Nov,30,natural,meteorological - hydrological,storm,0,0.0,59823090000,4335007,0.0,central ontario
+1970,Jun,27,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,central ontario
+1978,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,,nan,0.0,central ontario
+1979,Apr,24,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,central ontario
+1979,May,12,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,central ontario
+1983,Jan,11,natural,meteorological - hydrological,flood,0,0.0,63678410000,6576084,0.0,"central, southern, and western newfoundland"
+1980,Jan,1,conflict,fire,residential,45,55.0,,nan,0.0,chapais region of chibougamau qc
+2010,May,27,natural,meteorological - hydrological,fire,0,0.0,00000,00,0.0,chapleau on
+1942,Sep,22,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,charlottetown pe
+1974,Jul,3,natural,meteorological - hydrological,storm,0,0.0,1430000000,327481,0.0,charlottetown pe
+1985,Feb,23,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,chatham on
+1991,Apr,7,natural,meteorological - hydrological,flood,0,0.0,36820040000,2668119,0.0,chaudière river qc
+1970,Apr,22,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,chaudière river qc
+1970,Feb,4,technology,hazardous chemicals,marine release,0,0.0,,nan,SIN,"chedabucto bay, nova scotia"
+1984,Apr,30,natural,meteorological - hydrological,storm,0,0.0,390660000000,38679208,0.0,chesley on
+1909,Jan,4,natural,meteorological - hydrological,flood,1,0.0,,nan,0.0,chester nb
+2000,Aug,1,technology,hazardous chemicals,leak / spill release,0,0.0,00000,00,0.0,chetwynd bc
+2005,Jun,6,natural,meteorological - hydrological,fire,0,SIN,00000,00,0.0,chibougamau and james bay qc
+2005,May,29,natural,meteorological - hydrological,fire,0,0.0,00000,00,0.0,chisasibi qc
+1983,Jun,2,technology,transportation accident,air,23,18.0,,nan,0.0,"cincinnati. ohio, usa"
+1999,Jul,4,natural,meteorological - hydrological,flood,0,0.0,87514520000,5652176,0.0,clearwater ab
+1930,Jan,1,technology,explosion,non-residential,45,0.0,,nan,0.0,coalmont bc
+1916,Jul,29,natural,meteorological - hydrological,fire,233,0.0,,nan,0.0,cochrane and matheson on
+1911,Jul,11,natural,meteorological - hydrological,fire,73,0.0,,nan,0.0,cochrane on
+1991,Jan,11,technology,hazardous chemicals,leak / spill release,0,0.0,,nan,0.0,cochrane on
+2008,Aug,29,natural,meteorological - hydrological,storm,0,0.0,8513260000,447674,0.0,"colchester, pictou, antigonish, inverness, victoria, cumberland and halifax ns"
+1988,Mar,7,technology,hazardous chemicals,marine release,0,0.0,,nan,0.0,come by chance nl
+1922,Jan,1,technology,explosion,non-residential,18,0.0,,nan,0.0,comox bc
+1923,Jan,1,technology,explosion,non-residential,33,0.0,,nan,0.0,comox bc
+1951,Feb,9,technology,transportation accident,rail,9,31.0,,nan,0.0,coniston on
+1915,Mar,22,natural,geological,landslide,56,22.0,,nan,0.0,"cooper mine, jane camp bc"
+1972,May,15,natural,meteorological - hydrological,flood,1,0.0,,nan,0.0,corner brook nl
+1977,Dec,27,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,corner brook nl
+1992,Jan,21,technology,hazardous chemicals,leak / spill release,0,0.0,,nan,0.0,corunna on
+1910,Apr,18,natural,geological,landslide,6,0.0,,nan,0.0,coucoucache qc
+2010,May,12,natural,meteorological - hydrological,fire,0,0.0,100000000000,5150215,0.0,county of thorhild ab
+1988,Dec,17,technology,hazardous chemicals,fire,0,0.0,,nan,0.0,courtland on
+1902,Jan,1,technology,explosion,non-residential,32,0.0,,nan,0.0,cranberry bc
+2010,Jun,23,natural,meteorological - hydrological,fire,0,0.0,95721040000,4929839,0.0,cranberry portage mb
+1978,Feb,11,technology,transportation accident,air,43,4.0,,nan,0.0,cranbrook bc
+1930,Jun,27,natural,geological,landslide,8,0.0,,nan,0.0,crerar on
+1999,Apr,29,natural,meteorological - hydrological,fire,0,0.0,,nan,0.0,"cross lake, seymourville mb"
+1967,Jan,1,technology,explosion,non-residential,15,0.0,,nan,0.0,crowsnest pass bc
+2002,Jun,28,natural,meteorological - hydrological,fire,0,0.0,00000,00,0.0,"crutwell, dillon, hatchett lake, pelican narrows, deschambeault, wahpeton first nation, nordell, peter pond sk"
+2005,Jun,23,natural,meteorological - hydrological,flood,0,SIN,34552080000,1937500,0.0,cumberland house cree first nation sk
+1983,Jan,10,technology,hazardous chemicals,vehicle,0,1.0,,nan,0.0,curling nl
+2007,Apr,15,natural,geological,landslide,0,0.0,2239900000,120533,0.0,daniels harbour nl
+2007,Jul,5,technology,hazardous chemicals,leak / spill release,0,0.0,00000,00,0.0,dartmouth ns
+1945,Jul,18,technology,fire,non-residential,0,0.0,,nan,0.0,dartmouth ns
+1971,Aug,15,natural,meteorological - hydrological,storm,0,0.0,24260000000,6964593,0.0,dartmouth ns
+1925,May,7,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,dawson yt
+1979,May,3,natural,meteorological - hydrological,flood,0,0.0,18540000000,2781000,0.0,dawson yt
+2009,Aug,4,natural,meteorological - hydrological,air,0,0.0,60000000000,3146853,0.0,déléage and mont-laurier qc
+2006,Feb,4,natural,meteorological - hydrological,storm surge,0,0.0,64060000000,3523006,0.0,delta bc
+2008,Jul,1,natural,meteorological - hydrological,fire,0,0.0,00000,00,0.0,deschambault lake sk
+1975,Jul,22,natural,geological,landslide,4,0.0,,nan,0.0,devastation glacier bc
+1980,Jan,1,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,drumheller ab
+1999,Jul,6,natural,meteorological - hydrological,air,1,4.0,435950000000,28156082,0.0,drummondville qc
+1989,Mar,10,technology,transportation accident,air,24,45.0,,nan,0.0,dryden on
+2002,Jul,30,technology,hazardous chemicals,leak / spill release,0,0.0,00000,00,0.0,dryden on
+1988,Apr,1,natural,meteorological - hydrological,flood,0,0.0,23231370000,1957700,0.0,duck mountain and swan river mb
+1947,Sep,1,technology,transportation accident,rail,31,0.0,,nan,0.0,dugald mb
+2009,Nov,20,natural,meteorological - hydrological,flood,SIN,SIN,00000,00,SIN,duncan and north cowichan (vancouver island) bc
+1989,Jan,1,technology,hazardous chemicals,fire,0,0.0,,nan,0.0,dundas on
+1969,Jan,1,technology,fire,residential,13,0.0,,nan,0.0,dunnville on
+1982,May,31,conflict,terrorist,bomb attacks,0,0.0,,nan,0.0,"dunsmuir, vancouver island bc"
+1997,Jan,9,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,durham on
+1986,Aug,1,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,east central british columbia
+2004,Dec,26,natural,geological,tsunami,20,SIN,00000,00,0.0,east indian ocean
+1995,Jun,1,natural,meteorological - hydrological,flood,0,0.0,71557070000,4901169,0.0,"east kooteney (elk river-watershed) region and the municipalities of sparwood, fernie and surrounding areas bc"
+1999,Mar,5,natural,meteorological - hydrological,fire,SIN,SIN,,nan,0.0,east of lake winnipeg mb
+1952,Apr,1,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,eastend sk
+2000,Oct,29,natural,meteorological - hydrological,storm surge,0,0.0,54810000000,3447170,0.0,eastern and northern coastline of new brunswick
+1912,Jul,8,natural,meteorological - hydrological,head event/drought,3,0.0,,nan,0.0,eastern canada
+1993,Mar,15,natural,meteorological - hydrological,storm,33,0.0,198660000000,13924766,0.0,eastern canada
+1983,Jan,1,natural,meteorological - hydrological,cold event,0,0.0,,nan,0.0,eastern canada
+1998,Mar,28,natural,meteorological - hydrological,flood,0,0.0,277416850000,18231118,0.0,eastern ontario and quebec
+1986,Dec,24,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,eastern ontario and southwestern quebec
+1984,Jul,15,natural,meteorological - hydrological,air,1,43.0,,nan,0.0,eastern ontario and western quebec
+2003,May,19,natural,meteorological - hydrological,fire,SIN,SIN,,nan,0.0,"eastern passage, cole harbour ns"
+1978,Aug,4,technology,transportation accident,vehicle,41,0.0,,nan,0.0,eastman qc
+1922,Sep,30,natural,geological,landslide,5,0.0,,nan,0.0,echo harbour bc
+2011,Jul,12,natural,meteorological - hydrological,flood,0,0.0,00000,00,0.0,"eckville, lacombe, paddle river, fort vermilion, and peace river ab"
+1992,Sep,1,natural,meteorological - hydrological,storm,0,0.0,225220000000,16087143,0.0,edmonton ab
+1987,Jul,31,natural,meteorological - hydrological,air,27,600.0,1811259590000,158650475,0.0,edmonton ab
+1992,Aug,28,natural,meteorological - hydrological,storm,0,0.0,201701680000,14407263,0.0,edmonton ab
+1993,Jul,29,natural,meteorological - hydrological,storm,0,0.0,210958280000,14786795,0.0,edmonton ab
+1995,Jul,4,natural,meteorological - hydrological,storm,0,0.0,345116120000,23638090,0.0,edmonton ab
+2004,Jul,2,natural,meteorological - hydrological,storm,0,0.0,126788240000,7265802,0.0,edmonton ab
+2007,Jul,21,technology,fire,residential,0,0.0,00000,00,0.0,edmonton ab
+2009,Jul,18,natural,meteorological - hydrological,storm,0,0.0,45000000000,2360140,0.0,edmonton ab
+1965,Jan,2,conflict,terrorist,bomb attacks,1,0.0,,nan,0.0,edmonton ab
+1969,Aug,4,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,edmonton ab
+1978,Jul,10,natural,meteorological - hydrological,flood,0,0.0,15976000000,2619016,0.0,edmonton ab
+1981,Jan,1,natural,meteorological - hydrological,flood,4,0.0,,nan,0.0,edmonton ab
+1983,Aug,3,natural,meteorological - hydrological,storm,0,0.0,220600000000,22781411,0.0,edmonton ab
+2004,Aug,13,natural,meteorological - hydrological,storm,1,SIN,00000,00,0.0,edmundston nb
+1947,Feb,5,natural,meteorological - hydrological,flood,2,0.0,,nan,0.0,elgin nb
+2007,Jun,22,natural,meteorological - hydrological,air,0,0.0,176070000000,9474619,0.0,elie mb
+1992,Aug,28,natural,meteorological - hydrological,flood,0,0.0,47385390000,3384671,0.0,elmira on
+1987,Oct,1,technology,hazardous chemicals,derailment release,0,0.0,,nan,0.0,emerson mb
+2004,Aug,10,technology,hazardous chemicals,derailment release,SIN,SIN,00000,00,0.0,estevan sk
+1931,Sep,8,conflict,civil incident,disturbance / demonstrations,3,23.0,,nan,0.0,estevan sk
+1946,Sep,15,technology,transportation accident,air,20,0.0,,nan,0.0,estevan sk
+2010,Apr,14,natural,geological,volcano,0,0.0,00000,00,0.0,"eyjafjallajökull glacier, iceland"
+1902,May,22,technology,explosion,non-residential,125,0.0,,nan,0.0,fernie bc
+1908,Aug,1,technology,fire,residential,100,0.0,,nan,0.0,fernie bc
+1917,Jan,1,technology,explosion,non-residential,34,0.0,,nan,0.0,fernie bc
+2007,Apr,28,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,fishing lake sk
+2007,May,25,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,fishing lake sk
+1996,Feb,17,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,flat bay nl
+2012,Mar,24,natural,meteorological - hydrological,flood,SIN,SIN,00000,00,SIN,fort albany and kashechewan first nations on
+1984,Jan,1,technology,hazardous chemicals,fire,0,0.0,,nan,0.0,fort frances on
+2005,May,11,natural,meteorological - hydrological,flood,0,SIN,6476170000,363150,0.0,fort good hope nt
+1977,Jan,1,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,"fort mcmurray, rainbow lake ab"
+1903,Apr,29,natural,geological,landslide,70,23.0,,nan,0.0,frank ab
+1971,May,4,natural,geological,landslide,3,0.0,,nan,0.0,fraser canyon bc
+1948,May,31,natural,meteorological - hydrological,flood,10,0.0,,nan,0.0,fraser river bc
+1978,Feb,1,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,fundy isles nb
+2006,Jul,24,technology,fire,non-residential,0,0.0,00000,00,0.0,galiano island bc
+1967,Jan,1,technology,transportation accident,air,33,0.0,,nan,0.0,gander nl
+1985,Dec,12,technology,transportation accident,air,256,0.0,,nan,0.0,gander nl
+2008,Jul,30,natural,meteorological - hydrological,storm,0,0.0,6449560000,339153,0.0,"gander, hare bay and swift current nl"
+2010,Dec,5,natural,meteorological - hydrological,flood,0,0.0,262170000000,13502318,0.0,gaspé and bonaventure qc
+2007,Aug,8,natural,meteorological - hydrological,storm,1,0.0,141497250000,7614202,0.0,gaspé and riviere-au-renard qc
+1983,Dec,7,natural,meteorological - hydrological,flood,0,0.0,538313410000,55591746,0.0,gaspésie qc
+1980,Jul,6,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,gaspésie region qc
+2007,Apr,23,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,gatineau qc
+1979,Feb,24,technology,explosion,non-residential,12,4.0,,nan,0.0,glace bay ns
+1999,Dec,7,natural,meteorological - hydrological,avalanche,1,4.0,,nan,0.0,glacier national park bc
+2010,Apr,6,natural,biological,infestation/epidemic/pandemic,10,21.0,00000,00,0.0,"glengarry hospital, victoria bc"
+2005,Dec,13,technology,hazardous chemicals,leak / spill release,0,SIN,00000,00,0.0,glovertown nl
+2011,Aug,21,natural,meteorological - hydrological,air,1,37.0,1128590000000,56476564,SIN,goderich on
+1941,May,14,natural,meteorological - hydrological,fire,0,0.0,,nan,0.0,gogama on
+1979,Feb,14,natural,meteorological - hydrological,avalanche,7,0.0,,nan,0.0,golden bc
+1981,Feb,23,natural,meteorological - hydrological,avalanche,3,0.0,,nan,0.0,golden bc
+1988,Jan,1,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,goulais river on
+1991,Nov,20,technology,hazardous chemicals,fire,0,0.0,,nan,0.0,grand coulee sk
+1986,May,15,natural,meteorological - hydrological,fire,0,0.0,,nan,0.0,grand falls nl
+1976,May,4,natural,meteorological - hydrological,flood,2,0.0,,nan,0.0,grand falls nl
+1901,Jan,1,technology,explosion,non-residential,64,0.0,,nan,0.0,grand forks bc
+1903,Jan,1,technology,explosion,non-residential,16,0.0,,nan,0.0,grand forks bc
+1996,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,576444920000,38905169,0.0,grande prairie ab
+2004,Jul,8,natural,meteorological - hydrological,air,0,0.0,00000,00,0.0,grande prairie ab
+1989,Aug,23,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,grande prairie ab
+1982,Jul,13,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,grande prairie ab
+1984,Jan,1,natural,meteorological - hydrological,air,0,0.0,,nan,0.0,grande prairie and drayton valley ab
+1965,Feb,18,natural,meteorological - hydrological,avalanche,26,22.0,,nan,0.0,granduc mine bc
+1940,Jan,1,natural,meteorological - hydrological,storm,69,0.0,,nan,0.0,great lakes: lake ontario
+2009,Jan,6,natural,meteorological - hydrological,storm,0,0.0,35918840000,1883855,0.0,greater vancouver and fraser valley bc
+1998,Dec,24,natural,meteorological - hydrological,storm,2,2.0,,nan,0.0,"greater vancouver area, southern bc"
+1998,Nov,23,natural,meteorological - hydrological,storm,0,0.0,140256880000,9217320,0.0,"greater vancouver area, southern bc"
+1981,Oct,30,natural,meteorological - hydrological,storm,10,0.0,31301470000,3794118,0.0,greater vancouver bc
+1996,Apr,20,natural,meteorological - hydrological,air,0,9.0,94047720000,6347428,0.0,"grey county, wellington and dufferin county on"
+1989,Dec,7,natural,meteorological - hydrological,storm,39,0.0,,nan,0.0,gulf of st. lawrence qc
+1990,Feb,12,conflict,fire,non-residential,0,0.0,,nan,0.0,hagersville on
+1922,Sep,30,natural,meteorological - hydrological,fire,43,0.0,,nan,0.0,haileybury on
+1991,Dec,6,technology,hazardous chemicals,marine release,0,0.0,,nan,0.0,haines ab
+1917,Dec,6,technology,transportation accident,marine,1963,9000.0,,nan,0.0,halifax and dartmouth ns
+2007,Nov,3,natural,meteorological - hydrological,storm,0,0.0,28051565100,1509501,0.0,halifax and lunenburg ns
+2008,Jun,13,natural,meteorological - hydrological,fire,0,0.0,00000,00,0.0,halifax ns
+2009,Aug,23,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,halifax ns
+1969,Feb,2,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,halifax ns
+2003,Sep,29,natural,meteorological - hydrological,storm,8,SIN,255296560000,14900577,0.0,halifax ns and charlottetown pe
+2011,Jun,12,natural,meteorological - hydrological,fire,0,0.0,00000,00,SIN,hall lake sk
+2009,Jul,26,natural,meteorological - hydrological,storm,0,0.0,1733120000000,90897902,0.0,hamilton and toronto on
+1995,Oct,5,natural,meteorological - hydrological,storm,0,0.0,174190000000,11930822,0.0,hamilton on
+1997,Jul,10,technology,hazardous chemicals,fire,0,0.0,,nan,0.0,hamilton on
+2007,Jun,3,technology,fire,non-residential,0,0.0,00000,00,0.0,hamilton on
+1980,Jan,1,technology,fire,residential,0,0.0,,nan,0.0,hamilton on
+2007,Jun,16,natural,meteorological - hydrological,fire,0,0.0,00000,00,0.0,happy valley - goose bay nl
+1973,Aug,1,natural,geological,landslide,4,0.0,,nan,0.0,harbour breton nl
+1990,Jul,23,technology,hazardous chemicals,fire,0,0.0,,nan,0.0,harrow on
+1989,Jul,19,natural,meteorological - hydrological,flood,0,0.0,138070000000,11075134,0.0,"harrow, kent, essex, leamington counties on"
+2002,Jun,28,natural,meteorological - hydrological,fire,0,0.0,00000,00,0.0,hawes/patuanak sk
+1992,Apr,25,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,hay river nt
+2008,May,5,natural,meteorological - hydrological,flood,0,0.0,4600000000,241893,0.0,hay river nt
+1982,Jan,1,natural,meteorological - hydrological,flood,0,0.0,5728240000,626037,0.0,hay river nt
+1963,May,3,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,"hay river township, south shore of great slave lake nt"
+1974,May,2,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,"hay river township, south shore of great slave lake nt"
+1985,May,3,natural,meteorological - hydrological,flood,0,1.0,,nan,0.0,"hay river township, south shore of great slave lake nt"
+1995,Jan,21,technology,hazardous chemicals,derailment release,0,0.0,,nan,0.0,hervey junction qc
+2008,May,24,natural,meteorological - hydrological,flood,0,0.0,00000,00,0.0,high river ab
+1914,Jun,19,technology,explosion,non-residential,189,48.0,,nan,0.0,hillcrest ab
+1986,Feb,8,technology,transportation accident,rail,23,71.0,,nan,0.0,hinton ab
+1965,Jan,9,natural,geological,landslide,4,0.0,,nan,0.0,hope bc
+1985,May,31,natural,meteorological - hydrological,air,12,500.0,839920000000,79992381,0.0,hopeville to barrie on
+1997,Jul,11,natural,geological,landslide,0,SIN,,nan,0.0,hummingbird creek bc
+2008,May,31,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,huntingdon qc
+1967,Apr,17,natural,meteorological - hydrological,air,0,0.0,,nan,0.0,huron and perth counties on
+1986,Apr,1,natural,meteorological - hydrological,flood,0,0.0,28933890000,2646392,0.0,icelandic river and fisher river mb
+1975,Jul,28,natural,meteorological - hydrological,storm,1,0.0,,nan,0.0,îles-de-la-madeleine qc
+1982,Feb,22,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,îles-de-la-madeleine qc
+1997,Jun,12,natural,meteorological - hydrological,fire,0,0.0,,nan,0.0,"iroquois falls, kirkland lake, timmins areas on"
+1969,May,11,natural,meteorological - hydrological,flood,1,0.0,,nan,0.0,iroquois nb
+2008,May,9,natural,meteorological - hydrological,flood,0,0.0,00000,00,0.0,james bay on
+2011,Mar,11,natural,geological,earthquake,1,SIN,00000,00,9.0,japan
+1991,Sep,26,technology,fire,residential,0,1.0,,nan,0.0,jarvis on
+1990,Jun,12,natural,geological,landslide,7,0.0,182088470000,13935342,0.0,joe rich and southern british columbia
+1999,Jan,1,natural,meteorological - hydrological,avalanche,9,25.0,64004000000,4133735,0.0,kangiqsualujjuaq qc
+2005,Apr,23,natural,meteorological - hydrological,flood,0,SIN,00000,00,0.0,kashechewan on
+2005,Oct,26,natural,biological,infestation/epidemic/pandemic,SIN,SIN,00000,00,0.0,kashechewan on
+2006,Apr,23,natural,meteorological - hydrological,flood,0,0.0,00000,00,0.0,kashechewan on
+2002,Jul,1,natural,meteorological - hydrological,fire,0,0.0,00000,00,0.0,"kee-way-win fn; townships of terrace bay and schrieber; village of rossport; pays plat fn; deer lake fn, on"
+2005,Aug,28,natural,meteorological - hydrological,fire,0,0.0,00000,00,0.0,kelowna bc
+2009,May,1,natural,meteorological - hydrological,fire,1,0.0,987435290000,51788564,0.0,"kelowna, kamloops and cariboo bc"
+1999,Jun,18,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,kenora on
+2003,Nov,28,natural,geological,landslide,0,0.0,00000,00,0.0,khyex river bc
+1978,Nov,1,natural,meteorological - hydrological,flood,0,0.0,200873530000,32930087,0.0,"kicking horse pass, alberta - british columbia border"
+2010,Sep,24,natural,meteorological - hydrological,flood,SIN,SIN,00000,00,SIN,kingcome inlet and bella coola bc
+2004,Dec,27,natural,meteorological - hydrological,storm surge,0,SIN,25780390000,1477386,0.0,kings county pe
+2008,Sep,15,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,kingston on
+2002,Jun,21,technology,fire,non-residential,0,0.0,00000,00,0.0,kingsville on
+1991,Aug,5,technology,hazardous chemicals,derailment release,4,0.0,,nan,0.0,kinsella ab
+1993,Nov,26,technology,infrastructure failure,manufacturing / industry,2,0.0,,nan,0.0,kirkland lake on
+2012,May,20,natural,meteorological - hydrological,fire,0,0.0,00000,00,SIN,kirkland lake on
+2007,Aug,1,natural,meteorological - hydrological,fire,0,0.0,00000,00,0.0,kootenay bc
+1972,Jan,1,conflict,fire,non-residential,0,0.0,,nan,0.0,kootenay region and vancouver area bc
+1960,Jul,2,conflict,fire,non-residential,1,0.0,,nan,0.0,kootenay region bc
+1990,Mar,19,technology,hazardous chemicals,marine release,2,12.0,,nan,0.0,la baie qc
+1999,Apr,1,natural,meteorological - hydrological,fire,0,0.0,,nan,0.0,la ronge sk
+2008,Jul,22,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,la tuque qc
+1914,Apr,1,natural,meteorological - hydrological,storm,77,0.0,,nan,0.0,labrador
+1982,Jan,19,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,labrador city nl
+2013,Jul,6,technology,transportation accident,rail,SIN,SIN,,nan,SIN,lac-mégantic qc
+1985,Mar,31,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,lake erie on
+1985,Dec,2,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,lake huron and lake erie on
+1966,Jan,1,technology,transportation accident,marine,28,0.0,,nan,0.0,lake huron on
+1973,Mar,1,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,lake huron on
+1955,Jul,11,natural,meteorological - hydrological,avalanche,7,0.0,,nan,0.0,lake louise ab
+1987,Apr,4,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,lake st. clair on
+1953,Jan,1,natural,meteorological - hydrological,storm,17,0.0,,nan,0.0,lake superior on
+1975,Nov,10,natural,meteorological - hydrological,storm,29,0.0,,nan,0.0,lake superior on
+1913,Nov,7,natural,meteorological - hydrological,storm,270,0.0,,nan,0.0,"lakes huron, erie and ontario"
+1968,Aug,19,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,lambeth on
+2010,Dec,12,natural,meteorological - hydrological,storm,1,1.0,00000,00,0.0,lambton county on
+1959,Jan,1,technology,fire,residential,0,0.0,,nan,0.0,lanark on
+2008,Jun,29,natural,meteorological - hydrological,air,0,0.0,00000,00,0.0,lanaudière qc
+1965,Mar,1,technology,explosion,residential,28,50.0,,nan,0.0,lasalle qc
+1966,Jan,1,technology,fire,non-residential,11,0.0,,nan,0.0,lasalle qc
+2010,Jun,6,natural,meteorological - hydrological,air,0,0.0,2238640000,115295,0.0,leamington on
+1997,Oct,13,technology,transportation accident,vehicle,43,0.0,,nan,0.0,les éboulements qc
+1996,Jun,17,natural,meteorological - hydrological,flood,0,0.0,181597970000,12256331,0.0,lesser slave lake area ab
+1997,Jun,17,natural,meteorological - hydrological,flood,0,0.0,6643520000,440942,0.0,lesser slave lake area ab
+1988,Jul,5,natural,meteorological - hydrological,flood,0,0.0,352966210000,29744344,0.0,lesser slave lake region ab
+1992,Jan,1,natural,meteorological - hydrological,flood,0,0.0,2192770000,156626,0.0,lethbridge ab
+1994,Oct,17,technology,hazardous chemicals,derailment release,0,0.0,,nan,0.0,lethbridge ab
+2008,Jul,1,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,lethbridge ab
+1979,Jan,1,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,lethbridge ab
+1988,Jun,4,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,"lethbridge, taber, irma and wainwright ab"
+1989,May,1,natural,meteorological - hydrological,flood,0,0.0,10947780000,878164,0.0,liard river nt
+2011,Feb,15,conflict,civil incident,disturbance / demonstrations,SIN,SIN,00000,00,0.0,libya
+1988,May,10,technology,hazardous chemicals,derailment release,0,0.0,,nan,0.0,linton qc
+1999,Oct,1,natural,biological,infestation/epidemic/pandemic,0,0.0,,nan,0.0,little saskatchewan first nation reserve mb
+1930,Jan,1,technology,fire,residential,0,0.0,,nan,0.0,liverpool ns
+1982,Feb,1,technology,explosion,non-residential,2,0.0,,nan,0.0,lodgepole ab
+1984,Sep,2,natural,meteorological - hydrological,air,0,30.0,,nan,0.0,london on
+1992,May,25,technology,hazardous chemicals,derailment release,0,0.0,,nan,0.0,longlac on
+2005,Sep,26,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,"lorette river, quebec city qc"
+1936,Aug,15,technology,transportation accident,rail,22,22.0,,nan,0.0,louiseville qc
+1988,Jun,20,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,"louiseville, yamachiche and st.-justin region of trois-rivières qc"
+1984,Jan,4,natural,meteorological - hydrological,flood,0,0.0,40297900000,3989891,0.0,lower fraser river valley bc
+2012,Jul,11,natural,meteorological - hydrological,fire,0,0.0,00000,00,SIN,mackenzie county ab
+1990,Dec,16,natural,meteorological - hydrological,storm,8,2.0,3970700000,303880,0.0,madeleine islands qc
+2003,Apr,1,natural,meteorological - hydrological,fire,0,SIN,52862530000,3085362,0.0,manitoba
+2005,Jun,2,natural,meteorological - hydrological,flood,0,SIN,370327210000,20766012,0.0,manitoba
+1935,Jan,1,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,manitoba
+1983,Jul,1,natural,biological,infestation/epidemic/pandemic,0,0.0,44442750000,4589613,0.0,manitoba
+1955,Jan,1,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,manitoba and saskatchewan
+1933,Dec,1,natural,meteorological - hydrological,cold event,15,0.0,,nan,0.0,manitoba to atlantic canada
+1974,Jan,1,natural,meteorological - hydrological,flood,0,0.0,217651360000,49843823,0.0,maniwaki qc
+1971,May,14,natural,meteorological - hydrological,air,2,11.0,,nan,0.0,"maniwaki, déléage, egan, south region of outaouais qc"
+2007,Mar,12,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,maple ridge bc
+1991,Oct,25,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,maritime provinces
+1992,Feb,1,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,maritime provinces
+1999,Sep,23,natural,meteorological - hydrological,flood,0,0.0,49123050000,3172640,0.0,maritime provinces
+2000,Jan,17,natural,meteorological - hydrological,storm,0,0.0,66214620000,4164442,0.0,maritime provinces
+2000,Jan,21,natural,meteorological - hydrological,storm surge,0,0.0,2169780000,136464,0.0,maritime provinces
+2008,Sep,28,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,maritime provinces
+1959,Jun,20,natural,meteorological - hydrological,storm,33,0.0,00000,00,0.0,maritime provinces
+1964,Dec,1,natural,meteorological - hydrological,storm,23,8.0,00000,00,0.0,maritime provinces
+1968,Oct,21,natural,meteorological - hydrological,storm,1,0.0,00000,00,0.0,maritime provinces
+2007,Dec,4,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,martime provinces
+1991,Aug,27,natural,meteorological - hydrological,air,0,15.0,526037270000,38118643,0.0,maskinongé qc
+2007,Dec,17,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,matane qc
+1960,Sep,7,natural,geological,landslide,3,0.0,,nan,0.0,mcbride bc
+2010,Aug,21,natural,meteorological - hydrological,flood,0,0.0,31350000000,1614592,0.0,meat cove ns
+1982,Jan,1,technology,hazardous chemicals,derailment release,0,0.0,,nan,0.0,medonte on
+1999,Apr,1,natural,meteorological - hydrological,flood,0,0.0,1091954490000,70524510,0.0,melita mb
+1921,Jan,1,technology,fire,residential,SIN,SIN,,nan,0.0,merville and lang bc
+2010,Jun,23,natural,meteorological - hydrological,air,0,20.0,170000000000,8755365,0.0,midland on
+1978,Apr,1,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,milk river and area ab
+1979,Jan,1,technology,explosion,non-residential,0,0.0,,nan,0.0,millwoods ab
+2011,Jun,21,natural,meteorological - hydrological,fire,SIN,SIN,00000,00,SIN,mishkeegogamang ojibway first nation (new osnaburgh) on
+1948,May,1,natural,meteorological - hydrological,fire,0,0.0,,nan,0.0,mississagi on
+1979,Nov,10,technology,hazardous chemicals,derailment release,0,0.0,,nan,0.0,mississauga on
+1980,Jul,14,technology,fire,residential,21,35.0,,nan,0.0,mississauga on
+2006,Jun,16,natural,meteorological - hydrological,fire,0,0.0,00000,00,0.0,mistissini qc
+1976,Jul,12,natural,meteorological - hydrological,storm,0,0.0,80055000000,15444695,0.0,moncton nb
+2008,Jun,10,natural,meteorological - hydrological,storm,0,0.0,1724900000000,90704645,0.0,montérégie and eastern townships qc
+2011,Apr,17,natural,meteorological - hydrological,flood,0,0.0,816120000000,40840033,SIN,montérégie qc
+1989,Jul,1,natural,meteorological - hydrological,air,0,0.0,,nan,0.0,montmartre sk
+1982,Jun,14,natural,meteorological - hydrological,air,5,26.0,,nan,0.0,montreal (sainte-rose) qc
+1994,Jan,5,natural,meteorological - hydrological,storm,6,0.0,,nan,0.0,montreal and area qc
+1996,Nov,8,natural,meteorological - hydrological,flood,0,0.0,930893800000,62827478,0.0,montreal and mauricie region qc
+1986,Oct,26,technology,fire,residential,0,0.0,,nan,0.0,montreal and westmount qc
+2002,May,20,natural,meteorological - hydrological,fire,0,0.0,323320000,19399,0.0,montreal lake sk
+1986,May,29,natural,meteorological - hydrological,storm,0,0.0,454730000000,41591159,0.0,montreal qc
+1987,May,29,natural,meteorological - hydrological,storm,0,0.0,248910000000,21802336,0.0,montreal qc
+1987,Jul,14,natural,meteorological - hydrological,flood,2,0.0,642166810000,56248188,0.0,montreal qc
+1994,Oct,21,technology,explosion,non-residential,2,0.0,,nan,0.0,montreal qc
+2002,Aug,12,technology,infrastructure failure,water,0,0.0,00000,00,0.0,montreal qc
+1927,Jan,9,technology,fire,residential,76,0.0,,nan,0.0,montreal qc
+1958,Nov,7,technology,fire,residential,18,0.0,,nan,0.0,montreal qc
+1961,Feb,25,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,montreal qc
+1969,Dec,28,natural,meteorological - hydrological,storm,15,0.0,,nan,0.0,montreal qc
+1970,Oct,5,conflict,terrorist,kidnapping / murder,1,0.0,,nan,0.0,montreal qc
+1971,Mar,4,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,montreal qc
+1971,Apr,1,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,montreal qc
+1972,Sep,1,conflict,fire,residential,37,50.0,,nan,0.0,montreal qc
+1979,Jun,5,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,montreal qc
+1984,Sep,3,conflict,terrorist,bomb attacks,3,45.0,,nan,0.0,montreal qc
+1992,Feb,16,technology,fire,residential,0,0.0,,nan,0.0,montréal qc
+1998,Jun,18,technology,transportation accident,air,12,0.0,,nan,0.0,montréal qc
+2009,May,14,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,"montreal, alma, la tuque and baie-saint-paul qc"
+1954,Apr,7,technology,transportation accident,air,37,0.0,,nan,0.0,moose jaw sk
+1936,Apr,12,technology,infrastructure failure,manufacturing / industry,1,0.0,,nan,0.0,moose river ns
+2001,Jul,31,natural,meteorological - hydrological,storm,0,0.0,8695960000,533494,0.0,"morley, chapple, dawson, emo, lake of the woods, la vallee, rainy river, fort frances on"
+1956,Dec,9,technology,transportation accident,air,62,0.0,,nan,0.0,mounte slesse bc
+2002,Jun,9,natural,meteorological - hydrological,flood,0,0.0,69758540000,4185512,0.0,"municipalities of ignace, fort frances, rainy river, alberton, atikokan, chapple, dawson, emo, la valle, lake of the woods, morley, machin; township of sioux-narrows - nestor falls, on"
+2007,Jun,22,natural,meteorological - hydrological,storm,0,0.0,11831830000,636690,0.0,"municipalities of pipestone, sifton, cameron, white water, morton, riverside, turtle mountain, strathcona and argyle and the whiteshell provincial park mb"
+1957,Mar,8,conflict,civil incident,disturbance / demonstrations,1,2.0,,nan,0.0,murdochville qc
+1915,Jan,1,technology,explosion,non-residential,22,0.0,,nan,0.0,nanaimo bc
+1992,Mar,26,technology,hazardous chemicals,vehicle,0,0.0,,nan,0.0,nanaimo bc
+2007,Aug,4,natural,meteorological - hydrological,fire,0,0.0,00000,00,0.0,natuashish nl
+2002,Jul,3,natural,meteorological - hydrological,fire,0,0.0,4642860000,278572,0.0,near community of sheshatshui and town of north west river nl
+1991,Oct,1,technology,transportation accident,air,18,0.0,,nan,0.0,near the north pole nu
+1996,Nov,29,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,nechako river bc
+2002,Jul,2,natural,meteorological - hydrological,fire,0,0.0,00000,00,0.0,"nemiscau region, near james bay qc"
+2008,Mar,21,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,new brunswick
+1979,Apr,24,natural,meteorological - hydrological,flood,0,0.0,32276500000,4841475,0.0,new brunswick
+1936,Mar,16,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,new brunswick
+1954,Sep,11,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,new brunswick
+1967,Jan,1,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,new brunswick
+1976,Feb,2,natural,meteorological - hydrological,storm surge,0,0.0,80055000000,15444695,0.0,new brunswick
+1979,Sep,6,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,new brunswick
+1933,May,4,natural,meteorological - hydrological,flood,3,0.0,,nan,0.0,new brunswick and eastern quebec
+2007,Nov,4,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,new brunswick and nova scotia
+2010,Dec,13,natural,meteorological - hydrological,flood,0,0.0,50000000000,2575107,0.0,new brunswick and nova scotia
+1976,Aug,10,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,new brunswick and quebec
+1917,Jul,25,technology,explosion,non-residential,65,0.0,,nan,0.0,new waterford ns
+2001,Sep,11,conflict,civil incident,air,24,SIN,00000,00,0.0,"new york city, ny, u.s.a."
+2008,May,16,natural,meteorological - hydrological,fire,0,0.0,00000,00,0.0,newbrook ab
+1990,Dec,9,natural,meteorological - hydrological,flood,0,0.0,23277770000,1781462,0.0,newfoundland
+2005,Mar,30,natural,meteorological - hydrological,storm,0,SIN,3882880000,217732,0.0,newfoundland
+2007,Aug,1,natural,meteorological - hydrological,storm,0,0.0,70630000000,3800717,0.0,newfoundland
+1927,Aug,24,natural,meteorological - hydrological,storm,56,0.0,,nan,0.0,newfoundland
+1935,Aug,25,natural,meteorological - hydrological,storm,50,0.0,,nan,0.0,newfoundland
+1969,May,19,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,newfoundland
+1974,May,15,natural,meteorological - hydrological,storm,0,0.0,51517520000,11797905,0.0,newfoundland
+1978,Jan,14,natural,meteorological - hydrological,flood,0,0.0,52357790000,8583244,0.0,newfoundland
+2010,Sep,21,natural,meteorological - hydrological,storm,1,0.0,855076900000,44038295,0.0,newfoundland and labrador
+1914,Jan,1,natural,meteorological - hydrological,storm,173,0.0,,nan,0.0,newfoundland coast
+1942,Jan,1,natural,meteorological - hydrological,storm,203,0.0,,nan,0.0,"newfoundland, off coast"
+1973,Jun,17,natural,meteorological - hydrological,storm,0,0.0,53300000000,13550847,0.0,"newfoundland, prince edward island and nova scotia"
+1989,Jan,1,technology,hazardous chemicals,fire,0,0.0,,nan,0.0,niagara falls on
+1977,Jan,28,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,niagara peninsula on
+1955,Nov,12,natural,geological,landslide,3,6.0,,nan,0.0,nicolet qc
+1991,May,1,technology,hazardous chemicals,fire,0,0.0,,nan,0.0,niverville mb
+2006,Jul,4,natural,meteorological - hydrological,fire,0,0.0,00000,00,0.0,nordegg ab
+1988,Jun,29,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,norman wells nt
+2003,Jul,21,natural,meteorological - hydrological,fire,0,SIN,1218460000,71116,0.0,norman wells nt
+1985,Jun,23,conflict,terrorist,bomb attacks,329,0.0,,nan,0.0,north atlantic near west coast of ireland
+2010,Jul,22,natural,meteorological - hydrological,storm,0,0.0,1120000000,57682,0.0,north battleford sk
+1995,May,29,natural,meteorological - hydrological,fire,0,0.0,915857470000,62729964,0.0,north central saskatchewan
+1915,Jan,1,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,north saskatchewan river ab and sk
+1983,Mar,19,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,"north shore of st. lawrence river, and yamachiche maskinonge river basins qc"
+2005,Jan,17,natural,geological,landslide,1,1.0,43376460000,2432325,0.0,north vancouver bc
+1979,Feb,21,technology,hazardous chemicals,leak / spill release,0,0.0,,nan,0.0,north york on
+1986,Jul,13,natural,meteorological - hydrological,flood,0,0.0,128439640000,11747528,0.0,north-central alberta
+2001,Jul,1,natural,meteorological - hydrological,flood,0,0.0,93238870000,5720176,0.0,northeast and central british columbia
+1965,Jul,8,technology,transportation accident,air,52,0.0,,nan,0.0,northeast of vancouver bc
+1985,Jul,1,natural,meteorological - hydrological,fire,0,0.0,,nan,0.0,northeast of vancouver bc
+1984,Jan,1,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,northeast saskatchewan
+1915,Jul,8,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,northeastern new brunswick
+1995,Apr,1,natural,meteorological - hydrological,flood,0,0.0,75723810000,5186562,0.0,northeastern saskatchewan
+2002,May,17,natural,meteorological - hydrological,fire,0,0.0,13000000000,780000,0.0,northern alberta and conklin
+1988,Jan,1,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,northern british columbia
+1989,May,11,natural,meteorological - hydrological,fire,0,0.0,184898620000,14831440,0.0,northern manitoba
+1998,Jul,4,natural,meteorological - hydrological,fire,0,0.0,,nan,0.0,northern ontario
+2011,Jul,6,natural,meteorological - hydrological,fire,0,0.0,00000,00,SIN,northern ontario
+2008,Jun,30,natural,meteorological - hydrological,fire,0,0.0,00000,00,0.0,northern saskatchewan
+2005,Jul,23,natural,meteorological - hydrological,storm,0,0.0,25978910000,1456761,0.0,northern saskatchewan
+1936,Jul,13,natural,meteorological - hydrological,fire,SIN,SIN,,nan,0.0,northern saskatchewan
+1990,Aug,1,natural,meteorological - hydrological,storm,6,0.0,44271670000,3388138,0.0,northumberland strait (ns and pe)
+1997,Jun,10,natural,meteorological - hydrological,fire,0,0.0,,nan,0.0,northwest of matagami qc
+2007,May,13,natural,meteorological - hydrological,fire,0,0.0,00000,00,0.0,northwest ontario
+1978,Jan,24,technology,space event,space debris,0,0.0,,nan,0.0,northwest territories
+1917,Oct,28,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,northwestern british columbia
+1991,Oct,8,natural,meteorological - hydrological,flood,SIN,SIN,,nan,0.0,northwestern british columbia
+1978,Oct,29,natural,meteorological - hydrological,flood,2,0.0,82777550000,13570090,0.0,northwestern british columbia
+1961,Oct,10,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,northwestern british columbia
+2008,May,28,natural,meteorological - hydrological,fire,0,0.0,00000,00,0.0,norway house and sherridon mb
+1991,Apr,1,natural,geological,landslide,0,0.0,3047560000,220838,0.0,notre-dame de pierreville qc
+1908,Apr,26,natural,geological,landslide,33,0.0,,nan,0.0,notre-dame-de-la-salette qc
+2009,Jun,28,natural,meteorological - hydrological,flood,0,0.0,00000,00,0.0,notre-dame-des-prairies qc
+2002,May,14,technology,fire,residential,0,0.0,00000,00,0.0,notre-dame-du-lac qc
+1969,Dec,2,technology,fire,residential,38,30.0,,nan,0.0,notre-dame-du-lac qc
+1905,Feb,15,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,nova scotia
+1989,Sep,10,natural,meteorological - hydrological,storm,1,0.0,,nan,0.0,nova scotia
+2004,Feb,18,natural,meteorological - hydrological,storm,0,0.0,36876900000,2113289,0.0,nova scotia
+1935,Jan,10,natural,meteorological - hydrological,flood,SIN,SIN,,nan,0.0,nova scotia
+1936,Sep,1,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,nova scotia
+1939,Feb,2,technology,fire,residential,0,0.0,,nan,0.0,nova scotia
+1950,Aug,1,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,nova scotia
+1956,Jan,3,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,nova scotia
+1962,Oct,7,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,nova scotia
+1963,Jul,26,natural,meteorological - hydrological,head event/drought,5,0.0,,nan,0.0,nova scotia
+1964,Sep,13,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,nova scotia
+1967,Oct,11,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,nova scotia
+1971,Feb,13,natural,meteorological - hydrological,flood,SIN,SIN,,nan,0.0,nova scotia
+2010,Sep,4,natural,meteorological - hydrological,storm,1,SIN,00000,00,SIN,nova scotia
+2009,Oct,25,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,nova scotia and new brunswick
+1992,Dec,18,technology,hazardous chemicals,derailment release,0,0.0,,nan,0.0,oakville mb
+1965,Jan,14,natural,geological,landslide,7,0.0,,nan,0.0,ocean falls bc
+1991,Jul,22,technology,hazardous chemicals,marine release,1,0.0,,nan,0.0,off cape beale bc
+1949,Aug,22,natural,geological,earthquake,0,0.0,,nan,8.0,off queen charlotte islands bc
+1982,Feb,14,natural,meteorological - hydrological,storm,117,0.0,,nan,0.0,off the coast of newfoundland
+1981,Jul,3,technology,transportation accident,marine,13,19.0,,nan,0.0,off the northern coast of newfoundland
+1990,Jul,11,conflict,civil incident,disturbance / demonstrations,1,0.0,,nan,0.0,oka qc
+1946,Jul,29,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,okanagan valley bc
+1990,Jul,20,natural,meteorological - hydrological,fire,0,0.0,79258480000,6065700,0.0,old crow yt
+1991,May,8,natural,meteorological - hydrological,flood,0,0.0,5466920000,396154,0.0,old crow yt
+1963,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,,nan,0.0,ontario
+1973,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,,nan,0.0,ontario
+1983,Jul,14,natural,meteorological - hydrological,head event/drought,0,0.0,,nan,0.0,ontario
+1988,Jul,5,natural,meteorological - hydrological,head event/drought,14,0.0,,nan,0.0,ontario and manitoba
+2006,Oct,29,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,ontario and quebec
+1964,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,,nan,0.0,ontario and quebec
+1992,Nov,12,natural,meteorological - hydrological,storm,0,0.0,760000000000,54285714,0.0,ontario and quebec
+2003,Aug,14,technology,infrastructure failure,energy,SIN,SIN,,nan,0.0,"ontario, midwest and northeast usa"
+1998,Jan,4,natural,meteorological - hydrological,storm,35,945.0,46357204330000,3046475641,0.0,"ontario, quebec and new brunswick"
+1965,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,,nan,0.0,"ontario, quebec and new brunswick"
+1982,Feb,28,technology,hazardous chemicals,derailment release,0,0.0,,nan,0.0,orillia on
+1916,Feb,3,technology,fire,residential,7,0.0,,nan,0.0,ottawa on
+1989,Sep,12,technology,hazardous chemicals,vehicle,1,0.0,,nan,0.0,ottawa on
+1996,Aug,8,natural,meteorological - hydrological,flood,0,0.0,213080000000,14381102,0.0,ottawa on
+1966,Jan,1,technology,infrastructure failure,vehicle,9,57.0,,nan,0.0,ottawa on
+1900,Apr,26,technology,fire,non-residential,7,0.0,,nan,0.0,ottawa on and hull qc
+2009,Apr,25,natural,meteorological - hydrological,storm,0,0.0,409810000000,21493531,0.0,"ottawa, toronto and windsor on"
+2003,Mar,31,natural,meteorological - hydrological,flood,2,3.0,254859480000,14875067,0.0,oxford and truro ns
+2008,Apr,14,natural,meteorological - hydrological,flood,0,0.0,00000,00,0.0,paddockwood sk
+2008,Jun,8,natural,meteorological - hydrological,flood,0,0.0,45075090000,2370294,0.0,pangnirtung nu
+2000,Apr,13,natural,geological,landslide,0,0.0,00000,00,0.0,passmore bc
+1992,Feb,28,natural,meteorological - hydrological,flood,0,0.0,28663710000,2047408,0.0,peace river ab
+1997,Apr,19,natural,meteorological - hydrological,flood,0,0.0,473684940000,31439266,0.0,peace river ab
+1979,Jan,1,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,peace river ab
+2001,Jun,1,natural,meteorological - hydrological,flood,SIN,SIN,209423910000,12848093,0.0,peace river area bc
+1957,Oct,15,natural,geological,landslide,0,0.0,,nan,0.0,peace river bc
+2012,Sep,9,natural,meteorological - hydrological,fire,0,0.0,00000,00,SIN,peachland bc
+2002,Jun,23,natural,meteorological - hydrological,fire,0,0.0,00000,00,0.0,"peerless lake, trout lake ab"
+1998,Sep,2,technology,transportation accident,air,229,0.0,,nan,0.0,peggy's cove ns
+1984,Oct,6,natural,meteorological - hydrological,flood,1,0.0,39991120000,3959517,0.0,pemberton area bc
+2007,Aug,1,natural,meteorological - hydrological,storm,0,0.0,190739330000,10264000,0.0,"peninsulas of avalon, burin and bonavista nl"
+1987,Apr,2,natural,meteorological - hydrological,flood,0,0.0,78722840000,6895431,0.0,perth-andover nb
+2012,Mar,23,natural,meteorological - hydrological,flood,SIN,SIN,197780000000,9750863,SIN,perth-andover nb
+1976,Dec,26,technology,fire,residential,21,0.0,,nan,0.0,petty harbour nl
+1918,Jan,23,technology,explosion,non-residential,88,11.0,,nan,0.0,pictou county ns
+1952,Jan,14,technology,explosion,non-residential,19,0.0,,nan,0.0,pictou county ns
+1928,Apr,1,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,pike lake sk
+1976,Feb,1,technology,explosion,non-residential,0,0.0,,nan,0.0,pincher creek ab
+2000,Jul,14,natural,meteorological - hydrological,air,12,140.0,33853310000,2129139,0.0,pine lake ab
+1934,Apr,16,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,plaster rock nb
+1994,Apr,16,natural,meteorological - hydrological,flood,0,0.0,570256980000,39924643,0.0,plaster rock nb and lower st. lawrence region qc
+1992,May,9,technology,explosion,non-residential,26,0.0,,nan,0.0,plymouth ns
+1995,Jan,1,natural,meteorological - hydrological,flood,0,0.0,358300000,24541,0.0,poplar bay ab
+1964,Mar,28,natural,geological,tsunami,0,0.0,,nan,8.0,port alberni bc
+1992,Jan,31,technology,hazardous chemicals,leak / spill release,0,0.0,,nan,0.0,port au choix nl
+2008,Feb,18,natural,meteorological - hydrological,flood,0,0.0,00000,00,0.0,port bruce on
+1998,Jul,10,technology,hazardous chemicals,derailment release,0,0.0,,nan,0.0,portage la prairie mb
+1922,Jun,22,natural,meteorological - hydrological,air,5,0.0,,nan,0.0,portage la prairie mb
+2010,Jan,12,natural,geological,earthquake,58,31.0,7500000000000,386266094,7.0,"port-au-prince, haiti"
+1992,Mar,13,technology,hazardous chemicals,marine release,0,0.0,,nan,0.0,port-aux-basques nl
+1969,Feb,9,natural,geological,landslide,3,1.0,,nan,0.0,porteau bc
+1910,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,00000,00,0.0,prairie provinces
+1914,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,00000,00,0.0,prairie provinces
+1917,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,00000,00,0.0,prairie provinces
+1918,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,00000,00,0.0,prairie provinces
+1919,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,00000,00,0.0,prairie provinces
+1920,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,00000,00,0.0,prairie provinces
+1989,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,00000,00,0.0,prairie provinces
+1990,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,5818915450000,445325162,0.0,prairie provinces
+1991,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,1465570190000,106200738,0.0,prairie provinces
+1992,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,5805975230000,414712516,0.0,prairie provinces
+1993,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,00000,00,0.0,prairie provinces
+1924,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,00000,00,0.0,prairie provinces
+1929,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,00000,00,0.0,prairie provinces
+1931,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,00000,00,0.0,prairie provinces
+1941,Mar,14,natural,meteorological - hydrological,storm,76,0.0,00000,00,0.0,prairie provinces
+1947,Jan,30,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,prairie provinces
+1958,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,00000,00,0.0,prairie provinces
+1959,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,00000,00,0.0,prairie provinces
+1960,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,00000,00,0.0,prairie provinces
+1961,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,00000,00,0.0,prairie provinces
+1962,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,00000,00,0.0,prairie provinces
+1963,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,00000,00,0.0,prairie provinces
+1964,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,00000,00,0.0,prairie provinces
+1967,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,00000,00,0.0,prairie provinces
+1968,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,00000,00,0.0,prairie provinces
+1969,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,00000,00,0.0,prairie provinces
+1973,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,00000,00,0.0,prairie provinces
+1974,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,00000,00,0.0,prairie provinces
+1977,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,00000,00,0.0,prairie provinces
+1981,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,18540000,2247,0.0,prairie provinces
+1983,Mar,6,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,prairie provinces
+1983,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,00000,00,0.0,prairie provinces
+1984,Jun,1,natural,meteorological - hydrological,head event/drought,0,0.0,00000,00,0.0,prairie provinces
+1986,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,00000,00,0.0,prairie provinces
+1992,Jan,1,natural,meteorological - hydrological,cold event,0,0.0,20000000000,1428571,0.0,prairies provinces and ontario
+1999,Sep,7,natural,meteorological - hydrological,flood,0,0.0,14413670000,930915,0.0,prince edward island
+2003,Mar,31,natural,meteorological - hydrological,storm,0,SIN,18691140000,1090923,0.0,prince edward island
+2008,Jan,28,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,prince edward island
+2003,Mar,31,natural,meteorological - hydrological,flood,0,0.0,23819050000,1390217,0.0,prince edward island
+1962,Jan,1,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,prince edward island
+1966,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,,nan,0.0,prince edward island
+1982,Feb,22,natural,meteorological - hydrological,storm,0,0.0,15850540000,1732299,0.0,prince edward island
+2008,Dec,13,natural,meteorological - hydrological,storm,SIN,SIN,00000,00,SIN,prince edward island
+1993,Jan,1,natural,biological,infestation/epidemic/pandemic,0,0.0,,nan,0.0,prince edward island and new brunswick
+2007,Dec,10,natural,meteorological - hydrological,flood,0,0.0,75000000000,4035874,0.0,prince george bc
+1972,May,1,natural,meteorological - hydrological,flood,0,0.0,53000000000,14520548,0.0,prince george bc
+1957,Nov,22,natural,geological,landslide,7,0.0,,nan,0.0,prince rupert bc
+1989,Mar,13,natural,meteorological - hydrological,storm,SIN,SIN,,nan,SIN,province of quebec
+2008,Jun,10,natural,meteorological - hydrological,fire,0,0.0,00000,00,0.0,pukatawagan mb
+1969,Jan,1,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,qu'appelle river basin sk
+1993,Jul,29,natural,meteorological - hydrological,flood,0,0.0,100172380000,7021429,0.0,quebec
+1995,Jan,1,natural,meteorological - hydrological,flood,0,0.0,574780000,39368,0.0,quebec
+2001,Feb,10,natural,meteorological - hydrological,storm,6,11.0,1438950000000,88279141,0.0,quebec
+2005,Aug,31,natural,meteorological - hydrological,flood,SIN,SIN,95675670000,5364991,0.0,quebec
+2008,Jan,9,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,quebec
+1976,Mar,1,natural,meteorological - hydrological,flood,0,0.0,205000000000,39549839,0.0,quebec
+1981,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,,nan,0.0,quebec
+1984,Jan,1,natural,meteorological - hydrological,cold event,0,0.0,,nan,0.0,quebec
+2008,Jul,31,natural,meteorological - hydrological,storm,2,0.0,14991160000,788317,0.0,quebec and new brunswick
+1993,Nov,1,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,quebec and ontario
+1955,Jul,1,natural,meteorological - hydrological,fire,0,0.0,244027750000,103841596,0.0,quebec and ontario
+2012,Jul,31,natural,biological,infestation/epidemic/pandemic,13,180.0,00000,00,SIN,quebec city
+1907,Aug,29,technology,infrastructure failure,vehicle,75,0.0,,nan,0.0,quebec city qc
+1916,Sep,11,technology,infrastructure failure,vehicle,13,0.0,,nan,0.0,quebec city qc
+2008,Apr,28,natural,meteorological - hydrological,flood,0,0.0,00000,00,0.0,quebec city qc
+1957,Aug,11,technology,transportation accident,air,79,0.0,,nan,0.0,quebec city qc
+1979,Mar,29,technology,transportation accident,air,17,7.0,,nan,0.0,quebec city qc
+1984,May,8,conflict,terrorist,shootings,3,13.0,,nan,0.0,quebec city qc
+2011,Aug,28,natural,meteorological - hydrological,storm,2,SIN,1538560000000,76992160,SIN,"quebec, new brunswick, nova scotia, prince eward island, and newfoundland and labrador"
+2008,Sep,6,natural,meteorological - hydrological,storm,0,0.0,15727590000,827042,0.0,queens county pe
+1989,Jul,22,natural,meteorological - hydrological,fire,0,0.0,,nan,0.0,radisson qc
+1974,Oct,30,technology,transportation accident,air,32,2.0,00000,00,0.0,rae point nt
+1938,Oct,10,natural,meteorological - hydrological,fire,17,0.0,,nan,0.0,rainy river and dance township on
+1964,Sep,16,natural,geological,landslide,5,0.0,,nan,0.0,ramsey arm bc
+1991,Jul,3,natural,meteorological - hydrological,storm,0,0.0,403877450000,29266482,0.0,red deer ab
+1948,Apr,21,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,red deer river ab
+2007,Apr,19,natural,meteorological - hydrological,flood,0,0.0,1258000000000,67695067,0.0,red earth first nation sk
+2006,Apr,13,natural,meteorological - hydrological,flood,0,0.0,72839520000,4005840,0.0,red earth sk
+1980,Jun,1,natural,meteorological - hydrological,fire,0,0.0,,nan,0.0,red lake on
+1904,Apr,24,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,red river mb
+1979,Apr,1,natural,meteorological - hydrological,flood,0,0.0,185573030000,27835955,0.0,red river region mb
+1996,Apr,18,natural,meteorological - hydrological,flood,0,0.0,68163770000,4600479,0.0,"red river, souris river, assiniboine river and pembina river mb"
+1983,May,3,natural,meteorological - hydrological,air,0,0.0,1115910000,115240,0.0,reeces corners on
+1912,Jun,30,natural,meteorological - hydrological,air,28,100.0,,nan,0.0,regina sk
+1995,Sep,26,natural,meteorological - hydrological,storm,0,0.0,133531200000,9145973,0.0,regina sk
+2008,Jul,22,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,regina sk
+1935,Jun,1,conflict,civil incident,disturbance / demonstrations,1,0.0,,nan,0.0,regina sk
+1950,Nov,1,natural,meteorological - hydrological,air,0,0.0,,nan,0.0,regina sk
+1975,Jun,25,natural,meteorological - hydrological,flood,0,0.0,28282220000,5851494,0.0,regina sk
+1983,Jul,8,natural,meteorological - hydrological,storm,0,0.0,206141950000,21288325,0.0,regina sk
+1983,Jun,24,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,regina sk and edmonton ab
+1976,Jan,2,natural,meteorological - hydrological,storm,1,10.0,,nan,0.0,region of quebec city and trois-rivières qc
+2011,Aug,20,technology,transportation accident,air,12,3.0,00000,00,SIN,resolute bay nu
+1959,Mar,27,natural,geological,landslide,4,0.0,,nan,0.0,revelstoke bc
+1972,Apr,1,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,richelieu river qc
+1928,Jan,1,natural,meteorological - hydrological,flood,3,0.0,,nan,0.0,"rideau, chaudière and quyon rivers qc"
+1950,Jan,1,technology,fire,non-residential,0,0.0,,nan,0.0,"rimouski and cabano, qc"
+1986,Mar,30,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,riviere chaudière qc
+2009,May,1,natural,meteorological - hydrological,flood,0,0.0,4591300000,240802,0.0,rock creek and henderson corner yt
+1910,Mar,5,natural,meteorological - hydrological,avalanche,62,0.0,,nan,0.0,rogers pass bc
+2000,Nov,27,technology,transportation accident,vehicle,6,21.0,00000,00,0.0,rogers pass bc
+2009,Mar,24,natural,meteorological - hydrological,flood,0,0.0,765060000000,40125524,0.0,"roseau river first nation, sioux falls, peguis first nation, st. andrews, st. clements and selkirk mb"
+2006,Dec,1,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,russell on
+1988,Nov,25,natural,geological,earthquake,0,0.0,379706660000,31997752,6.0,saguenay region qc
+1996,Jul,19,natural,meteorological - hydrological,flood,10,0.0,3000000000000,202474691,0.0,saguenay river valley qc
+1995,Jun,6,natural,meteorological - hydrological,fire,0,0.0,34323100000,2350897,0.0,sahtu region of the northwest territories
+1975,Jul,25,natural,meteorological - hydrological,air,3,59.0,,nan,0.0,saint bonaventure qc
+2008,Feb,14,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,saint john nb
+2008,Sep,7,natural,meteorological - hydrological,storm,0,0.0,6751030000,355006,0.0,saint john nb
+1977,Jan,1,technology,fire,residential,20,0.0,,nan,0.0,saint john nb
+1902,Mar,1,natural,meteorological - hydrological,flood,2,0.0,,nan,0.0,saint john river basin nb
+1922,Jun,17,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,saint john river basin nb
+1923,Apr,29,natural,meteorological - hydrological,flood,2,0.0,,nan,0.0,saint john river basin nb
+1950,Apr,20,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,saint john river basin nb
+1961,May,25,natural,meteorological - hydrological,flood,1,0.0,,nan,0.0,saint john river basin nb
+1970,Feb,2,natural,meteorological - hydrological,flood,3,0.0,37370000000,11045320,0.0,saint john river basin nb
+1973,Apr,27,natural,meteorological - hydrological,flood,1,0.0,73110000000,18587288,0.0,saint john river basin nb
+1974,Apr,29,natural,meteorological - hydrological,flood,0,0.0,8005390000,1833295,0.0,saint john river basin nb
+1976,Mar,31,natural,meteorological - hydrological,flood,2,0.0,9750000000,1881029,0.0,saint john river basin nb
+1984,Apr,25,natural,meteorological - hydrological,flood,1,0.0,,nan,0.0,saint john river basin nb
+1998,Mar,9,natural,meteorological - hydrological,flood,0,0.0,56367840000,3704349,0.0,saint john river nb
+2008,May,30,natural,meteorological - hydrological,flood,0,0.0,210000000000,11042945,0.0,saint john river nb
+1986,Apr,1,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,"saint john river, between simonds and woodstock nb"
+2009,Apr,5,natural,meteorological - hydrological,flood,0,0.0,20000000000,1048951,0.0,"saint john, miramichi and restigouche river nb"
+1975,Jan,1,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,"saint john, sussex corner and chaleur bay nb"
+1988,Aug,23,technology,hazardous chemicals,fire,0,0.0,269310080000,22694670,0.0,saint-basile-le-grand qc
+1943,Oct,19,technology,transportation accident,air,24,0.0,,nan,0.0,saint-donat qc
+1990,Apr,23,technology,hazardous chemicals,fire,0,0.0,,nan,0.0,sainte-anne des plaines qc
+2006,Aug,19,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,sainte-anne-des-plaines qc
+1992,Mar,12,natural,meteorological - hydrological,flood,0,0.0,10123110000,723079,0.0,"sainte-brigitte-de-laval, about 40 km north of québec city qc"
+1963,Nov,29,technology,transportation accident,air,118,0.0,,nan,0.0,"sainte-thérèse-de-blainville, qc"
+1989,Sep,29,technology,hazardous chemicals,vehicle,1,1.0,,nan,0.0,saint-jacques qc
+1971,May,1,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,saint-jean qc
+1971,May,4,natural,geological,landslide,31,0.0,12500000000,3588517,0.0,saint-jean-vianney qc
+1949,Sep,9,conflict,terrorist,bomb attacks,32,0.0,,nan,0.0,saint-joachim qc
+1963,Dec,11,natural,geological,landslide,4,0.0,,nan,0.0,saint-joachim-de-tourelle qc
+2006,Oct,28,natural,meteorological - hydrological,flood,0,0.0,00000,00,0.0,saint-joseph et vallée qc
+1989,Dec,12,technology,hazardous chemicals,derailment release,0,0.0,,nan,0.0,saint-léonard d'aston qc
+1988,May,8,technology,hazardous chemicals,marine release,0,0.0,,nan,0.0,saint-romuald qc
+1994,Aug,4,natural,meteorological - hydrological,storm,0,0.0,111550000000,7809802,0.0,salmon arm bc
+1998,Aug,10,natural,meteorological - hydrological,fire,0,0.0,30361450000,1995276,0.0,salmon arm bc
+1988,May,24,technology,hazardous chemicals,leak / spill release,0,0.0,,nan,0.0,sarnia on
+1989,Jan,1,technology,hazardous chemicals,derailment release,0,0.0,,nan,0.0,sarnia on
+1991,Mar,27,natural,meteorological - hydrological,air,0,0.0,283106570000,20514969,0.0,sarnia on
+1991,Jul,22,technology,hazardous chemicals,fire,0,0.0,,nan,0.0,sarnia on
+1992,Mar,19,technology,hazardous chemicals,leak / spill release,0,0.0,,nan,0.0,sarnia on
+1953,May,21,natural,meteorological - hydrological,air,7,40.0,,nan,0.0,sarnia on
+1993,Jul,29,natural,meteorological - hydrological,flood,0,0.0,65037030000,4558670,0.0,saskatchewan
+1994,May,22,natural,meteorological - hydrological,storm,0,0.0,95894700000,6713748,0.0,saskatchewan
+1999,Jun,21,natural,meteorological - hydrological,air,0,0.0,,nan,0.0,saskatchewan
+2010,Jun,29,natural,meteorological - hydrological,air,0,0.0,132390000000,6818369,0.0,saskatchewan
+1939,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,,nan,0.0,saskatchewan
+1974,Jan,1,natural,meteorological - hydrological,flood,0,0.0,66118000000,15141527,0.0,saskatchewan
+1975,Apr,1,natural,meteorological - hydrological,flood,0,0.0,18938520000,3918314,0.0,saskatchewan
+1976,Mar,1,natural,meteorological - hydrological,flood,0,0.0,19478040000,3757821,0.0,saskatchewan
+1986,Jul,16,natural,meteorological - hydrological,flood,1,0.0,178898070000,16362628,0.0,saskatchewan and alberta
+2009,Mar,1,natural,meteorological - hydrological,head event/drought,0,0.0,00000,00,0.0,saskatchewan and alberta
+1991,Jul,11,technology,transportation accident,air,261,0.0,00000,00,0.0,saudi arabia
+2007,Apr,3,natural,meteorological - hydrological,flood,0,0.0,00000,00,0.0,selkirk mb
+2007,May,27,natural,meteorological - hydrological,fire,0,0.0,00000,00,0.0,sept-îles qc
+1982,Apr,17,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,sherbrooke qc
+2012,Jun,23,natural,meteorological - hydrological,fire,SIN,SIN,00000,00,SIN,sheshatshiu nl
+1993,Apr,27,technology,hazardous chemicals,vehicle,0,0.0,,nan,0.0,shubenacadie ns
+2012,Jun,23,natural,meteorological - hydrological,flood,SIN,SIN,38290000000,1887757,SIN,sicamous bc
+2011,May,15,natural,meteorological - hydrological,fire,SIN,SIN,5810990000000,290791827,SIN,slave lake ab
+2006,May,20,natural,meteorological - hydrological,flood,0,0.0,00000,00,0.0,slocan river bc
+1985,Jan,1,technology,hazardous chemicals,vehicle,0,0.0,,nan,0.0,smiths falls on
+1972,Jun,11,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,smoky and peace river basins ab
+2004,Mar,24,natural,meteorological - hydrological,flood,SIN,SIN,23024730000,1319469,0.0,south central manitoba
+1961,May,30,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,south central saskatchewan
+2006,Dec,20,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,south coast and lower mainland bc
+1996,Jan,1,natural,meteorological - hydrological,storm,0,0.0,998700000,67404,0.0,south dumfries on
+2007,Jul,19,natural,meteorological - hydrological,fire,0,0.0,00000,00,0.0,south indian lake mb
+1984,Apr,27,natural,meteorological - hydrological,storm,0,0.0,26864650000,2659866,0.0,"south, central and western manitoba"
+2008,May,16,natural,meteorological - hydrological,storm,0,0.0,3144960000,165379,0.0,south-central manitoba
+1987,Mar,28,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,southcentral quebec
+1997,Mar,30,natural,meteorological - hydrological,flood,0,0.0,13194750000,875758,0.0,south-central saskatchewan
+2002,Jun,11,natural,meteorological - hydrological,flood,0,0.0,103762480000,6225749,0.0,southeast mb
+1974,Jul,15,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,southeast yt
+1995,Jun,5,natural,meteorological - hydrological,flood,0,0.0,71557070000,4901169,0.0,southeastern british columbia
+2003,Jul,1,natural,meteorological - hydrological,fire,SIN,SIN,1590524480000,92832168,0.0,southeastern british columbia and southwestern alberta
+1962,Mar,31,natural,meteorological - hydrological,flood,SIN,SIN,,nan,0.0,southeastern new brunswick
+1981,Feb,18,natural,meteorological - hydrological,flood,0,0.0,16685900000,2022533,0.0,southeastern on
+1920,Jul,22,natural,meteorological - hydrological,air,4,13.0,,nan,0.0,southeastern saskatchewan
+1999,Apr,1,natural,meteorological - hydrological,flood,0,0.0,17171720000,1109045,0.0,southeastern saskatchewan
+1986,May,14,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,southern alberta
+1994,Jun,18,natural,meteorological - hydrological,storm,0,0.0,309691550000,21682022,0.0,southern alberta
+1995,Jul,10,natural,meteorological - hydrological,storm,0,0.0,281030000000,19248630,0.0,southern alberta
+2002,Jun,11,natural,meteorological - hydrological,flood,0,0.0,160541820000,9632509,0.0,southern alberta
+2009,Aug,1,natural,meteorological - hydrological,storm,2,77.0,00000,00,0.0,southern alberta
+1995,Jun,6,natural,meteorological - hydrological,flood,0,0.0,1546233060000,105906374,0.0,southern alberta
+2005,Jun,6,natural,meteorological - hydrological,flood,2,SIN,1290493970000,72364148,0.0,southern alberta
+1967,Apr,17,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,southern alberta
+2010,Jun,17,natural,meteorological - hydrological,flood,0,0.0,10316700000000,531332189,0.0,southern alberta and saskatchewan
+1960,May,9,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,southern and central ontario
+1977,Mar,13,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,southern and central ontario
+1999,Feb,21,natural,meteorological - hydrological,storm,3,0.0,,nan,0.0,southern bc
+1997,Mar,18,natural,meteorological - hydrological,storm,0,0.0,45852620000,3043315,0.0,southern british columbia
+1997,May,1,natural,meteorological - hydrological,flood,0,0.0,401146880000,26624793,0.0,southern british columbia
+1999,Jan,29,natural,meteorological - hydrological,storm,0,1.0,,nan,0.0,southern british columbia
+2001,Sep,19,natural,meteorological - hydrological,storm,0,0.0,117430030000,7204296,0.0,southern coast of newfoundland
+1994,May,18,natural,meteorological - hydrological,storm,0,0.0,90740000000,6352859,0.0,southern manitoba
+1994,Aug,27,natural,meteorological - hydrological,storm,0,0.0,141962010000,9938997,0.0,southern manitoba
+1995,Jul,30,natural,meteorological - hydrological,storm,0,0.0,90180000000,6176712,0.0,southern manitoba
+2000,Jul,7,natural,meteorological - hydrological,flood,0,0.0,29175610000,1834944,0.0,southern manitoba
+2001,Apr,1,natural,meteorological - hydrological,flood,SIN,SIN,167106260000,10251918,0.0,southern manitoba
+1984,Jun,15,natural,meteorological - hydrological,storm,0,0.0,16567800000,1640376,0.0,southern manitoba
+2011,Jun,2,natural,meteorological - hydrological,flood,0,0.0,383570000000,19194495,SIN,southern manitoba
+1991,Aug,19,natural,meteorological - hydrological,storm,2,0.0,70212140000,5087836,0.0,southern new brunswick
+2005,Apr,9,natural,meteorological - hydrological,flood,0,SIN,22782010000,1277496,0.0,southern new brunswick
+1933,Oct,25,natural,meteorological - hydrological,flood,7,0.0,,nan,0.0,southern new brunswick
+1994,Jan,16,natural,meteorological - hydrological,flood,0,0.0,142990000000,10010968,0.0,southern on
+1994,Jan,28,natural,meteorological - hydrological,storm,0,0.0,67990000000,4760093,0.0,southern on
+1994,Aug,28,natural,meteorological - hydrological,storm,0,0.0,78760000000,5514119,0.0,southern on
+1947,Apr,5,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,southern on
+1990,Aug,29,natural,meteorological - hydrological,air,0,6.0,7921670000,606250,0.0,southern ontario
+1995,Jul,13,natural,meteorological - hydrological,storm,0,0.0,569100000000,38979452,0.0,southern ontario
+1995,Dec,10,natural,meteorological - hydrological,storm,1,0.0,,nan,0.0,southern ontario
+1999,Jan,3,natural,meteorological - hydrological,storm,11,7.0,1684690000000,108806674,0.0,southern ontario
+2000,Apr,20,natural,meteorological - hydrological,storm,0,1.0,00000,00,0.0,southern ontario
+1929,Jan,18,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,southern ontario
+1929,Apr,5,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,southern ontario
+1936,Mar,10,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,southern ontario
+1937,Jan,13,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,southern ontario
+1937,Apr,26,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,southern ontario
+1948,Mar,16,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,southern ontario
+1950,Mar,24,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,southern ontario
+1950,Apr,4,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,southern ontario
+1954,Feb,15,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,southern ontario
+1956,Aug,30,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,southern ontario
+1968,Jan,13,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,southern ontario
+1980,Mar,21,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,southern ontario
+1984,Feb,13,natural,meteorological - hydrological,flood,2,0.0,,nan,0.0,southern ontario
+2005,Aug,19,natural,meteorological - hydrological,air,0,4.0,5000000000000,280373832,2.0,southern ontario
+1964,Dec,15,natural,meteorological - hydrological,storm,3,0.0,,nan,0.0,southern prairies
+1979,Sep,13,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,southern quebec
+1921,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,,nan,0.0,southern saskatchewan
+1997,Jan,1,technology,fire,non-residential,0,0.0,,nan,0.0,southwest alberta
+2008,May,21,natural,meteorological - hydrological,storm,0,0.0,75350000000,3962314,0.0,southwest alberta
+1980,Dec,4,natural,meteorological - hydrological,storm,3,0.0,,nan,0.0,southwest british columbia
+1975,Jun,1,natural,meteorological - hydrological,flood,1,0.0,,nan,0.0,southwestern ab
+1968,Feb,2,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,southwestern and southern ontario
+1989,Nov,8,natural,meteorological - hydrological,flood,0,0.0,31469180000,2524266,0.0,southwestern british columbia
+1990,Nov,8,natural,meteorological - hydrological,flood,0,0.0,294268610000,22520557,0.0,southwestern british columbia
+1991,Aug,29,natural,meteorological - hydrological,flood,0,0.0,173001200000,12536319,0.0,southwestern british columbia
+1995,Nov,27,natural,meteorological - hydrological,flood,0,0.0,188352220000,12900837,0.0,southwestern british columbia
+1996,Dec,29,natural,meteorological - hydrological,storm,0,0.0,2153396410000,145336091,0.0,southwestern british columbia
+1994,Aug,1,natural,meteorological - hydrological,storm,0,0.0,31898730000,2233283,0.0,southwestern manitoba
+1920,Mar,17,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,southwestern ontario
+1941,Sep,25,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,southwestern ontario
+1978,Jan,26,natural,meteorological - hydrological,storm,8,400.0,,nan,0.0,southwestern ontario
+1979,Mar,5,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,southwestern ontario
+1972,Feb,19,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,southwestern quebec
+1910,Jan,21,technology,transportation accident,rail,63,20.0,,nan,0.0,spanish river on
+1905,Aug,13,natural,geological,landslide,15,0.0,,nan,0.0,spences bridge bc
+1956,Nov,1,technology,explosion,non-residential,39,88.0,,nan,0.0,springhill ns
+1958,Oct,23,technology,infrastructure failure,manufacturing / industry,75,99.0,,nan,0.0,springhill ns
+1981,Oct,28,natural,geological,landslide,9,0.0,,nan,0.0,squamish bc
+1980,Dec,26,natural,meteorological - hydrological,flood,0,0.0,101430000000,13831364,0.0,squamish river bc
+1992,Dec,21,technology,fire,residential,0,0.0,,nan,0.0,st. john's nl
+1921,Feb,8,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,st. john's nl
+1942,Dec,12,conflict,fire,residential,99,100.0,,nan,0.0,st. john's nl
+1948,Sep,14,natural,meteorological - hydrological,flood,1,0.0,,nan,0.0,st. john's nl
+1958,Mar,1,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,st. john's nl
+1959,Feb,16,natural,meteorological - hydrological,storm,6,10.0,,nan,0.0,st. john's nl
+1970,Feb,27,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,st. john's nl
+1978,Sep,5,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,st. john's nl
+1984,Apr,13,natural,meteorological - hydrological,storm,0,0.0,32726190000,3240217,0.0,st. john's nl
+1966,Jan,1,natural,meteorological - hydrological,head event/drought,0,0.0,,nan,0.0,st. lawrence counties of quebec
+1957,Jan,1,technology,hazardous chemicals,leak / spill release,75,0.0,,nan,0.0,st. lawrence nl
+1930,Jun,26,natural,meteorological - hydrological,storm,30,11.0,,nan,0.0,st. lawrence river
+1914,May,28,technology,transportation accident,marine,1024,0.0,,nan,0.0,st. lawrence river qc
+1965,Jan,1,natural,meteorological - hydrological,flood,20,0.0,,nan,0.0,st. lawrence river qc
+1991,Jul,9,technology,hazardous chemicals,derailment release,0,0.0,,nan,0.0,st. lazare mb
+1990,May,16,technology,hazardous chemicals,fire,0,0.0,,nan,0.0,st.-amable qc
+1910,Apr,15,natural,geological,landslide,4,0.0,,nan,0.0,st-alphonse-de-bagotville qc
+1951,Dec,19,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,"stephenville crossing, summerside nl"
+2005,Sep,27,natural,meteorological - hydrological,flood,SIN,SIN,184617550000,10352386,0.0,stephenville nl
+1978,Apr,12,technology,hazardous chemicals,leak / spill release,0,4.0,,nan,0.0,st-eustache qc
+1938,Sep,1,natural,geological,landslide,4,12.0,,nan,0.0,st-gregoire-de-montmercy qc
+1999,Dec,30,technology,hazardous chemicals,derailment release,2,0.0,,nan,0.0,st-hilaire qc
+1981,Apr,29,technology,hazardous chemicals,leak / spill release,0,0.0,,nan,0.0,st-hilaire qc
+1986,Jan,21,technology,hazardous chemicals,fire,0,0.0,,nan,0.0,stoney creek on
+1989,Oct,2,technology,hazardous chemicals,vehicle,2,1.0,,nan,0.0,sudbury on
+1995,Nov,16,technology,hazardous chemicals,leak / spill release,0,20.0,,nan,0.0,sudbury on
+1970,Aug,20,natural,meteorological - hydrological,air,6,200.0,750000000,221675,0.0,"sudbury, lively, coppercliff and field on"
+1951,Jan,1,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,sumas and chilliwack bc
+1996,Jan,1,natural,meteorological - hydrological,flood,0,0.0,1003070000,67699,0.0,sunny valley ab
+1981,Jan,1,natural,meteorological - hydrological,flood,0,0.0,222480000,26967,0.0,sussex nb
+1998,May,5,natural,meteorological - hydrological,fire,0,0.0,,nan,0.0,swan hills ab
+1993,Jul,4,natural,meteorological - hydrological,flood,0,0.0,57383410000,4022202,0.0,swan river mb
+1938,Dec,6,technology,infrastructure failure,manufacturing / industry,20,0.0,,nan,0.0,"sydney mines, cape breton ns"
+1994,May,25,technology,explosion,non-residential,0,0.0,,nan,0.0,sydney ns
+2000,Nov,2,natural,meteorological - hydrological,flood,0,1.0,56278430000,3539524,0.0,sydney ns
+1999,Jan,25,technology,explosion,non-residential,0,15.0,,nan,0.0,taylor bc
+1999,Feb,11,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,terrace bc
+1971,Jan,1,natural,meteorological - hydrological,avalanche,7,0.0,,nan,0.0,terrace bc
+2007,Jun,5,natural,meteorological - hydrological,flood,0,0.0,96000000000,5165919,0.0,"terrace, smithers & mount currie bc"
+1999,Apr,23,technology,transportation accident,rail,2,60.0,,nan,0.0,thamesville on
+1959,Feb,16,natural,meteorological - hydrological,avalanche,5,9.0,,nan,0.0,"the battery, st. john's harbour nl"
+2003,Aug,4,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,"the bois-francs, chaudière-appalaches, beauce, l'outaouais, lanaudière, and abitibi-témiscamingue regions qc"
+2004,Jul,21,natural,meteorological - hydrological,flood,SIN,SIN,00000,00,0.0,the pas mb
+1957,Jan,1,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,thetford mines qc
+2012,May,28,natural,meteorological - hydrological,flood,0,0.0,2415890000000,119107149,SIN,thunder bay on
+1998,Jul,22,natural,meteorological - hydrological,fire,0,0.0,120441180000,7915083,0.0,tibbet lake nt
+1996,May,17,natural,meteorological - hydrological,flood,0,0.0,3785570000,255494,0.0,timmins and dufferin county on
+1997,May,29,natural,meteorological - hydrological,fire,0,0.0,,nan,0.0,timmins on
+1961,Aug,31,natural,meteorological - hydrological,flood,5,0.0,,nan,0.0,timmins on
+1986,Mar,31,technology,hazardous chemicals,derailment release,0,0.0,,nan,0.0,timmins on
+1904,Apr,19,technology,fire,non-residential,0,0.0,,nan,0.0,toronto on
+1992,Jul,31,natural,meteorological - hydrological,flood,0,0.0,53379400000,3812814,0.0,toronto on
+1995,Aug,11,technology,transportation accident,rail,3,140.0,,nan,0.0,toronto on
+1999,Jan,13,natural,meteorological - hydrological,storm,2,0.0,1220000000000,78794403,0.0,toronto on
+2005,Sep,24,natural,biological,infestation/epidemic/pandemic,23,112.0,00000,00,0.0,toronto on
+2008,Jul,20,technology,explosion,residential,0,10.0,00000,00,0.0,toronto on
+2008,Aug,10,technology,explosion,non-residential,2,58.0,00000,00,0.0,toronto on
+1944,Dec,11,natural,meteorological - hydrological,storm,21,0.0,,nan,0.0,toronto on
+1949,Sep,17,technology,fire,vehicle,118,0.0,,nan,0.0,toronto on
+1953,Aug,24,natural,meteorological - hydrological,head event/drought,1,186.0,,nan,0.0,toronto on
+1954,Oct,14,natural,meteorological - hydrological,storm,81,0.0,,nan,0.0,toronto on
+1970,Jul,5,technology,transportation accident,air,109,0.0,,nan,0.0,toronto on
+1976,Aug,27,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,toronto on
+1982,Oct,14,conflict,terrorist,bomb attacks,0,10.0,,nan,0.0,toronto on
+2013,Jul,8,natural,meteorological - hydrological,flood,0,0.0,9400000000000,459283388,SIN,toronto on
+2009,Aug,20,natural,meteorological - hydrological,air,1,0.0,961830000000,50445629,0.0,"toronto, windsor, vaughan and newmarket on"
+1962,Dec,11,natural,geological,landslide,9,0.0,,nan,0.0,toulnustouc river qc
+1966,Mar,4,technology,transportation accident,air,64,0.0,,nan,0.0,"toyko, japan"
+2008,Apr,17,natural,meteorological - hydrological,flood,0,0.0,00000,00,0.0,trent hills on
+1918,Oct,12,technology,fire,non-residential,0,0.0,,nan,0.0,trenton on
+1993,Jul,14,technology,hazardous chemicals,leak / spill release,0,0.0,,nan,0.0,truro ns
+1984,Feb,5,natural,meteorological - hydrological,flood,1,0.0,,nan,0.0,truro ns
+1993,Sep,23,natural,meteorological - hydrological,storm surge,0,0.0,,nan,0.0,tuktoyaktuk and mackenzie delta nt
+2006,Jul,3,natural,meteorological - hydrological,fire,0,0.0,00000,00,0.0,tumbler ridge bc
+2002,Jun,24,natural,meteorological - hydrological,fire,0,0.0,310140000,18608,0.0,turnor lake sk
+2003,Feb,21,technology,transportation accident,rail,SIN,2.0,,nan,0.0,tyendinaga township first nation on
+1989,Dec,25,natural,geological,earthquake,0,0.0,,nan,6.0,ungava peninsula qc
+1903,Feb,28,natural,geological,landslide,0,0.0,,nan,0.0,upper arrow lake bc
+1986,May,15,natural,meteorological - hydrological,fire,0,0.0,,nan,0.0,upper gagetown and burton nb
+1983,May,10,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,"upper richelieu river, montréal qc"
+1993,Apr,12,natural,meteorological - hydrological,flood,0,0.0,149732220000,10495249,0.0,upper saint john river valley nb
+2010,Jun,23,natural,geological,earthquake,0,0.0,00000,00,5.0,val-des-bois and gracefield qc
+1987,May,13,natural,meteorological - hydrological,fire,0,0.0,,nan,0.0,valrita-harty on
+2009,Jul,27,natural,meteorological - hydrological,head event/drought,455,SIN,00000,00,0.0,vancouver and fraser bc
+1999,Sep,24,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,vancouver bc
+2006,Dec,11,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,vancouver bc
+2007,Nov,12,natural,meteorological - hydrological,storm,0,0.0,00000,00,0.0,vancouver bc
+1958,Jun,17,technology,infrastructure failure,vehicle,18,0.0,,nan,0.0,vancouver bc
+2011,Jun,15,conflict,civil incident,disturbance / demonstrations,0,144.0,00000,00,SIN,vancouver bc
+1990,Feb,23,technology,hazardous chemicals,marine release,0,0.0,,nan,0.0,vancouver harbour bc
+1906,Jan,1,technology,transportation accident,marine,126,0.0,,nan,0.0,vancouver island (bc)
+2003,Oct,16,natural,meteorological - hydrological,flood,2,1.0,89589660000,5228968,0.0,vancouver island and southwestern british columbia
+1975,Mar,1,natural,meteorological - hydrological,storm,14,0.0,,nan,0.0,vancouver island bc
+1979,Dec,18,natural,meteorological - hydrological,flood,0,0.0,26426700000,3964005,0.0,vancouver island bc
+2009,Jan,6,natural,meteorological - hydrological,storm,0,0.0,131918840000,6918820,0.0,"vancouver, fraser valley and the greater vancouver regional districts bc"
+2000,Jul,3,natural,meteorological - hydrological,flood,0,0.0,37872940000,2381946,0.0,vanguard sk
+1991,Oct,16,natural,meteorological - hydrological,storm,0,0.0,43967370000,3186041,0.0,vernon bc
+1971,Aug,27,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,victoriaville qc
+2012,Oct,2,natural,meteorological - hydrological,fire,SIN,SIN,00000,00,SIN,vita mb
+2000,May,19,natural,biological,infestation/epidemic/pandemic,6,2300.0,00000,00,0.0,walkerton on
+1986,Jun,2,natural,meteorological - hydrological,fire,0,0.0,,nan,0.0,waswanipi reserve qc
+1980,May,28,technology,transportation accident,vehicle,22,11.0,,nan,0.0,webb sk
+1901,Jan,1,technology,infrastructure failure,manufacturing / industry,16,0.0,,nan,0.0,wellington bc
+1915,Feb,1,technology,infrastructure failure,manufacturing / industry,19,0.0,,nan,0.0,wellington bc
+2010,May,23,natural,meteorological - hydrological,fire,0,0.0,00000,00,0.0,wemotaci reserve and la tuque qc
+1962,Oct,12,natural,meteorological - hydrological,storm,7,0.0,,nan,0.0,west coast british columbia
+1984,Oct,11,natural,meteorological - hydrological,storm,5,0.0,,nan,0.0,west coast of british columbia
+2003,Mar,31,natural,meteorological - hydrological,flood,0,SIN,69347070000,4047494,0.0,west coast of newfoundland
+1990,May,25,natural,meteorological - hydrological,flood,1,0.0,221473360000,16949492,0.0,western alberta
+2003,Jan,21,natural,meteorological - hydrological,avalanche,30,SIN,,nan,0.0,western canada
+1985,May,1,natural,meteorological - hydrological,head event/drought,0,0.0,,nan,0.0,western canada
+1995,Apr,1,natural,meteorological - hydrological,flood,0,0.0,42056450000,2880579,0.0,western mb
+1971,Jul,23,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,western prairies
+1976,Feb,2,natural,meteorological - hydrological,storm surge,0,0.0,41378000000,7982894,0.0,"western, central and northern ns"
+1981,Aug,1,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,westfield and grand bay nb
+2011,Jun,17,natural,meteorological - hydrological,flood,0,0.0,332580000000,16642869,SIN,weyburn and estavan sk
+1954,Jan,30,natural,meteorological - hydrological,air,0,0.0,,nan,0.0,white point beach ns
+1999,Jun,8,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,white rock bc
+1988,Jan,1,natural,meteorological - hydrological,fire,0,0.0,,nan,0.0,whitedog lake on
+1993,Oct,17,technology,hazardous chemicals,leak / spill release,0,0.0,,nan,0.0,windsor on
+1999,Sep,3,technology,transportation accident,vehicle,7,33.0,,nan,0.0,windsor on
+2007,May,25,technology,fire,non-residential,0,0.0,00000,00,0.0,windsor on
+1960,Jan,1,technology,explosion,non-residential,11,0.0,,nan,0.0,windsor on
+1974,Apr,3,natural,meteorological - hydrological,air,9,30.0,,nan,0.0,windsor on
+1985,May,30,natural,meteorological - hydrological,storm,5,0.0,163900000000,15609524,0.0,windsor on
+1946,Jun,17,natural,meteorological - hydrological,air,17,100.0,,nan,0.0,windsor to tecumseh on
+1986,May,16,natural,meteorological - hydrological,flood,2,0.0,,nan,0.0,winisk on
+2009,Aug,14,natural,meteorological - hydrological,storm,0,0.0,500000000000,26223776,0.0,winnipeg and steinbach mb
+1916,Apr,24,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,winnipeg mb
+1986,Nov,7,natural,meteorological - hydrological,storm,2,0.0,,nan,0.0,winnipeg mb
+1987,Jul,6,natural,meteorological - hydrological,air,0,0.0,,nan,0.0,winnipeg mb
+2010,May,28,natural,meteorological - hydrological,flood,0,0.0,77317720000,3982028,0.0,winnipeg mb
+1993,Jul,25,natural,meteorological - hydrological,flood,0,0.0,2148072550000,150565833,0.0,winnipeg mb
+1996,Jul,16,natural,meteorological - hydrological,storm,0,0.0,1050000000000,70866142,0.0,winnipeg mb
+2008,Jul,11,natural,meteorological - hydrological,air,0,0.0,00000,00,0.0,winnipeg mb
+1923,Jan,1,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,winnipeg mb
+1950,May,5,natural,meteorological - hydrological,flood,1,0.0,,nan,0.0,winnipeg mb
+1960,Apr,18,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,winnipeg mb
+1966,Mar,4,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,winnipeg mb
+1966,Apr,14,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,winnipeg mb
+1969,May,2,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,winnipeg mb
+1970,Apr,30,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,winnipeg mb
+1978,May,25,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,winnipeg mb
+2003,Feb,2,natural,meteorological - hydrological,storm,SIN,SIN,,nan,SIN,wolfe lake and moncton nb
+2011,Jun,2,natural,meteorological - hydrological,fire,0,0.0,00000,00,SIN,wollaston lake sk
+1998,Jan,1,natural,biological,infestation/epidemic/pandemic,0,0.0,9740550000,640124,0.0,wood buffalo national park ab
+1990,Aug,1,natural,meteorological - hydrological,flood,0,0.0,16666670000,1275510,0.0,woodstock nb
+1979,Aug,7,natural,meteorological - hydrological,air,2,0.0,,nan,0.0,woodstock on
+2010,Nov,7,natural,meteorological - hydrological,flood,SIN,SIN,00000,00,SIN,yarmouth and halifax ns
+2010,Nov,4,natural,meteorological - hydrological,storm,0,0.0,41180000000,2120858,0.0,yarmouth county ns
+2008,Sep,28,natural,meteorological - hydrological,storm,SIN,SIN,00000,00,SIN,yarmouth county ns
+1992,Sep,18,conflict,terrorist,bomb attacks,9,0.0,,nan,0.0,yellowknife nt
+1992,Jun,17,natural,meteorological - hydrological,flood,0,0.0,2286360000,163311,0.0,yukon rivers yt
+1989,Jan,30,natural,meteorological - hydrological,cold event,13,100.0,,nan,0.0,yukon to ontario
+1979,Feb,8,natural,meteorological - hydrological,cold event,0,0.0,,nan,0.0,yukon to ontario
+2008,Aug,15,technology,hazardous chemicals,fire,0,3.0,00000,00,0.0,zama city ab
+0,,0,SIN,SIN,SIN,SIN,SIN,,nan,SIN,
+0,,0,SIN,SIN,SIN,580.000.000.000,SIN,,nan,SIN,580.000.000.000
+2012,Jun,6,natural,meteorological - hydrological,flood,0,0.0,15037480000,741371,SIN,"yukon, northwest territories and british columbia"
+2013,May,27,natural,meteorological - hydrological,flood,0,0.0,00000,00,SIN,kasabonika lake first nation on
+2013,Jun,19,natural,meteorological - hydrological,flood,4,0.0,27157420000000,1326909772,SIN,southern alberta
+2012,May,24,natural,meteorological - hydrological,fire,0,0.0,00000,00,SIN,timmins on
+2010,Jul,12,natural,meteorological - hydrological,storm,0,0.0,4000000000000,206008584,SIN,calgary ab
+2013,Oct,19,technology,transportation accident,rail,0,0.0,00000,00,SIN,gainsford ab
+2012,Jun,24,natural,meteorological - hydrological,fire,0,0.0,00000,00,SIN,northwest river and sheshatshiu nl
+2012,Jul,23,natural,meteorological - hydrological,fire,0,0.0,00000,00,SIN,island lake and garden hill mb
+2012,Sep,10,natural,meteorological - hydrological,fire,0,0.0,00000,00,SIN,lethbridge and coalhurst ab
+2012,Mar,24,natural,meteorological - hydrological,flood,0,0.0,67000000000,3303205,SIN,kashechewan and fort albany on
+2012,Jul,31,natural,meteorological - hydrological,fire,0,0.0,00000,00,SIN,sandy lake first nation on
+2014,Jul,1,natural,meteorological - hydrological,fire,0,0.0,3000000000000,143769968,SIN,british columbia
+2014,Jun,1,natural,meteorological - hydrological,fire,0,0.0,550000000000,26357827,SIN,northwest territories
+2013,Jun,19,natural,meteorological - hydrological,storm,0,0.0,107960000000,5274919,SIN,southeast british columbia
+2012,Feb,26,technology,transportation accident,rail,3,45.0,00000,00,SIN,burlington on
+2014,Aug,4,technology,infrastructure failure,manufacturing / industry,0,0.0,00000,00,SIN,quesnel lake bc
+2014,Oct,22,conflict,terrorist,shootings,2,0.0,00000,00,SIN,ottawa on
+2014,Jan,23,technology,fire,residential,32,15.0,00000,00,SIN,l’isle-verte qc
+2014,Apr,15,natural,meteorological - hydrological,flood,0,0.0,296030000000,14186741,SIN,new brunswick
+2014,Oct,20,conflict,terrorist,kidnapping / murder,2,1.0,00000,00,SIN,saint-jean-sur-richelieu qc
+2013,Dec,21,natural,meteorological - hydrological,storm,6,SIN,00000,00,SIN,québec
+2013,Dec,21,natural,meteorological - hydrological,storm,SIN,SIN,,nan,SIN,southern ontario
+0,,0,SIN,SIN,SIN,SIN,SIN,,nan,SIN,
+0,,0,SIN,SIN,SIN,SIN,SIN,,nan,SIN,
+0,,0,SIN,SIN,SIN,985.816.420.000,SIN,1600000000000,nan,SIN,2.627.816.420.000
+2013,Apr,29,natural,meteorological - hydrological,flood,SIN,SIN,,nan,SIN,cumberland house sk
+0,,0,SIN,SIN,SIN,SIN,SIN,,nan,SIN,
+0,,0,SIN,SIN,SIN,433.090.000.000,SIN,,nan,SIN,433.090.000.000
+2014,Jul,5,natural,meteorological - hydrological,storm,0,0.0,247120000000,11842812,SIN,"quebec, new brunswick, nova scotia, and prince edward island"
+2013,Dec,20,natural,meteorological - hydrological,storm,0,0.0,2143080000000,104710749,SIN,"ontario, quebec and new brunswick"
+2014,Apr,14,natural,meteorological - hydrological,flood,0,0.0,130640000000,6260703,SIN,southern quebec
+2014,Jun,25,natural,meteorological - hydrological,flood,SIN,SIN,,nan,SIN,southern manitoba
+0,,0,SIN,SIN,SIN,SIN,SIN,,nan,SIN,
+0,,0,SIN,SIN,SIN,1.646.790.000.000,SIN,,nan,SIN,11.646.790.000.000
+2014,Jun,25,natural,meteorological - hydrological,flood,0,0.0,193870000000,9290895,SIN,southern saskatchewan
+2014,Jun,15,natural,meteorological - hydrological,flood,SIN,SIN,,nan,SIN,southern alberta
+0,,0,SIN,SIN,SIN,SIN,SIN,,nan,SIN,
+0,,0,SIN,SIN,SIN,SIN,SIN,,nan,SIN,0.0000
+2015,Jul,1,natural,meteorological - hydrological,fire,SIN,SIN,921910000000,43692417,SIN,northern saskatchewan
+2015,Aug,2,natural,meteorological - hydrological,air,SIN,6.0,00000,00,SIN,southern ontario
+2015,Apr,17,natural,meteorological - hydrological,flood,SIN,SIN,00000,00,SIN,fort albany and kashcewan first nation
+2015,Mar,7,technology,transportation accident,rail,SIN,SIN,00000,00,SIN,gogama and mattagami first nation on
+2015,Jun,22,natural,meteorological - hydrological,storm,SIN,SIN,291880000000,13833175,SIN,southern ontario
+2015,Mar,28,technology,transportation accident,air,SIN,25.0,00000,00,SIN,halifax ns
+2015,Apr,25,natural,geological,earthquake,2,SIN,50000000000,2369668,7.8,nepal
+2015,Feb,15,natural,meteorological - hydrological,storm,SIN,SIN,00000,00,SIN,maritime provinces
+2015,May,28,natural,meteorological - hydrological,storm,SIN,SIN,00000,00,SIN,fredericton nb
+2015,Apr,18,natural,meteorological - hydrological,flood,SIN,SIN,00000,00,SIN,perth-andover nb
+2015,Feb,16,natural,meteorological - hydrological,storm,SIN,SIN,00000,00,SIN,southern manitoba
+2015,May,9,natural,meteorological - hydrological,fire,1,SIN,204010000000,9668720,SIN,british columbia
+2015,Aug,29,natural,meteorological - hydrological,storm,SIN,1.0,347680000000,16477725,SIN,lower mainland british columbia
+2015,Apr,8,technology,hazardous chemicals,leak / spill release,SIN,SIN,00000,00,SIN,vancouver bc
+2015,Jun,12,natural,meteorological - hydrological,storm,SIN,SIN,981840000000,46532701,SIN,prairie provinces
+2015,Jul,22,natural,meteorological - hydrological,storm,SIN,SIN,456760000000,21647393,SIN,alberta and saskatchewan
+2015,Aug,4,natural,meteorological - hydrological,storm,SIN,SIN,1672360000000,79258768,SIN,southern alberta
+2015,Jun,29,technology,hazardous chemicals,leak / spill release,SIN,SIN,00000,00,SIN,long lake ab
+2015,Jul,12,natural,meteorological - hydrological,flood,SIN,SIN,00000,00,SIN,chestermere ab
+2016,Sep,29,natural,meteorological - hydrological,flood,SIN,SIN,00000,00,SIN,windsor and tecumseh on
+2016,Nov,27,natural,meteorological - hydrological,storm,SIN,SIN,00000,00,SIN,nova scotia and prince edward island
+2016,Dec,25,natural,meteorological - hydrological,storm,SIN,SIN,00000,00,SIN,christmas island ns
+2016,Oct,26,natural,biological,infestation/epidemic/pandemic,SIN,SIN,167000000000,7803738,SIN,alberta and saskatchewan
+2016,Jul,21,technology,hazardous chemicals,leak / spill release,SIN,SIN,00000,00,SIN,north saskatchewan river sk
+2016,Nov,14,natural,meteorological - hydrological,flood,SIN,SIN,00000,00,SIN,red earth first nation sk
+2016,Feb,24,natural,meteorological - hydrological,storm,SIN,SIN,00000,00,SIN,"ontario, quebec, new brunswick, nove scotia, prince edward island and newfoundland"
+2016,Mar,23,natural,meteorological - hydrological,storm,SIN,SIN,273790000000,12793925,SIN,southern ontario
+2016,Jul,8,natural,meteorological - hydrological,storm,SIN,SIN,470630000000,21992056,SIN,southern ontario
+2016,Mar,29,technology,fire,residential,9,SIN,00000,00,SIN,pikangikum first nation on
+2016,Mar,28,natural,geological,landslide,SIN,SIN,00000,00,SIN,horton on
+2016,Jun,27,natural,meteorological - hydrological,flood,SIN,SIN,00000,00,SIN,kenora on
+2016,Apr,27,natural,meteorological - hydrological,flood,SIN,SIN,00000,00,SIN,kashechewan first nation on
+2016,Oct,9,natural,meteorological - hydrological,flood,SIN,SIN,303500000000,14182243,SIN,"nova scotia, prince edward island and newfoundland"
+2016,Apr,5,natural,meteorological - hydrological,storm,SIN,SIN,00000,00,SIN,nova scotia
+2016,Jun,23,natural,meteorological - hydrological,fire,SIN,SIN,00000,00,SIN,easterville and chemawawin mb
+2016,Jul,20,natural,meteorological - hydrological,air,SIN,SIN,00000,00,SIN,long plain first nation mb
+2016,Aug,4,technology,hazardous chemicals,leak / spill release,SIN,SIN,00000,00,SIN,winnipeg mb
+2016,Aug,21,natural,meteorological - hydrological,fire,SIN,SIN,00000,00,SIN,west kelowna bc
+2016,Jul,3,natural,meteorological - hydrological,fire,SIN,SIN,00000,00,SIN,burns bog bc
+2016,Oct,12,natural,meteorological - hydrological,storm,1,SIN,00000,00,SIN,south coast and lower mainland british columbia
+2016,Oct,6,natural,meteorological - hydrological,storm,SIN,SIN,00000,00,SIN,south coast and lower mainland british columbia
+2016,Mar,9,natural,meteorological - hydrological,storm,1,SIN,00000,00,SIN,south coast and lower mainland british columbia
+2016,Oct,13,technology,hazardous chemicals,leak / spill release,SIN,SIN,00000,00,SIN,seaforth channel bc
+2016,Jun,15,natural,meteorological - hydrological,flood,SIN,SIN,651320000000,30435514,SIN,northeastern british columbia
+2016,Jun,24,natural,meteorological - hydrological,storm,SIN,SIN,355230000000,16599533,SIN,"alberta, saskatchewan, manitoba and ontario"
+2016,Jul,18,natural,meteorological - hydrological,storm,SIN,SIN,1027390000000,48008879,SIN,prairie provinces
+2016,Jul,8,natural,meteorological - hydrological,storm,SIN,SIN,542520000000,25351402,SIN,prairie provinces
+2016,Jun,28,natural,meteorological - hydrological,storm,SIN,SIN,890830000000,41627570,SIN,prairie provinces
+2016,Jul,15,natural,meteorological - hydrological,storm,SIN,SIN,704680000000,32928972,SIN,alberta and saskatchewan
+2016,Apr,18,natural,meteorological - hydrological,fire,SIN,2.0,00000,00,SIN,"paul first nation, ab"
+2016,Jul,30,natural,meteorological - hydrological,flood,SIN,SIN,4625280000000,216134579,SIN,fort mcmurray ab
+2016,Apr,30,natural,meteorological - hydrological,fire,2,SIN,40686780000000,1901251402,SIN,fort mcmurray ab
+2017,Aug,28,natural,meteorological - hydrological,flood,SIN,SIN,1730000000000,nan,SIN,"windsor, ontario"
+2017,Mar,11,natural,meteorological - hydrological,storm,SIN,SIN,600000000000,nan,SIN,newfoundland
+2017,Jul,7,natural,meteorological - hydrological,fire,SIN,SIN,,nan,SIN,british columbia
+0,,0,SIN,SIN,SIN,SIN,SIN,,nan,SIN,1.300.000.000.000
+2017,May,4,natural,meteorological - hydrological,flood,2,SIN,1160000000000,nan,SIN,eastern canada
+2017,Jan,24,natural,meteorological - hydrological,storm,SIN,SIN,,nan,SIN,new brunswick
+0,,0,SIN,SIN,SIN,SIN,SIN,,nan,SIN,0.0000
+2017,Mar,7,natural,meteorological - hydrological,storm,SIN,SIN,,nan,SIN,"churchill, manitoba"
+0,,0,SIN,SIN,SIN,SIN,SIN,,nan,SIN,0.0000
+2017,Apr,27,natural,meteorological - hydrological,flood,SIN,SIN,00000,nan,SIN,british columbia
+2017,Jun,2,natural,meteorological - hydrological,storm,SIN,SIN,460000000000,nan,SIN,saskatoon
+2018,Aug,15,natural,meteorological - hydrological,fire,SIN,SIN,,nan,SIN,british columbia
+0,,0,SIN,SIN,SIN,SIN,SIN,,nan,SIN,0.0000
+2018,Jul,3,natural,meteorological - hydrological,fire,SIN,SIN,,nan,SIN,ontario
+0,,0,SIN,SIN,SIN,SIN,SIN,,nan,SIN,0.0000
+2018,Feb,16,natural,meteorological - hydrological,flood,SIN,SIN,,nan,SIN,"grand river, on"
+0,,0,SIN,SIN,SIN,SIN,SIN,,nan,SIN,
+0,,0,SIN,SIN,SIN,SIN,SIN,,nan,SIN,
+0,,0,SIN,SIN,SIN,SIN,SIN,,nan,SIN,0.0000
+2018,Apr,27,natural,meteorological - hydrological,flood,SIN,SIN,,nan,SIN,new brunswick
+0,,0,SIN,SIN,SIN,SIN,SIN,,nan,SIN,
+0,,0,SIN,SIN,SIN,SIN,SIN,,nan,SIN,
+0,,0,SIN,SIN,SIN,SIN,SIN,,nan,SIN,0.0000
+2018,Jun,30,natural,meteorological - hydrological,head event/drought,SIN,SIN,,nan,SIN,quebec
+0,,0,SIN,SIN,SIN,SIN,SIN,,nan,SIN,0.0000
+2018,Sep,21,natural,meteorological - hydrological,air,SIN,SIN,,nan,SIN,national capital region
+0,,0,SIN,SIN,SIN,SIN,SIN,,nan,SIN,
+0,,0,SIN,SIN,SIN,SIN,SIN,,nan,SIN,
+0,,0,SIN,SIN,SIN,SIN,SIN,,nan,SIN,3.340.000.000.000
+2018,Aug,1,natural,meteorological - hydrological,storm,SIN,SIN,,nan,SIN,southern alberta
+0,,0,SIN,SIN,SIN,SIN,SIN,,nan,SIN,800.000.000.000
+2018,Aug,7,natural,meteorological - hydrological,flood,SIN,SIN,800000000000,nan,SIN,toronto
+2018,May,4,natural,meteorological - hydrological,storm,3,SIN,6800000000000,nan,SIN,southern ontario
+2018,Apr,14,natural,meteorological - hydrological,storm,SIN,SIN,1900000000000,nan,SIN,southern ontario
+2018,Jun,14,natural,meteorological - hydrological,storm,SIN,SIN,200000000000,nan,SIN,southern manitoba
+2018,Apr,6,technology,transportation accident,vehicle,16,13.0,00000,nan,SIN,"armley, sk"
+2017,Sep,30,conflict,terrorist,kidnapping / murder,SIN,5.0,00000,nan,SIN,edmonton
+2018,Apr,23,conflict,terrorist,kidnapping / murder,10,16.0,00000,nan,SIN,"toronto, on"
+2017,Jan,29,conflict,terrorist,shootings,6,19.0,00000,nan,SIN,"quebec city, qc"
+2018,Jul,22,conflict,terrorist,shootings,3,13.0,00000,nan,SIN,toronto
+2018,Dec,22,natural,meteorological - hydrological,storm,1,SIN,527650000000,nan,SIN,british columbia
+2019,Mar,10,technology,transportation accident,air,18,0.0,00000,nan,SIN,"bishoftu, ethiopia"
+2019,Jan,23,natural,meteorological - hydrological,storm,SIN,SIN,390000000000,nan,SIN,eastern canada
+2019,Apr,18,natural,meteorological - hydrological,flood,SIN,SIN,,nan,SIN,eastern canada
+0,,0,SIN,SIN,SIN,SIN,SIN,,nan,SIN,
+0,,0,SIN,SIN,SIN,SIN,SIN,,nan,SIN,0.0000
+2019,Apr,15,natural,meteorological - hydrological,flood,SIN,SIN,00000,nan,SIN,"kashechewan, ontario"
+2019,Mar,14,natural,meteorological - hydrological,storm,SIN,SIN,1240000000000,nan,SIN,eastern canada
+1971,May,22,technology,fire,residential,32,4.0,,nan,0.0,off british columbia
+1930,Feb,26,technology,fire,residential,13,SIN,,nan,0.0,"cross lake, manitoba"
+1946,Oct,3,technology,transportation accident,air,39,0.0,,nan,0.0,"stephenville, newfoundland"
+1935,Nov,1,natural,geological,earthquake,0,0.0,,nan,0.0,"témiscaming, quebec"
+1980,Feb,14,technology,explosion,non-residential,0,2.0,,nan,0.0,"essex, ontario"
+1958,May,22,technology,fire,non-residential,12,1.0,,nan,0.0,"alexis creek, british columbia"
+1910,Dec,9,technology,explosion,non-residential,31,SIN,,nan,0.0,"bellevue, alberta"
+1925,Feb,28,natural,geological,earthquake,6,SIN,,nan,0.0,"charlevoix-kamouraska, quebec"
+1918,Feb,14,technology,fire,residential,53,SIN,,nan,0.0,"montreal, quebec"
+1943,Apr,21,technology,transportation accident,marine,17,1.0,,nan,0.0,"western bank, nova scotia"
+1903,Jun,5,natural,meteorological - hydrological,fire,SIN,SIN,,nan,0.0,"hopewell cape, new brunswick"
+1908,Jun,6,natural,meteorological - hydrological,flood,SIN,SIN,,nan,0.0,"old man river, alberta"
+1953,Jun,10,natural,meteorological - hydrological,flood,0,SIN,,nan,0.0,"lethbridge, alberta"
+1972,Aug,4,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,across canada
+1978,Jun,27,natural,meteorological - hydrological,air,0,36.0,,nan,0.0,"masson-anger, quebec"
+1969,Oct,25,technology,explosion,non-residential,1,22.0,,nan,0.0,"malton, ontario"
+1966,Dec,21,technology,transportation accident,vehicle,8,16.0,,nan,0.0,"windsor, ontario"
+1913,Jun,25,technology,transportation accident,rail,8,50.0,,nan,0.0,"ottawa, ontario"
+2001,Apr,27,technology,transportation accident,vehicle,4,37.0,,nan,0.0,"sussex, new brunswick"
+1910,Apr,29,technology,fire,non-residential,10,SIN,,nan,0.0,"cornwall, ontario"
+1936,May,29,natural,meteorological - hydrological,flood,SIN,SIN,,nan,0.0,"skeena river, british columbia"
+1996,Sep,15,natural,meteorological - hydrological,storm,0,SIN,,nan,0.0,atlantic canada
+1905,Dec,4,technology,transportation accident,marine,11,SIN,,nan,0.0,"iles-de-la-madeleine, quebec"
+1941,Feb,6,technology,transportation accident,air,12,0.0,,nan,0.0,"armstrong, ontario"
+1952,Jan,19,technology,transportation accident,air,43,7.0,,nan,0.0,"sandspit, british columbia"
+1900,May,4,technology,fire,non-residential,1,SIN,,nan,0.0,"sandon, british columbia"
+1909,Oct,25,technology,transportation accident,marine,34,SIN,,nan,0.0,"grand manan, new brunswick"
+1930,Sep,9,technology,fire,non-residential,0,SIN,,nan,0.0,"hebertville-station, quebec"
+1940,Mar,24,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,across canada
+1917,Aug,8,technology,transportation accident,marine,12,2.0,,nan,0.0,"simcoe island, ontario"
+1944,May,7,technology,transportation accident,marine,125,SIN,,nan,0.0,"grand banks, newfoundland"
+1910,May,8,technology,explosion,non-residential,11,37.0,,nan,0.0,"hull, quebec"
+1904,Apr,1,natural,meteorological - hydrological,flood,SIN,SIN,,nan,0.0,"lumsden, saskatchewan"
+1922,Nov,25,technology,fire,non-residential,10,18.0,,nan,0.0,"winnipeg, manitoba"
+1944,Sep,5,natural,geological,earthquake,0,1.0,,nan,5.8,"cornwall, on, massena, ny"
+1946,Dec,8,technology,fire,residential,11,18.0,,nan,0.0,"saskatoon, saskatchewan"
+1944,May,24,conflict,fire,non-residential,10,47.0,,nan,0.0,"hamilton, ontario"
+1908,Jun,22,technology,fire,non-residential,0,SIN,,nan,0.0,"trois-rivieres, quebec"
+2001,Apr,12,technology,transportation accident,rail,0,22.0,,nan,0.0,"stewiacke, nova scotia"
+1903,Oct,31,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,across canada
+1922,Apr,19,technology,transportation accident,marine,21,0.0,,nan,0.0,"caribou island, ontario"
+1944,Apr,25,technology,transportation accident,air,15,SIN,,nan,0.0,"montreal, quebec"
+1947,Apr,28,technology,transportation accident,air,15,0.0,,nan,0.0,"vancouver, british columbia"
+1974,Apr,7,conflict,civil incident,disturbance / demonstrations,0,56.0,,nan,0.0,"toronto, ontario"
+1907,Aug,10,technology,explosion,non-residential,2,SIN,,nan,0.0,"essex, ontario"
+1919,Aug,10,technology,fire,non-residential,7,SIN,,nan,0.0,"montreal, quebec"
+1906,Aug,10,technology,fire,residential,SIN,SIN,,nan,0.0,"hull, quebec"
+2012,Aug,12,natural,meteorological - hydrological,storm,0,SIN,,nan,0.0,"calgary, alberta"
+1961,Aug,20,conflict,fire,residential,0,SIN,,nan,0.0,"ootchenia, british columbia"
+1909,Sep,25,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,across canada
+1911,Aug,21,technology,transportation accident,marine,10,SIN,,nan,0.0,"key harbour, ontario"
+2005,Aug,2,technology,transportation accident,air,0,33.0,,nan,0.0,"toronto, ontario"
+1935,Jan,19,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,"lower mainland and vancouver island, british columbia"
+1926,Aug,7,technology,transportation accident,marine,49,0.0,,nan,0.0,"off sable island, nova scotia"
+1932,Jun,17,technology,explosion,non-residential,30,35.0,,nan,0.0,"montreal, quebec"
+1916,Aug,9,technology,explosion,non-residential,13,SIN,,nan,0.0,"michel, british columbia"
+1934,Dec,25,technology,transportation accident,rail,15,45.0,,nan,0.0,"hamilton, ontario"
+1902,Dec,25,natural,meteorological - hydrological,avalanche,9,SIN,,nan,0.0,"mollie gibson mine, kokanee lake, british columbia"
+1947,Dec,10,technology,transportation accident,air,23,SIN,,nan,0.0,"goose bay, labrador"
+1916,Dec,11,technology,explosion,non-residential,24,SIN,,nan,0.0,"peterborough, ontario"
+1975,Dec,12,technology,transportation accident,vehicle,10,20.0,,nan,0.0,"toronto, ontario"
+1927,Dec,14,technology,fire,residential,37,SIN,,nan,0.0,"quebec city, quebec"
+1942,Dec,20,technology,transportation accident,air,13,0.0,,nan,0.0,"mount cheam, british columbia"
+1902,Dec,25,technology,transportation accident,marine,21,SIN,,nan,0.0,"canso, nova scotia"
+1957,Dec,26,technology,fire,non-residential,0,SIN,,nan,0.0,"springhill, nova scotia"
+1986,Dec,30,technology,transportation accident,vehicle,4,19.0,,nan,0.0,"swift current, saskatchewan"
+1989,Dec,6,conflict,terrorist,shootings,14,14.0,,nan,0.0,"montreal, quebec"
+2008,Dec,28,natural,meteorological - hydrological,avalanche,8,SIN,,nan,0.0,"harvey pass, british columbia"
+1943,Feb,11,natural,meteorological - hydrological,avalanche,3,11.0,,nan,0.0,"mclean point, british columbia"
+1969,Feb,13,conflict,terrorist,bomb attacks,0,27.0,,nan,0.0,"montreal, quebec"
+1904,Feb,9,technology,transportation accident,rail,13,19.0,,nan,0.0,"sand point, ontario"
+1900,Jan,10,technology,fire,non-residential,SIN,SIN,,nan,0.0,"dawson city, yukon"
+2008,Jan,12,technology,transportation accident,vehicle,8,4.0,,nan,0.0,"bathurst, new brunswick"
+1977,Jan,14,technology,transportation accident,air,12,0.0,,nan,0.0,"terrace, british columbia"
+1903,Jan,14,technology,explosion,non-residential,12,SIN,,nan,0.0,"departure bay, british columbia"
+2004,Jan,17,technology,transportation accident,air,10,0.0,,nan,0.0,"off pelee island, ontario"
+1974,Jan,18,technology,fire,residential,9,25.0,,nan,0.0,"winnipeg, manitoba"
+1938,Jan,18,technology,fire,residential,45,21.0,,nan,0.0,"saint-hyacinthe, quebec"
+1901,Jan,23,technology,fire,non-residential,SIN,SIN,,nan,0.0,"montreal, quebec"
+2000,Jan,30,technology,transportation accident,rail,0,43.0,,nan,0.0,"miramichi, new brunswick"
+1904,Jan,8,technology,transportation accident,marine,56,SIN,,nan,0.0,salish sea
+2004,Jul,14,natural,meteorological - hydrological,flood,0,0.0,,nan,0.0,"peterborough, ontario"
+1903,Jul,15,technology,explosion,non-residential,15,8.0,,nan,0.0,"cumberland, british columbia"
+1993,Jul,16,technology,transportation accident,vehicle,19,2.0,,nan,0.0,"la tuque, quebec"
+1907,Jul,16,technology,explosion,non-residential,7,40.0,,nan,0.0,"london, ontario"
+1949,Aug,21,technology,transportation accident,air,21,0.0,,nan,0.0,northern manitoba
+1907,Jul,23,technology,fire,non-residential,0,0.0,,nan,0.0,"victoria, british columbia"
+1948,Jul,24,technology,transportation accident,air,26,0.0,,nan,0.0,"cap-des-rosier, quebec"
+1909,Jul,2,technology,fire,non-residential,2,6.0,,nan,0.0,"cobalt, ontario"
+2003,Jul,30,natural,meteorological - hydrological,fire,0,SIN,,nan,0.0,"mclure, british columbia"
+1978,Jun,11,technology,transportation accident,marine,13,SIN,,nan,0.0,lake timiskaming
+1910,Jun,13,technology,fire,non-residential,32,50.0,,nan,0.0,"montreal, quebec"
+1969,Jun,13,natural,meteorological - hydrological,fire,0,0.0,,nan,0.0,"faro, yukon"
+1951,Jun,15,technology,fire,residential,35,SIN,,nan,0.0,"montreal, quebec"
+2014,Jun,17,natural,meteorological - hydrological,air,0,3.0,,nan,0.0,"angus, ontario"
+1974,Jun,1,technology,transportation accident,vehicle,14,SIN,,nan,0.0,"les eboulements, quebec"
+1908,Jun,20,technology,fire,non-residential,0,1.0,,nan,0.0,"burk's falls, ontario"
+1957,Jun,23,technology,transportation accident,air,14,SIN,,nan,0.0,"port hardy, british columbia"
+1937,Jun,25,technology,explosion,non-residential,4,97.0,,nan,0.0,"montreal, quebec"
+1950,Jun,2,natural,meteorological - hydrological,fire,0,SIN,,nan,0.0,"chinchaga river, alberta"
+1903,Jun,3,technology,fire,residential,SIN,SIN,,nan,0.0,"hull, quebec"
+1948,Jun,4,technology,fire,non-residential,SIN,SIN,,nan,0.0,"saint-victor, quebec"
+1931,Jun,8,technology,fire,non-residential,0,SIN,,nan,0.0,"saint-victor, quebec"
+1954,Jun,8,technology,fire,non-residential,0,0.0,,nan,0.0,"winnipeg, manitoba"
+1979,Jun,9,technology,transportation accident,vehicle,11,20.0,,nan,0.0,"sainte-rosalie, quebec"
+1977,Sep,3,technology,transportation accident,vehicle,10,SIN,,nan,0.0,"lantzville, british columbia"
+2009,Mar,12,technology,transportation accident,air,17,1.0,,nan,0.0,off coast of newfoundland
+2000,Mar,16,technology,transportation accident,vehicle,8,SIN,,nan,0.0,"st-jean-baptiste-de-nicolet, quebec"
+1912,Mar,16,technology,transportation accident,marine,10,0.0,,nan,0.0,"gull rock, nova scotia"
+1941,Mar,18,technology,explosion,non-residential,5,60.0,,nan,0.0,"montreal, quebec"
+1953,Mar,18,technology,transportation accident,air,23,0.0,,nan,0.0,"random island, newfoundland"
+2013,Mar,21,natural,meteorological - hydrological,storm,3,100.0,,nan,0.0,"edmonton, alberta"
+2006,Jul,17,natural,meteorological - hydrological,storm,2,SIN,,nan,0.0,northern and central ontario
+1911,Mar,24,technology,transportation accident,marine,20,0.0,,nan,0.0,"sooke, british columbia"
+1912,Mar,9,conflict,fire,non-residential,7,13.0,,nan,0.0,"winnipeg, manitoba"
+1943,May,15,technology,fire,non-residential,0,SIN,,nan,0.0,"hebertville-station, quebec"
+2000,May,18,conflict,terrorist,chemical,0,27.0,,nan,0.0,quebec city. quebec
+1919,May,19,natural,meteorological - hydrological,fire,11,12.0,,nan,0.0,"lac la biche, alberta"
+1903,May,20,technology,fire,non-residential,0,SIN,,nan,0.0,"saint-hyacinthe, quebec"
+2003,May,20,natural,biological,infestation/epidemic/pandemic,0,0.0,,nan,0.0,alberta
+2007,Apr,13,technology,transportation accident,marine,0,0.0,,nan,0.0,northeastern newfoundland
+1977,May,23,technology,fire,non-residential,0,SIN,,nan,0.0,"cobalt, ontario"
+1908,May,28,natural,meteorological - hydrological,flood,5,SIN,,nan,0.0,"port arthur, ontario"
+1903,May,5,technology,transportation accident,marine,15,0.0,,nan,0.0,"thrum cape, nova scotia"
+1915,May,7,technology,transportation accident,marine,SIN,SIN,,nan,0.0,off coast of ireland
+1950,Nov,11,technology,explosion,non-residential,10,16.0,,nan,0.0,"leduc, alberta"
+1972,Nov,14,natural,meteorological - hydrological,storm surge,0,SIN,,nan,0.0,great lakes
+2006,Nov,15,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,"vancouver, british columbia"
+1997,Nov,19,technology,transportation accident,rail,0,56.0,,nan,0.0,"toronto, ontario"
+2008,Nov,19,natural,meteorological - hydrological,storm,0,0.0,,nan,0.0,"cobequid pass, nova scotia"
+1994,Nov,20,technology,transportation accident,rail,0,46.0,,nan,0.0,"brighton, ontario"
+1902,Nov,23,technology,transportation accident,marine,18,0.0,,nan,0.0,"port burwell, ontario"
+2011,Nov,27,natural,meteorological - hydrological,storm,0,SIN,,nan,0.0,"calgary, alberta"
+1900,Oct,10,technology,transportation accident,marine,24,SIN,,nan,0.0,bay of fundy
+1951,Oct,19,technology,transportation accident,air,23,0.0,,nan,0.0,"mount benson, british columbia"
+1916,Oct,20,technology,transportation accident,marine,54,0.0,,nan,0.0,lake erie
+1910,Oct,23,technology,transportation accident,marine,19,0.0,,nan,0.0,"shoal bay, newfoundland"
+2010,Jul,3,natural,meteorological - hydrological,head event/drought,280,SIN,,nan,0.0,ontario and quebec
+1941,Oct,31,technology,explosion,non-residential,29,SIN,,nan,0.0,"rocky mountain house, alberta"
+1942,Oct,3,technology,transportation accident,air,11,26.0,,nan,0.0,"botwood, newfoundland"
+1966,Oct,7,technology,transportation accident,vehicle,20,23.0,,nan,0.0,"vaudreuil-dorion, quebec"
+1989,Oct,8,technology,transportation accident,vehicle,13,45.0,,nan,0.0,"cormier village, new brunswick"
+1918,Sep,10,technology,explosion,non-residential,16,0.0,,nan,0.0,"nanaimo, british columbia"
+1946,Sep,18,technology,transportation accident,air,27,SIN,,nan,0.0,"gander, newfoundland"
+2013,Sep,18,technology,transportation accident,vehicle,9,34.0,,nan,0.0,"ottawa, ontario"
+1942,Sep,21,technology,transportation accident,marine,25,SIN,,nan,0.0,"beausoleil island, ontario"
+1904,Sep,23,technology,fire,non-residential,SIN,SIN,,nan,0.0,"dawson city, yukon"
+1978,Sep,2,technology,transportation accident,air,11,SIN,,nan,0.0,"vancouver, british columbia"
+1997,Sep,3,technology,transportation accident,rail,1,78.0,,nan,0.0,"biggar, saskatchewan"
+1935,Dec,9,technology,explosion,non-residential,16,3.0,,nan,0.0,"coalhurst, alberta"
+1907,Feb,26,technology,fire,non-residential,17,SIN,,nan,0.0,"montreal, quebec"
+1901,Aug,15,technology,transportation accident,marine,40,SIN,,nan,0.0,"douglas island, alaska"
+1956,May,15,technology,transportation accident,air,15,SIN,,nan,0.0,"orleans, ontario"
+1942,Oct,14,technology,transportation accident,marine,136,SIN,,nan,0.0,cabot strait
+1910,Oct,26,technology,fire,non-residential,SIN,SIN,,nan,0.0,"victoria, british columbia"
+1941,Oct,30,technology,transportation accident,air,20,0.0,,nan,0.0,"lawrence station, ontario"
+1928,Sep,18,technology,transportation accident,marine,16,SIN,,nan,0.0,georgian bay
+1927,Sep,19,technology,fire,residential,20,SIN,,nan,0.0,"beauval, saskatchewan"
+1975,Apr,27,natural,geological,tsunami,0,0.0,,nan,0.0,"kitimat, british columbia"
+1909,Dec,7,technology,transportation accident,marine,31,0.0,,nan,0.0,lake erie
+1953,Jul,31,technology,transportation accident,vehicle,20,SIN,,nan,0.0,"morrisburg, ontario"
+1946,Jun,23,natural,geological,earthquake,2,SIN,,nan,0.0,vancouver island
+1900,Sep,12,technology,fire,non-residential,0,SIN,,nan,0.0,"paris, ontario"
+1907,Sep,3,technology,transportation accident,rail,7,114.0,,nan,0.0,"caledon, ontario"
+1922,Aug,15,technology,fire,residential,12,SIN,,nan,0.0,"prevost, quebec"
+1902,Dec,27,technology,transportation accident,rail,31,35.0,,nan,0.0,"wanstead, ontario"
+1916,Dec,30,technology,fire,residential,46,SIN,,nan,0.0,"saint-ferdinand, qc"
+1954,Jan,30,technology,transportation accident,vehicle,14,8.0,,nan,0.0,"yamachiche, quebec"
+1904,Oct,11,technology,fire,non-residential,0,SIN,,nan,0.0,"winnipeg, manitoba"
+2014,Aug,7,natural,meteorological - hydrological,storm,0,6.0,,nan,0.0,central alberta
+2005,Jan,1,natural,biological,infestation/epidemic/pandemic,0,0.0,,nan,0.0,british columbia
+1916,Feb,1,natural,meteorological - hydrological,storm,SIN,SIN,,nan,0.0,"victoria, british columbia"
+2012,Feb,6,technology,transportation accident,vehicle,11,3.0,,nan,0.0,"hampstead, ontario"
+1900,Sep,11,natural,meteorological - hydrological,storm,54,SIN,,nan,0.0,eastern canada
+1918,Feb,24,technology,transportation accident,marine,94,SIN,,nan,0.0,"off cappahayden, newfoundland"
+1902,Nov,21,technology,transportation accident,marine,21,0.0,,nan,0.0,lake superior
+1905,May,23,technology,fire,non-residential,0,0.0,,nan,0.0,"whitehorse, yukon"
+1960,Nov,29,technology,transportation accident,vehicle,17,25.0,,nan,0.0,"lamont, alberta"
+1912,Apr,14,technology,transportation accident,marine,20,SIN,,nan,0.0,newfoundland ridge
+1922,Dec,1,technology,transportation accident,marine,11,0.0,,nan,SIN,"portage lake canal, lake superior"
+2020,Sep,8,natural,meteorological - hydrological,fire,SIN,0.0,,nan,SIN,british columbia
+1942,Jul,1,natural,biological,infestation/epidemic/pandemic,17,162.0,,nan,SIN,nova scotia
+1950,Jan,4,natural,biological,infestation/epidemic/pandemic,2,55.0,,nan,SIN,"saint-augustin, quebec"
+1927,Nov,1,natural,biological,infestation/epidemic/pandemic,0,200.0,,nan,SIN,"saint-leonard, new brunswick"
+1941,Jun,17,natural,biological,infestation/epidemic/pandemic,18,948.0,,nan,SIN,manitoba
+1937,Jun,1,natural,biological,infestation/epidemic/pandemic,200,3905.0,,nan,SIN,canada
+1941,Jul,1,natural,biological,infestation/epidemic/pandemic,19,408.0,,nan,SIN,new brunswick
+1930,Jul,1,natural,biological,infestation/epidemic/pandemic,61,671.0,,nan,SIN,ontario
+1927,Sep,1,natural,biological,infestation/epidemic/pandemic,37,182.0,,nan,SIN,interior british columbia
+1931,Oct,1,natural,biological,infestation/epidemic/pandemic,20,200.0,,nan,SIN,"ste-scholastique, quebec"
+1923,Nov,1,natural,biological,infestation/epidemic/pandemic,4,115.0,,nan,SIN,"saint-jerome, quebec"
+1948,Jul,8,natural,biological,infestation/epidemic/pandemic,16,60.0,,nan,SIN,"chesterfield inlet, nunavut"
+1934,Feb,1,natural,biological,infestation/epidemic/pandemic,0,1000.0,,nan,SIN,"montmagny, quebec"
+1929,Aug,1,natural,biological,infestation/epidemic/pandemic,9,200.0,,nan,SIN,"gatineau, quebec"
+1916,May,14,natural,biological,infestation/epidemic/pandemic,1,37.0,,nan,SIN,"windsor, ontario"
+1932,May,1,natural,biological,infestation/epidemic/pandemic,45,527.0,,nan,SIN,"st. maurice valley, quebec"
+1932,Jun,26,natural,biological,infestation/epidemic/pandemic,105,679.0,,nan,SIN,"quebec city, quebec"
+1928,Jun,24,natural,biological,infestation/epidemic/pandemic,37,435.0,,nan,SIN,"winnipeg, manitoba"
+1952,Jun,1,natural,biological,infestation/epidemic/pandemic,311,4755.0,,nan,SIN,canada
+1941,Jun,1,natural,biological,infestation/epidemic/pandemic,130,964.0,,nan,SIN,"manitoba, saskatchewan, alberta"
+1930,Jun,1,natural,biological,infestation/epidemic/pandemic,30,120.0,,nan,SIN,"calgary, alberta"
+1911,Jan,1,natural,biological,infestation/epidemic/pandemic,83,987.0,,nan,SIN,"ottawa, ontario"
+1929,Jun,29,natural,biological,infestation/epidemic/pandemic,26,532.0,,nan,SIN,ontario
+1920,Jun,12,natural,biological,infestation/epidemic/pandemic,0,115.0,,nan,SIN,"bathurst, new brunswick"
+1912,Jun,1,natural,biological,infestation/epidemic/pandemic,91,1378.0,,nan,SIN,"ottawa, ontario"
+1931,Jul,18,natural,biological,infestation/epidemic/pandemic,150,1078.0,,nan,SIN,"montreal, quebec"
+1924,Feb,2,natural,biological,infestation/epidemic/pandemic,32,35.0,,nan,SIN,"windsor, ontario"
+1923,Mar,19,natural,biological,infestation/epidemic/pandemic,59,823.0,,nan,SIN,"cochrane, ontario"
+1920,Mar,1,natural,biological,infestation/epidemic/pandemic,0,160.0,,nan,SIN,"terrebonne, quebec"
+1931,Jun,22,natural,biological,infestation/epidemic/pandemic,3,457.0,,nan,SIN,"st. catharines, ontario"
+1936,Jun,15,natural,biological,infestation/epidemic/pandemic,33,506.0,,nan,SIN,manitoba
+1946,Jul,1,natural,biological,infestation/epidemic/pandemic,115,1612.0,,nan,SIN,quebec
+1946,Jul,1,natural,biological,infestation/epidemic/pandemic,11,80.0,,nan,SIN,prince edward island
+1927,Jul,1,natural,biological,infestation/epidemic/pandemic,7,109.0,,nan,SIN,"chatham, ontario"
+1927,Jul,1,natural,biological,infestation/epidemic/pandemic,53,354.0,,nan,SIN,"edmonton, alberta"
+1935,Feb,1,natural,biological,infestation/epidemic/pandemic,40,2000.0,,nan,SIN,"saint-jerome-de-matane, quebec"
+1926,Nov,23,technology,explosion,non-residential,11,0.0,,nan,SIN,"coleman, alberta"
+1974,Jul,30,technology,explosion,non-residential,6,54.0,,nan,SIN,"valcartier, quebec"
+1928,Feb,10,technology,explosion,non-residential,39,0.0,,nan,SIN,"timmins, ontario"
+1906,Nov,15,natural,meteorological - hydrological,cold event,SIN,0.0,,nan,SIN,southern alberta
+1950,May,9,technology,fire,non-residential,0,0.0,,nan,SIN,"cabano, quebec"
+1933,Aug,7,technology,fire,non-residential,0,0.0,,nan,SIN,"cornwall, ontario"
+1906,Nov,27,technology,fire,non-residential,SIN,0.0,,nan,SIN,"fort steele, british columbia"
+1911,Jul,25,technology,fire,non-residential,SIN,0.0,,nan,SIN,"grand forks, british columbia"
+1917,Aug,28,technology,fire,non-residential,SIN,0.0,,nan,SIN,"bellevue, alberta"
+1949,Apr,24,technology,fire,non-residential,0,0.0,,nan,SIN,"black diamond, alberta"
+1924,Feb,9,technology,fire,non-residential,0,0.0,,nan,SIN,"nanton, alberta"
+1902,Aug,25,technology,fire,non-residential,0,1.0,,nan,SIN,"rossland, british columbia"
+1905,May,12,technology,fire,non-residential,SIN,0.0,,nan,SIN,"coleman, alberta"
+1929,Mar,1,technology,fire,non-residential,0,0.0,,nan,SIN,"rossland, british columbia"
+1916,Jul,21,technology,fire,non-residential,0,0.0,,nan,SIN,"courtenay, british columbia"
+1908,Jul,10,technology,fire,non-residential,1,0.0,,nan,SIN,"grand forks, british columbia"
+1925,Dec,11,technology,fire,non-residential,0,0.0,,nan,SIN,"elko, british columbia"
+1904,Apr,29,technology,fire,non-residential,SIN,0.0,,nan,SIN,"fernie, british columbia"
+1901,Jun,10,technology,fire,residential,SIN,0.0,,nan,SIN,"michel, british columbia"
+2014,May,7,natural,meteorological - hydrological,flood,0,0.0,,nan,SIN,"james bay, ontario"
+1932,Jun,1,natural,meteorological - hydrological,flood,SIN,0.0,,nan,SIN,"calgary, alberta"
+2018,Apr,25,natural,meteorological - hydrological,flood,0,0.0,,nan,SIN,"kashechewan, ontario"
+2017,May,16,natural,meteorological - hydrological,flood,0,0.0,,nan,SIN,"mud lake, newfoundland and labrador"
+2018,May,1,natural,meteorological - hydrological,flood,0,0.0,,nan,SIN,"regional district of kootenay boundary, british columbia"
+2020,Apr,23,natural,meteorological - hydrological,flood,0,0.0,,nan,SIN,"fort vermilion, alberta"
+2020,Apr,26,natural,meteorological - hydrological,flood,1,1.0,,nan,SIN,regional municipality of wood buffalo
+2017,Apr,16,natural,meteorological - hydrological,flood,0,0.0,,nan,SIN,"kashechewan, ontario"
+1948,May,22,natural,meteorological - hydrological,flood,SIN,0.0,,nan,SIN,"kimberley, british columbia"
+1948,May,24,natural,meteorological - hydrological,flood,SIN,0.0,,nan,SIN,"fernie, british columbia"
+1916,Mar,20,natural,meteorological - hydrological,flood,SIN,0.0,,nan,SIN,"fernie, british columbia"
+1923,May,30,natural,meteorological - hydrological,flood,1,0.0,,nan,SIN,"coleman, alberta"
+1942,May,9,natural,meteorological - hydrological,flood,SIN,0.0,,nan,SIN,"coleman, alberta"
+1970,Sep,7,technology,hazardous chemicals,marine release,0,0.0,,nan,SIN,gulf of st. lawrence
+2019,Sep,7,natural,meteorological - hydrological,storm,0,0.0,,nan,SIN,atlantic canada
+1927,Nov,3,natural,meteorological - hydrological,storm,5,0.0,,nan,SIN,"eastern townships, quebec"
+1980,Mar,23,technology,transportation accident,marine,0,0.0,,nan,SIN,cabot strait
+1907,Sep,7,conflict,civil incident,disturbance / demonstrations,0,0.0,,nan,SIN,"vancouver, british columbia"
+2020,Jan,30,natural,meteorological - hydrological,storm,0,0.0,,nan,SIN,southern bc and vancouver island
+1974,Oct,20,natural,meteorological - hydrological,storm,0,5.0,,nan,SIN,"cape breton, nova scotia"
+1955,Nov,1,natural,meteorological - hydrological,storm,SIN,SIN,,nan,SIN,"vancouver, british columbia"
+2017,Oct,28,natural,meteorological - hydrological,storm,0,0.0,,nan,SIN,"ottawa, ontario"
+2017,Mar,8,natural,meteorological - hydrological,storm,SIN,0.0,,nan,SIN,southwestern ontario
+2017,Apr,4,natural,meteorological - hydrological,storm,0,0.0,,nan,SIN,"sainte-therese, quebec"
+2019,Oct,31,natural,meteorological - hydrological,storm,0,0.0,,nan,SIN,eastern canada
+2020,Nov,15,natural,meteorological - hydrological,storm,0,0.0,,nan,SIN,"ontario, quebec"
+1913,Mar,13,natural,meteorological - hydrological,storm,7,0.0,,nan,SIN,ontario
+2011,Apr,27,natural,meteorological - hydrological,storm,2,0.0,,nan,SIN,southern ontario and southern quebec
+2012,Aug,14,natural,meteorological - hydrological,storm,0,0.0,,nan,SIN,"calgary, alberta"
+2012,Jul,26,natural,meteorological - hydrological,storm,0,0.0,,nan,SIN,southern alberta
+2012,Jul,22,natural,meteorological - hydrological,storm,0,0.0,,nan,SIN,southern ontario and southern quebec
+2010,Aug,22,natural,meteorological - hydrological,storm,0,0.0,,nan,SIN,"calgary, alberta"
+2020,Jun,13,natural,meteorological - hydrological,storm,0,0.0,,nan,SIN,"calgary, alberta"
+2020,Jul,24,natural,meteorological - hydrological,storm,0,0.0,,nan,SIN,"calgary, alberta"
+2013,Jul,19,natural,meteorological - hydrological,storm,1,10.0,,nan,SIN,southern ontario and southern quebec
+2019,Aug,2,natural,meteorological - hydrological,storm,0,0.0,,nan,SIN,"spruce grove, alberta"
+2020,Apr,18,conflict,terrorist,shootings,22,3.0,,nan,SIN,nova scotia
+1944,Aug,9,natural,meteorological - hydrological,air,4,44.0,,nan,SIN,"kamsack, saskatchewan"
+1902,Jul,17,natural,meteorological - hydrological,air,5,12.0,,nan,SIN,"chesterfield, ontario"
+1955,Jun,19,natural,meteorological - hydrological,air,0,30.0,,nan,SIN,"vita, manitoba"
+1978,Jun,19,natural,meteorological - hydrological,air,1,23.0,,nan,SIN,"morris, manitoba"
+2020,Jan,8,technology,transportation accident,air,85,0.0,,nan,SIN,"tehran, iran"
+1918,Dec,3,technology,transportation accident,marine,12,0.0,,nan,SIN,lake ontario
+1918,Nov,24,technology,transportation accident,marine,76,0.0,,nan,SIN,lake superior
+1924,May,25,technology,transportation accident,marine,8,2.0,,nan,SIN,"christina lake, british columbia"
+1920,Aug,20,technology,transportation accident,marine,29,4.0,,nan,SIN,"whitefish bay, lake superior"
+1999,Nov,9,technology,transportation accident,rail,1,17.0,,nan,SIN,"limehouse, ontario"
+1999,Sep,23,technology,transportation accident,rail,0,4.0,,nan,SIN,"key river, ontario"
+1986,Feb,15,technology,transportation accident,rail,0,97.0,,nan,SIN,"drummondville, quebec"
+1991,Sep,9,technology,transportation accident,rail,0,71.0,,nan,SIN,"north bay, ontario"
+2001,Feb,1,technology,transportation accident,rail,1,34.0,,nan,SIN,"red deer, alberta"
+2020,Jul,18,technology,transportation accident,vehicle,3,24.0,,nan,SIN,"columbia icefield, alberta"
+2017,Aug,30,natural,meteorological - hydrological,fire,0,0.0,,nan,SIN,"island lake area, manitoba"
+2019,May,30,natural,meteorological - hydrological,fire,0,0.0,,nan,SIN,pikangikum first nation
+2019,May,12,natural,meteorological - hydrological,fire,0,0.0,,nan,SIN,"high level, alberta"
+2018,May,21,natural,meteorological - hydrological,fire,0,0.0,,nan,SIN,"little grand rapids, manitoba"
+1931,Aug,17,natural,meteorological - hydrological,fire,0,0.0,,nan,SIN,"elko, british columbia"
+1910,Jul,1,natural,meteorological - hydrological,fire,5,0.0,,nan,SIN,"southern interior, british columbia"
+1979,Apr,4,natural,meteorological - hydrological,storm,13,0.0,,nan,SIN,southern ontario
+2019,Oct,9,natural,meteorological - hydrological,storm,SIN,0.0,,nan,SIN,southwestern manitoba
+1979,Feb,8,natural,meteorological - hydrological,storm,SIN,0.0,,nan,SIN,"iqaluit, nunavut"
+2004,Nov,13,natural,meteorological - hydrological,storm,0,0.0,,nan,SIN,nova scotia
+2020,Jan,17,natural,meteorological - hydrological,storm,2,0.0,,nan,SIN,"avalon peninsula and bell island, newfoundland"
+2020,Jan,10,natural,meteorological - hydrological,storm,0,0.0,,nan,SIN,southern ontairo and southern quebec
+1979,Apr,5,natural,meteorological - hydrological,storm,9,0.0,,nan,SIN,ontario
+2018,Apr,3,natural,meteorological - hydrological,storm,0,1.0,,nan,SIN,southern ontario and southern quebec
