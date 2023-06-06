@@ -304,7 +304,13 @@ imageT= "tormentas.jpg"
 
 st.image(imageT, caption="Tormentas. Tomado de: https://www.istockphoto.com/es/foto/tormenta-entrante-sobre-el-r%C3%ADo-bow-en-calgary-gm1327119477-411576407?phrase=tormentas%20en%20canada", width=None, use_column_width=150, clamp=False, channels="RGB", output_format="auto")
 
-#3
+
+
+
+
+
+
+#                  3
 st.markdown("<h2 style='text-align: center; color: #930000;'>Costo promedio de la normalización por tipo de desastre</h2>", unsafe_allow_html=True)
 
 
@@ -355,61 +361,51 @@ st.plotly_chart(figPP)
 ###
 st.markdown("<h6 style='text-align: center; color: #525252;'>Se tiene que el 8.97% del total de desastres están dados por incendios, lo cual es un número importante si se tiene en cuenta que dentro de la base hay 32 tipos de desastres en total, y que una distribución promedio sería de 3,1% para cada desastre.</h2>", unsafe_allow_html=True)
 
-#5
+
+
+
+
+
+#          5
 st.markdown("<h2 style='text-align: center; color: #930000;'>Cantidad de incendios por año</h2>", unsafe_allow_html=True)
 
-
-#Filtramos los registros que corresponden a incendios
 incendios = DESA[DESA['EVENT TYPE'] == 'fire']
-
-#calculamos la cantidad de incendios por año
 cantidad_incendios_por_año = incendios['YEAR'].value_counts().sort_index()
-
 data = pd.DataFrame({'Año': cantidad_incendios_por_año.index, 'Cantidad de Incendios': cantidad_incendios_por_año.values})
-
 data.plot( 'Año' , 'Cantidad de Incendios' )
 
-###
 st.markdown("<h6 style='text-align: center; color: #525252;'>Puede observarse en el gráfico, que la mayor cantidad de incendios se han venido presentando en los últimos 40 años, ya que entre los años 1900 y 1980 se presentaron solo 15 incendios, mientras que después de 1980 y hasta el 2020, se presentaron 115 incendios. Esto también se puede presentar cuando no existe información disponible o bien se empezó a tomar oficialmente después de un año en particular, cuando ya se tenía establecido todo el sistema para prevención de desastres.</h2>", unsafe_allow_html=True)
-            
-#6
+
+
+
+#         6
 st.markdown("<h2 style='text-align: center; color: #930000;'>Tasa de mortalidad de los incendios por año</h2>", unsafe_allow_html=True)
 
-# Convertimos las columnas a tipo numerico
 DESA['FATALITIES'] = pd.to_numeric(DESA['FATALITIES'], errors='coerce')
 DESA['YEAR'] = pd.to_numeric(DESA['YEAR'], errors='coerce')
-
-#Sacamos solo los que digan Fire y calculamos el total por año y cuales con muertos
 incendios = DESA[DESA['EVENT TYPE'] == 'fire']
 total_incendios = incendios.groupby('YEAR').size()
 incendios_muertos = incendios.groupby('YEAR')['FATALITIES'].count()
-
-#Ahora si calculamos la tasa de mortalidad y creamos el dataframe*1
 tasa_mortalidad = round(((incendios_muertos / total_incendios)*100),2)
 tasa_mortalidad_df = pd.DataFrame({'YEAR': tasa_mortalidad.index, 'tasa de Mortalidad (%)': tasa_mortalidad.values})
 figm = px.bar(tasa_mortalidad_df, x='YEAR', y='tasa de Mortalidad (%)', labels={'Año': 'Año', 'tasa_mortalidad_df': 'tasa de Mortalidad (%)'})
-
 st.plotly_chart(figm)
 
-###
 st.markdown("<h6 style='text-align: center; color: #525252;'>Se observa que la tasa de mortalidad en generales alta en los incendios ocurridos durante 1900 y 1998, sin embargo, para los 22 años siguientes,  la mortalidad en cada evento varió entre el 20% y el 100%.</h2>", unsafe_allow_html=True)
 
 
-#7
-st.markdown("<h2 style='text-align: center; color: #930000;'>Distribución de ocurrencia de incendios por día de la semana</h2>", unsafe_allow_html=True)
 
-import plotly.express as px
+
+#          7
+st.markdown("<h2 style='text-align: center; color: #930000;'>Distribución de ocurrencia de incendios por día de la semana</h2>", unsafe_allow_html=True)
 
 # Convertir las columnas 'YEAR', 'MONTH' y 'DAY' a tipo fecha para poder concatenar la fecha y sacar el dia de la semana específico
 DESA['YEAR'] = pd.to_datetime(DESA['YEAR'], format='%Y', errors='coerce')
 DESA['MONTH'] = pd.to_datetime(DESA['MONTH'], format='%m', errors='coerce')
 DESA['DAY'] = pd.to_datetime(DESA['DAY'], format='%d', errors='coerce')
-
-#Creamos la columna weekday para determinar el dia de la semana y filtramos por incendios
 DESA['WEEKDAY'] = DESA['DAY'].dt.day_name()
 incendios = DESA[DESA['EVENT TYPE'] == 'fire']
 ocurrencia_incendios = incendios['WEEKDAY'].value_counts()
-
 df_ocurrencia_incendios = pd.DataFrame({'Día de la semana': ocurrencia_incendios.index, 'Ocurrencia': ocurrencia_incendios.values})
 dias_semana_ordenados = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 df_ocurrencia_incendios['Día de la semana'] = pd.Categorical(df_ocurrencia_incendios['Día de la semana'], categories=dias_semana_ordenados, ordered=True)
