@@ -54,7 +54,7 @@ html_code = f"""
 st.markdown(html_code, unsafe_allow_html=True)
 
 # TITULO PRINCIPAL
-st.markdown("<h1 style='text-align: center; color: #990000; font-family: helvetica; margin-top: 20px;'>Eficacia de los sistemas de incendio en Canadá</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #990000; font-family: helvetica; margin-top: 20px;'>Eficacia de los sistemas de incendio 🔥 en Canadá 🍁</h1>", unsafe_allow_html=True)
 st.markdown("<h3 style='text-align: center; color: #666666; font-family: helvetica;'>Comparativo entre aspersores y alarmas de humo</h3>", unsafe_allow_html=True)
 
 #Abstract
