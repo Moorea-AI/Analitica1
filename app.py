@@ -86,12 +86,17 @@ c1.markdown("<h3 style='text-align: left; color: gray;'> Top inundaciones </h3>"
 filtro_inundaciones = DESA['EVENT TYPE'] == 'flood'
 datos_inundaciones = DESA[filtro_inundaciones]
 
+# Limpiar los datos eliminando los valores 'SIN'
+datos_limpios = datos_inundaciones[datos_inundaciones['FATALITIES'] != 'SIN']
+
+# Convertir la columna 'FATALITIES' a tipo numérico
+datos_limpios['FATALITIES'] = pd.to_numeric(datos_limpios['FATALITIES'])
+
 # Calcular el número total de muertes por inundaciones
-muertes_inundaciones = datos_inundaciones['FATALITIES'].sum()
+muertes_inundaciones = datos_limpios['FATALITIES'].sum()
 
 # Mostrar el resultado en Streamlit
 c1.text("Inundaciones: {}".format(muertes_inundaciones))
-
 
 
 
