@@ -171,9 +171,11 @@ pe3_perdidas_economicas = pe3_datos_limpios['ESTIMATED TOTAL COST'].sum()
 pe3_perdidas_formateadas = "${:,.2f}".format(pe3_perdidas_economicas)
 pe3.text("Total: {}".format(pe3_perdidas_formateadas))
 
+st.markdown("<h6 style='text-align: left; color: #525252; font-family: monospace;'>En este caso podemos observar las tormentas como las mayores generadoras de pérdidas, en segundo lugar las inundaciones y finalmente los incendios ya que las pérdidas ecológicas no tienen una escala económica cuantificable y solo se toman las pérdidas en incendios estructurales.</h6>", unsafe_allow_html=True)
+
 st.markdown("<hr>", unsafe_allow_html=True)
 
-st.markdown("<h6 style='text-align: left; color: #525252; font-family: monospace;'>En este caso podemos observar las tormentas como las mayores generadoras de pérdidas, en segundo lugar las inundaciones y finalmente los incendios ya que las pérdidas ecológicas no tienen una escala económica cuantificable y solo se toman las pérdidas en incendios estructurales.</h6>", unsafe_allow_html=True)
+
 
 
 
