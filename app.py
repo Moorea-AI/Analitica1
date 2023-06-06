@@ -128,16 +128,15 @@ pe1, pe2, pe3 = st.columns((1,1,1)) # Dividir el ancho en  columnas de igual tam
 #--------------- Top inundaciones
 pe1.markdown("<h3 style='text-align: left; color: gray;'> INUNDACIONES </h3>", unsafe_allow_html=True)
 
-locale.setlocale(locale.LC_ALL, 'en_CA.UTF-8')
-c1.markdown("<h3 style='text-align: left; color: gray;'> Top inundaciones </h3>", unsafe_allow_html=True)
 DESA['EVENT TYPE'] = DESA['EVENT TYPE'].str.strip()
 filtro_inundaciones = DESA['EVENT TYPE'] == 'flood'
 datos_inundaciones = DESA[filtro_inundaciones]
 datos_limpios = datos_inundaciones[datos_inundaciones['ESTIMATED TOTAL COST'] != 'SIN']
-datos_limpios['ESTIMATED TOTAL COST'] = pd.to_numeric(datos_limpios['ESTIMATED TOTAL COST'])
-perdidas_economicas = datos_limpios['ESTIMATED TOTAL COST'].sum()
-perdidas_formateadas = locale.currency(perdidas_economicas, grouping=True)
-pe1.text("Pérdidas económicas por inundaciones: {}".format(perdidas_formateadas))
+datos_limpios['ESTIMATED TOTAL COST'] = datos_limpios['ESTIMATED TOTAL COST'].str.replace(',', '').astype(float)
+perdidas_inundaciones = datos_limpios['ESTIMATED TOTAL COST'].sum()
+perdidas_formateadas = f"${perdidas_inundaciones:,.2f}"
+pe1.text("Pérdidas económicas por inundaciones:", perdidas_formateadas)
+
 
 
 #--------------- Top inundaciones
