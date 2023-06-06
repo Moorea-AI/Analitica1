@@ -234,28 +234,25 @@ st.markdown("<hr>", unsafe_allow_html=True)
 #EVOLUCIÓN EN EL TIEMPO DE LAS MUERTES
 st.markdown("<h2 style='text-align: center; color: #930000;'>Evolución en el tiempo de los desastres que más produjeron fatalidades</h2>", unsafe_allow_html=True)
  
-# Filtrar los datos excluyendo los valores "SIN" en FATALITIES y EVENT TYPE
-muertes_por_anio = datos_filtrados[~datos_filtrados['FATALITIES'].isin(['SIN']) & ~datos_filtrados['EVENT TYPE'].isin(['SIN'])]
-muertes_por_anio = muertes_por_anio.groupby(['YEAR', 'EVENT TYPE'])['FATALITIES'].sum().reset_index()
+# Filtrar los datos por los tipos de eventos deseados
+eventos = ['storm', 'fire', 'flood']
+datos_filtrados = DESA[DESA['EVENT TYPE'].isin(eventos)]
 
-fig = px.line(muertes_por_anio, x='YEAR', y='FATALITIES', color='EVENT TYPE', width=1000, height=450, title="Evolución de muertes causadas por tipo de evento")
-# Editar gráfica
-fig.update_layout(
-    title_x=0.5,
-    paper_bgcolor='rgba(0,0,0,0)',
-    plot_bgcolor='rgba(0,0,0,0)',
-    template='simple_white',
-    xaxis_title="<b>Año<b>",
-    yaxis_title='<b>Cantidad de incidentes<b>',
-    legend_title_text='',
-    legend=dict(
-        orientation="v",
-        yanchor="bottom",
-        y=1.02,
-        xanchor="right",
-        x=1.5)
-)
+# Convertir la columna 'FATALITIES' a valores numéricos
+datos_filtrados['FATALITIES'] = pd.to_numeric(datos_filtrados['FATALITIES'], errors='coerce')
 
+# Eliminar filas con valores no numéricos en 'FATALITIES'
+datos_filtrados = datos_filtrados.dropna(subset=['FATALITIES'])
+
+# Agrupar por año y tipo de evento y sumar las muertes
+muertes_por_anio_evento = datos_filtrados.groupby(['YEAR', 'EVENT TYPE'])['FATALITIES'].sum().reset_index()
+
+# Crear el gráfico de líneas
+fig = px.line(muertes_por_anio_evento, x='YEAR', y='FATALITIES', color='EVENT TYPE',
+              title='Muertes por año según el tipo de evento')
+fig.update_layout(xaxis_title='Año', yaxis_title='Cantidad de muertes')
+
+# Mostrar el gráfico en Streamlit
 st.plotly_chart(fig)
 
 st.markdown("<h6 style='text-align: left; color: #525252; font-family: monospace;'>Como podemos ver, la tasa de mortalidad la encabezan las tormentas con 1.725 muertes. Este tipo de tormentas incluyen las tormentas de nieve que son comunes en Canadá y se agravan por ser el segundo país más frío del mundo. En segundo lugar están los incendios, que incluyen los estructurales (o de construcciones humanas) y los forestales con  388 muertes y finalmente las inundaciones.</h6>", unsafe_allow_html=True)
