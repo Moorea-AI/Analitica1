@@ -3,7 +3,7 @@ plotly
 streamlit
 datetime
 openpyxl
-Pydeck
+pydeck
 numpy
 matplotlib
 geopy
