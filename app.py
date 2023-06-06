@@ -79,7 +79,7 @@ st.markdown("<hr>", unsafe_allow_html=True)
 #----------------------------------------
 c1, c2, c3 = st.columns((1,1,1)) # Dividir el ancho en  columnas de igual tamaño
 
-#--------------- Top inundaciones
+
 #--------------- Top inundaciones
 c1.markdown("<h3 style='text-align: left; color: gray;'> Top inundaciones </h3>", unsafe_allow_html=True)
 
@@ -101,8 +101,6 @@ muertes_inundaciones = datos_limpios['FATALITIES'].sum()
 
 # Mostrar el resultado en Streamlit
 c1.text("Inundaciones: {}".format(muertes_inundaciones))
-
-
 
 
 #--------------- Top inundaciones
@@ -135,12 +133,11 @@ muertes_incendios = datos_limpios_incendios['FATALITIES'].sum()
 
 c3.text("Incendios: {}".format(muertes_incendios))
 
-
-
-
-
-
 st.markdown("<hr>", unsafe_allow_html=True)
+
+
+
+
 
 
 # AGREGAMOS UNA IMAGEN
