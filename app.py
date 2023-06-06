@@ -128,14 +128,23 @@ pe1, pe2, pe3 = st.columns((1,1,1)) # Dividir el ancho en  columnas de igual tam
 #--------------- Top inundaciones
 pe1.markdown("<h3 style='text-align: left; color: gray;'> INUNDACIONES </h3>", unsafe_allow_html=True)
 
+
 DESA['EVENT TYPE'] = DESA['EVENT TYPE'].str.strip()
 pe1filtro_inundaciones = DESA['EVENT TYPE'] == 'flood'
 pe1datos_inundaciones = DESA[pe1filtro_inundaciones]
+
+# Limpiar los datos eliminando los valores 'SIN'
 pe1datos_limpios = pe1datos_inundaciones[pe1datos_inundaciones['ESTIMATED TOTAL COST'] != 'SIN']
-pe1datos_limpios['ESTIMATED TOTAL COST'] = pd.to_numeric(pe1datos_limpios['ESTIMATED TOTAL COST'], errors='coerce')
-pe1perdidas_inundaciones = pe1datos_limpios['ESTIMATED TOTAL COST'].sum()
-pe1perdidas_formateadas = f"${pe1perdidas_inundaciones:,.2f}"
-pe1.text("Pérdidas económicas por inundaciones:", pe1perdidas_formateadas)
+
+# Convertir la columna 'ESTIMATED TOTAL COST' a tipo numérico
+pe1datos_limpios['ESTIMATED TOTAL COST'] = pd.to_numeric(pe1datos_limpios['ESTIMATED TOTAL COST'])
+
+# Calcular el total de pérdidas económicas por inundaciones
+pe1perdidas_economicas = pe1datos_limpios['ESTIMATED TOTAL COST'].sum()
+
+# Mostrar el resultado en Streamlit
+pe1.text("Pérdidas económicas por inundaciones: {}".format(pe1perdidas_economicas))
+
 
 
 
