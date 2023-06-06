@@ -117,6 +117,7 @@ c3.text("Total: {}".format(muertes_incendios))
 
 
 
+st.markdown("<h6 style='text-align: left; color: #525252; font-family: monospace;'>Como podemos ver, la tasa de mortalidad la encabezan las tormentas con 1.725 muertes. Este tipo de tormentas incluyen las tormentas de nieve que son comunes en Canadá y se agravan por ser el segundo país más frío del mundo. En segundo lugar están los incendios, que incluyen los estructurales (o de construcciones humanas) y los forestales con  388 muertes y finalmente las inundaciones.</h6>", unsafe_allow_html=True)
 
 
 st.markdown("<hr>", unsafe_allow_html=True)
@@ -172,6 +173,7 @@ pe3.text("Total: {}".format(pe3_perdidas_formateadas))
 
 st.markdown("<hr>", unsafe_allow_html=True)
 
+st.markdown("<h6 style='text-align: left; color: #525252; font-family: monospace;'>En este caso podemos observar las tormentas como las mayores generadoras de pérdidas, en segundo lugar las inundaciones y finalmente los incendios ya que las pérdidas ecológicas no tienen una escala económica cuantificable y solo se toman las pérdidas en incendios estructurales.</h6>", unsafe_allow_html=True)
 
 
 
