@@ -236,25 +236,27 @@ st.markdown("<h2 style='text-align: center; color: #930000;'>Evolución en el ti
  
 muertes_por_anio = datos_filtrados.groupby(['YEAR' ,'EVENT TYPE'])['FATALITIES'].sum().reset_index()
 
-fig = px.line(muertes_por_anio, x='YEAR', y='FATALITIES', color = 'EVENT TYPE', width=1000, height=450, title="Evoluion de muertes causadas por tipo de evento")
+fig = px.line(muertes_por_anio, x='YEAR', y='FATALITIES', color='EVENT TYPE', width=1000, height=450, title="Evolución de muertes causadas por tipo de evento")
 # Editar gráfica
 fig.update_layout(
-        title_x=0.5,
-        paper_bgcolor='rgba(0,0,0,0)',
-        plot_bgcolor='rgba(0,0,0,0)',
-        template = 'simple_white',
-        xaxis_title="<b>Año<b>",
-        yaxis_title='<b>Cantidad de incidentes<b>',
-        legend_title_text='',
-        
-        legend=dict(
-            orientation="v",
-            yanchor="bottom",
-            y=1.02,
-            xanchor="right",
-            x=1.5))
+    title_x=0.5,
+    paper_bgcolor='rgba(0,0,0,0)',
+    plot_bgcolor='rgba(0,0,0,0)',
+    template='simple_white',
+    xaxis_title="<b>Año<b>",
+    yaxis_title='<b>Cantidad de incidentes<b>',
+    legend_title_text='',
+    legend=dict(
+        orientation="v",
+        yanchor="bottom",
+        y=1.02,
+        xanchor="right",
+        x=1.5)
+)
+
 st.plotly_chart(fig)
 
+st.markdown("<h6 style='text-align: left; color: #525252; font-family: monospace;'>Como podemos ver, la tasa de mortalidad la encabezan las tormentas con 1.725 muertes. Este tipo de tormentas incluyen las tormentas de nieve que son comunes en Canadá y se agravan por ser el segundo país más frío del mundo. En segundo lugar están los incendios, que incluyen los estructurales (o de construcciones humanas) y los forestales con  388 muertes y finalmente las inundaciones.</h6>", unsafe_allow_html=True)
 
 # AGREGAMOS UNA IMAGEN
 #imageT= "tormentas.jpg"
