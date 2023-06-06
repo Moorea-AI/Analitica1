@@ -168,7 +168,8 @@ st.markdown("<hr>", unsafe_allow_html=True)
 st.markdown("<h6 style='text-align: left; color: #990000; font-family: helvetica;'>Top 3 de pérdidas económicas por desastre</h6>", unsafe_allow_html=True)
 
 
-DESA['NORMALIZED TOTAL COST'] = DESA['NORMALIZED TOTAL COST'].str.replace(',', '') # Remover las comas de los valores
+DESA['NORMALIZED TOTAL COST'] = DESA['NORMALIZED TOTAL COST'].astype(str)
+DESA['NORMALIZED TOTAL COST'] = DESA['NORMALIZED TOTAL COST'].str.replace(',', '')
 DESA['NORMALIZED TOTAL COST'] = pd.to_numeric(DESA['NORMALIZED TOTAL COST'], errors='coerce')
 eventos = ['fire', 'storm', 'flood']
 filtro_eventos = DESA['EVENT TYPE'].isin(eventos)
@@ -181,6 +182,7 @@ fig = px.pie(df_costos, values='Costo económico', names='Tipo de evento',
              title='Costo económico por tipo de evento')
 
 st.plotly_chart(fig)
+
 
 
 
