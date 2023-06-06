@@ -464,3 +464,8 @@ st.pydeck_chart(pdk.Deck(
         ),
     ],
 ))
+
+ocurrencias_por_geo = MOR.groupby('GEO')['Casualties'].count().reset_index()
+
+# Mostrar la tabla en Streamlit
+st.table(ocurrencias_por_geo)
