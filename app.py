@@ -133,46 +133,42 @@ pe1.markdown("<h3 style='text-align: left; color: gray;'> INUNDACIONES </h3>", u
 
 
 DESA['EVENT TYPE'] = DESA['EVENT TYPE'].str.strip()
-pe1filtro_inundaciones = DESA['EVENT TYPE'] == 'flood'
-pe1datos_inundaciones = DESA[pe1filtro_inundaciones]
-pe1datos_limpios = pe1datos_inundaciones[pe1datos_inundaciones['ESTIMATED TOTAL COST'] != 'SIN']
-pe1datos_limpios['ESTIMATED TOTAL COST'] = pd.to_numeric(pe1datos_limpios['ESTIMATED TOTAL COST'])
-pe1perdidas_economicas = pe1datos_limpios['ESTIMATED TOTAL COST'].sum()
-perdidas_formateadas = "${:,.2f}".format(pe1perdidas_economicas)
-pe1.text("Total: {}".format(perdidas_formateadas))
+pe1_filtro_inundaciones = DESA['EVENT TYPE'] == 'flood'
+pe1_datos_inundaciones = DESA[pe1_filtro_inundaciones]
+pe1_datos_limpios = pe1_datos_inundaciones[pe1_datos_inundaciones['ESTIMATED TOTAL COST'] != 'SIN']
+pe1_datos_limpios['ESTIMATED TOTAL COST'] = pd.to_numeric(pe1_datos_limpios['ESTIMATED TOTAL COST'])
+pe1_perdidas_economicas = pe1_datos_limpios['ESTIMATED TOTAL COST'].sum()
+pe1_perdidas_formateadas = "${:,.2f}".format(pe1_perdidas_economicas)
+pe1.text("Total: {}".format(pe1_perdidas_formateadas))
 
 
 
+#--------------- Top tormentas
+pe2.markdown("<h3 style='text-align: left; color: gray;'> TORMENTAS </h3>", unsafe_allow_html=True)
 
-#--------------- Top inundaciones
-c2.markdown("<h3 style='text-align: left; color: gray;'> Top Tormentas </h3>", unsafe_allow_html=True)
 
 DESA['EVENT TYPE'] = DESA['EVENT TYPE'].str.strip()
-filtro_tormentas = DESA['EVENT TYPE'] == 'storm'
-datos_tormentas = DESA[filtro_tormentas]
-
-datos_limpios_tormentas = datos_tormentas[datos_tormentas['FATALITIES'] != 'SIN']
-datos_limpios_tormentas['FATALITIES'] = pd.to_numeric(datos_limpios_tormentas['FATALITIES'])
-
-muertes_tormentas = datos_limpios_tormentas['FATALITIES'].sum()
-
-# Mostrar el resultado en Streamlit
-c2.text("Tormentas: {}".format(muertes_tormentas))
+pe2_filtro_tormentas = DESA['EVENT TYPE'] == 'storm'
+pe2_datos_tormentas = DESA[pe2_filtro_tormentas]
+pe2_datos_limpios = pe2_datos_tormentas[pe2_datos_tormentas['ESTIMATED TOTAL COST'] != 'SIN']
+pe2_datos_limpios['ESTIMATED TOTAL COST'] = pd.to_numeric(pe2_datos_limpios['ESTIMATED TOTAL COST'])
+pe2_perdidas_economicas = pe2_datos_limpios['ESTIMATED TOTAL COST'].sum()
+pe2_perdidas_formateadas = "${:,.2f}".format(pe2_perdidas_economicas)
+pe2.text("Total: {}".format(pe2_perdidas_formateadas))
 
 
 #--------------- Top incendios
-c3.markdown("<h3 style='text-align: left; color: gray;'> Top Incendios </h3>", unsafe_allow_html=True)
+pe3.markdown("<h3 style='text-align: left; color: gray;'> INCENDIOS </h3>", unsafe_allow_html=True)
+
 
 DESA['EVENT TYPE'] = DESA['EVENT TYPE'].str.strip()
-filtro_incendios = DESA['EVENT TYPE'] == 'fire'
-datos_incendios = DESA[filtro_incendios]
-
-datos_limpios_incendios = datos_incendios[datos_incendios['FATALITIES'] != 'SIN']
-datos_limpios_incendios['FATALITIES'] = pd.to_numeric(datos_limpios_incendios['FATALITIES'])
-
-muertes_incendios = datos_limpios_incendios['FATALITIES'].sum()
-
-c3.text("Incendios: {}".format(muertes_incendios))
+pe3_filtro_incendios = DESA['EVENT TYPE'] == 'fire'
+pe3_datos_incendios = DESA[pe3_filtro_incendios]
+pe3_datos_limpios = pe3_datos_incendios[pe3_datos_incendios['ESTIMATED TOTAL COST'] != 'SIN']
+pe3_datos_limpios['ESTIMATED TOTAL COST'] = pd.to_numeric(pe3_datos_limpios['ESTIMATED TOTAL COST'])
+pe3_perdidas_economicas = pe3_datos_limpios['ESTIMATED TOTAL COST'].sum()
+pe3_perdidas_formateadas = "${:,.2f}".format(pe3_perdidas_economicas)
+pe3.text("Total: {}".format(pe3_perdidas_formateadas))
 
 st.markdown("<hr>", unsafe_allow_html=True)
 
