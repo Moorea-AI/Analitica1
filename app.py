@@ -75,6 +75,34 @@ st.plotly_chart(figd, use_container_width=True)
 #EXPLICACIÓN
 st.markdown("<h6 style='text-align: left; color: #525252; font-family: monospace;'>Existe una amplia variedad de tipos de desastres, pero al observar la frecuencia de ocurrencia, se destaca que las inundaciones son el tipo de desastre más común, seguido de las tormentas y, en tercer lugar, los incendios. Por lo tanto, es pertinente poner énfasis en estos tipos de desastres debido a su relevancia en términos de frecuencia.</h6>", unsafe_allow_html=True)
 
+st.markdown("<hr>", unsafe_allow_html=True)
+
+#Convertimos a tipo string y removemos separador de miles y la convertimos a tipo numerico haciendo coerción en los errores para que los valores no numéricos se conviertan en NaN.
+DESA['NORMALIZED TOTAL COST'] = DESA['NORMALIZED TOTAL COST'].astype(str)
+DESA['NORMALIZED TOTAL COST'] = DESA['NORMALIZED TOTAL COST'].str.replace('.', '')
+DESA['NORMALIZED TOTAL COST'] = pd.to_numeric(DESA['NORMALIZED TOTAL COST'], errors='coerce')
+eventos = ['fire', 'storm', 'flood']
+filtro_eventos = DESA['EVENT TYPE'].isin(eventos)
+datos_filtrados = DESA[filtro_eventos]
+
+# Convertir la columna 'FATALITIES' a valores numéricos
+datos_filtrados['FATALITIES'] = pd.to_numeric(datos_filtrados['FATALITIES'], errors='coerce')
+
+# Eliminar filas con valores no numéricos en 'FATALITIES'
+datos_filtrados = datos_filtrados.dropna(subset=['FATALITIES'])
+
+muertes = datos_filtrados.groupby('EVENT TYPE')['FATALITIES'].sum().reset_index()
+df_muertes = pd.DataFrame({'Tipo de evento': muertes['EVENT TYPE'], 'Cantidad de muertes': muertes['FATALITIES']})
+
+# Crear gráfico de torta
+fig = px.pie(df_muertes, values='Cantidad de muertes', names='Tipo de evento', 
+             labels={'Cantidad de muertes': 'Cantidad de muertes', 'Tipo de evento': 'Tipo de evento'},
+             title='Cantidad de muertes por tipo de evento')
+
+# Mostrar gráfico de torta
+st.plotly_chart(fig)
+
+
 
 
 #SECCIÓN DE LOS TOP 3 DE MUERTES POR DESASTRE
@@ -195,31 +223,9 @@ st.markdown("<hr>", unsafe_allow_html=True)
 
 
 
-#2
-st.markdown("<h2 style='text-align: center; color: #930000;'>Cantidad de muertes generadas por los tres principales tipos de desastre</h2>", unsafe_allow_html=True)
 
 
-import pandas as pd
-import numpy as np
 
-#Convertimos a tipo string y removemos separador de miles y la convertimos a tipo numerico haciendo coerción en los errores para que los valores no numéricos se conviertan en NaN.
-DESA['NORMALIZED TOTAL COST'] = DESA['NORMALIZED TOTAL COST'].astype(str)
-DESA['NORMALIZED TOTAL COST'] = DESA['NORMALIZED TOTAL COST'].str.replace('.', '')
-DESA['NORMALIZED TOTAL COST'] = pd.to_numeric(DESA['NORMALIZED TOTAL COST'], errors='coerce')
-eventos = ['fire', 'storm', 'flood']
-filtro_eventos = DESA['EVENT TYPE'].isin(eventos)
-datos_filtrados = DESA[filtro_eventos]
-
-# Convertir la columna 'FATALITIES' a valores numéricos
-datos_filtrados['FATALITIES'] = pd.to_numeric(datos_filtrados['FATALITIES'], errors='coerce')
-
-# Eliminar filas con valores no numéricos en 'FATALITIES'
-datos_filtrados = datos_filtrados.dropna(subset=['FATALITIES'])
-
-muertes = datos_filtrados.groupby('EVENT TYPE')['FATALITIES'].sum().reset_index()
-df_muertes = pd.DataFrame({'Tipo de evento': muertes['EVENT TYPE'], 'Cantidad de muertes': muertes['FATALITIES']})
-fig = px.bar(df_muertes, x='Tipo de evento', y='Cantidad de muertes',labels={'Tipo de evento': 'Tipo de evento', 'Cantidad de muertes': 'Cantidad de muertes'},title='Cantidad de muertes por tipo de evento')
-st.plotly_chart(fig)
 
 
 #Ahora graficamos la evolucion de las muertes por año para cada tipo de desastre (top 3)
