@@ -80,7 +80,11 @@ st.markdown("<h6 style='text-align: left; color: #525252; font-family: monospace
 #SECCIÓN DE LOS TOP 3 DE MUERTES POR DESASTRE
 st.markdown("<hr>", unsafe_allow_html=True)
 st.markdown("<h6 style='text-align: left; color: #990000; font-family: helvetica;'>Top 3 de Muertes por desastre</h6>", unsafe_allow_html=True)
-c1, c2, c3 = st.columns((1,1,1)) 
+im1, im2, im3, c1, c2, c3 = st.columns((1,1,1,1,1,1)) 
+
+im1_image= "inundaciones.jpg"
+im1.image(im1_image, caption="Incendio residencial. Tomado de: Tomado de: https://media.istockphoto.com/id/1356603199/es/foto/inundaci%C3%B3n-y-humo-negro-del-fuego-en-la-ciudad-y-las-tierras-de-cultivo-despu%C3%A9s-de-la-tormenta.jpg?s=612x612&w=0&k=20&c=Ep9sSC__XJVVePWa1eXCU7fyVLGjb8qBZVO2nuZ1mGc=", width=400, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
+
 
 #--------------- Top inundaciones
 c1.markdown("<h3 style='text-align: left; color: gray;'> INUNDACIONES </h3>", unsafe_allow_html=True)
@@ -180,11 +184,6 @@ st.markdown("<hr>", unsafe_allow_html=True)
 
 
 
-
-# AGREGAMOS UNA IMAGEN
-imageI= "inundaciones.jpg"
-
-st.image(imageI, caption="Inundaciones. Tomado de: https://media.istockphoto.com/id/1356603199/es/foto/inundaci%C3%B3n-y-humo-negro-del-fuego-en-la-ciudad-y-las-tierras-de-cultivo-despu%C3%A9s-de-la-tormenta.jpg?s=612x612&w=0&k=20&c=Ep9sSC__XJVVePWa1eXCU7fyVLGjb8qBZVO2nuZ1mGc=", width=None, use_column_width=150, clamp=False, channels="RGB", output_format="auto")
 
 
 
