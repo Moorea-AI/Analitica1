@@ -529,11 +529,9 @@ anio= st.slider('Año en que ocurrio el incendio', 2005, 2014) # Crear variable 
 incidencias_anio_loc = incendios_localidad[incendios_localidad['YEAR']==anio] # Filtrar DataFrame
 st.map(incendios_localidad[incendios_localidad['YEAR']==anio][['latitude','longitude']].dropna()) # Generar mapa
 
+st.write(pdk.Deck( # Código para crear el mapa
 
-
-"""st.write(pdk.Deck( # Código para crear el mapa
-
-  #set up del mapa
+    #set up del mapa
  
   map_style='mapbox://styles/mapbox/dark-v10',
   initial_view_state={
@@ -553,5 +551,4 @@ st.map(incendios_localidad[incendios_localidad['YEAR']==anio][['latitude','longi
         elevation_scale = 50,
         elevation_range = [0,1000])]
     ))
-"""
 
