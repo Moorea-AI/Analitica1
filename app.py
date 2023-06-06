@@ -129,13 +129,13 @@ pe1, pe2, pe3 = st.columns((1,1,1)) # Dividir el ancho en  columnas de igual tam
 pe1.markdown("<h3 style='text-align: left; color: gray;'> INUNDACIONES </h3>", unsafe_allow_html=True)
 
 DESA['EVENT TYPE'] = DESA['EVENT TYPE'].str.strip()
-filtro_inundaciones = DESA['EVENT TYPE'] == 'flood'
-datos_inundaciones = DESA[filtro_inundaciones]
-datos_limpios = datos_inundaciones[datos_inundaciones['ESTIMATED TOTAL COST'] != 'SIN']
-datos_limpios['ESTIMATED TOTAL COST'] = datos_limpios['ESTIMATED TOTAL COST'].str.replace(',', '').astype(float)
+pe1filtro_inundaciones = DESA['EVENT TYPE'] == 'flood'
+pe1datos_inundaciones = DESA[pe1filtro_inundaciones]
+pe1datos_limpios = pe1datos_inundaciones[pe1datos_inundaciones['ESTIMATED TOTAL COST'] != 'SIN']
+pe1datos_limpios['ESTIMATED TOTAL COST'] = pe1datos_limpios['ESTIMATED TOTAL COST'].str.replace(',', '').astype(float)
 perdidas_inundaciones = datos_limpios['ESTIMATED TOTAL COST'].sum()
-perdidas_formateadas = f"${perdidas_inundaciones:,.2f}"
-pe1.text("Pérdidas económicas por inundaciones:", perdidas_formateadas)
+pe1perdidas_formateadas = f"${pe1perdidas_inundaciones:,.2f}"
+pe1.text("Pérdidas económicas por inundaciones:", pe1perdidas_formateadas)
 
 
 
