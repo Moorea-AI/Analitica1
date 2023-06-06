@@ -91,7 +91,7 @@ datos_inundaciones = DESA[filtro_inundaciones]
 datos_limpios = datos_inundaciones[datos_inundaciones['FATALITIES'] != 'SIN']
 datos_limpios['FATALITIES'] = pd.to_numeric(datos_limpios['FATALITIES'])
 muertes_inundaciones = datos_limpios['FATALITIES'].sum()
-c1.text("Inundaciones: {}".format(muertes_inundaciones))
+c1.text("Total: {}".format(muertes_inundaciones))
 
 #--------------- Top Tormentas
 c2.markdown("<h3 style='text-align: left; color: gray;'> TORMENTAS </h3>", unsafe_allow_html=True)
@@ -102,7 +102,7 @@ datos_tormentas = DESA[filtro_tormentas]
 datos_limpios_tormentas = datos_tormentas[datos_tormentas['FATALITIES'] != 'SIN']
 datos_limpios_tormentas['FATALITIES'] = pd.to_numeric(datos_limpios_tormentas['FATALITIES'])
 muertes_tormentas = datos_limpios_tormentas['FATALITIES'].sum()
-c2.text("Tormentas: {}".format(muertes_tormentas))
+c2.text("Total: {}".format(muertes_tormentas))
 
 #--------------- Top incendios
 c3.markdown("<h3 style='text-align: left; color: gray;'> INCENDIOS </h3>", unsafe_allow_html=True)
@@ -113,7 +113,7 @@ datos_incendios = DESA[filtro_incendios]
 datos_limpios_incendios = datos_incendios[datos_incendios['FATALITIES'] != 'SIN']
 datos_limpios_incendios['FATALITIES'] = pd.to_numeric(datos_limpios_incendios['FATALITIES'])
 muertes_incendios = datos_limpios_incendios['FATALITIES'].sum()
-c3.text("Incendios: {}".format(muertes_incendios))
+c3.text("Total: {}".format(muertes_incendios))
 
 
 
@@ -135,19 +135,11 @@ pe1.markdown("<h3 style='text-align: left; color: gray;'> INUNDACIONES </h3>", u
 DESA['EVENT TYPE'] = DESA['EVENT TYPE'].str.strip()
 pe1filtro_inundaciones = DESA['EVENT TYPE'] == 'flood'
 pe1datos_inundaciones = DESA[pe1filtro_inundaciones]
-
-# Limpiar los datos eliminando los valores 'SIN'
 pe1datos_limpios = pe1datos_inundaciones[pe1datos_inundaciones['ESTIMATED TOTAL COST'] != 'SIN']
-
-# Convertir la columna 'ESTIMATED TOTAL COST' a tipo numérico
 pe1datos_limpios['ESTIMATED TOTAL COST'] = pd.to_numeric(pe1datos_limpios['ESTIMATED TOTAL COST'])
-
-# Calcular el total de pérdidas económicas por inundaciones
 pe1perdidas_economicas = pe1datos_limpios['ESTIMATED TOTAL COST'].sum()
-
-# Mostrar el resultado en Streamlit
-pe1.text("Pérdidas económicas por inundaciones: {}".format(pe1perdidas_economicas))
-
+perdidas_formateadas = "${:,.2f}".format(pe1perdidas_economicas)
+pe1.text("Total: {}".format(perdidas_formateadas))
 
 
 
