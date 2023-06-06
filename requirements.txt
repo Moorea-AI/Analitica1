@@ -6,4 +6,3 @@ openpyxl
 Pydeck
 numpy
 matplotlib
-locale
