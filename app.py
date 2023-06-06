@@ -430,38 +430,47 @@ st.markdown("<h6 style='text-align: center; color: #525252;'>Se tiene que los in
 
 #miremos esta bellecita
 
+# Creamos mapa de incendios por localidad y año:
+
 from geopy.geocoders import Nominatim
-import pandas as pd
 
 geolocator = Nominatim(user_agent="my-app")
 
+def obtener_coordenadas(localidad):
+    location = geolocator.geocode(localidad)
+    if location is not None:
+        return location.latitude, location.longitude
+    else:
+        return None, None
 
-def obtener_coordenadas(localidades):
-    locations = geolocator.geocode(localidades, exactly_one=False)
-    latitudes = []
-    longitudes = []
-    for location in locations:
-        if location is not None:
-            latitudes.append(location.latitude)
-            longitudes.append(location.longitude)
-        else:
-            latitudes.append(None)
-            longitudes.append(None)
-    return latitudes, longitudes
+filtro_incendios = CONS['EVENT TYPE'] == 'fire'
+incendios_localidad = CONS[filtro_incendios].groupby(['YEAR'])[['GEO']].value_counts().reset_index()
+incendios_localidad['latitude'], incendios_localidad['longitude'] = zip(*incendios_localidad['GEO'].apply(obtener_coordenadas))
 
+st.markdown("<h3 style='text-align: center; color: black;'> Incendios por localidad y año </h3>", unsafe_allow_html=True)
+anio = st.slider('Año en que ocurrió el incendio', 2005, 2014) # Crear variable que almacene el año seleccionado
+incidencias_anio_loc = incendios_localidad[incendios_localidad['YEAR'] == anio] # Filtrar DataFrame
+st.map(incidencias_anio_loc[['latitude', 'longitude']].dropna()) # Generar mapa
 
-# Obtener la lista de localidades únicas
-localidades = incendios_localidad['GEO'].unique()
+st.write(pdk.Deck( # Código para crear el mapa
+    # set up del mapa
+    map_style='mapbox://styles/mapbox/dark-v10',
+    initial_view_state={
+        'latitude': incendios_localidad['latitude'].mean(),
+        'longitude': incendios_localidad['longitude'].mean(),
+        'zoom': 9.5,
+        'pitch': 50
+    },
+    # Capa con información
+    layers=[pdk.Layer(
+        'HexagonLayer',
+        data=incidencias_anio_loc[['latitude', 'longitude']],
+        get_position=['longitude', 'latitude'],
+        radius=1000,
+        extruded=True,
+        elevation_scale=50,
+        elevation_range=[0, 1000]
+    )]
+))
 
-# Obtener las coordenadas de las localidades en lote
-latitudes, longitudes = obtener_coordenadas(localidades)
-
-# Crear un DataFrame con las localidades y sus coordenadas
-coordenadas_localidades = pd.DataFrame({'localidad': localidades, 'latitude': latitudes, 'longitude': longitudes})
-
-# Unir los datos de incidencias con las coordenadas de las localidades
-incidencias_localidades_coordenadas = pd.merge(incidencias_anio_loc, coordenadas_localidades, left_on='GEO', right_on='localidad')
-
-# Mostrar el mapa
-st.map(incidencias_localidades_coordenadas[['latitude', 'longitude']].dropna())
 
