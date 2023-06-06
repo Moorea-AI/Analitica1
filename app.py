@@ -437,11 +437,14 @@ st.markdown("<h6 style='text-align: center; color: #525252;'>Se tiene que los in
 
 #miremos esta bellecita
 
-# Filtrar los datos por incendios en Canadá
-filtro_canada = CONS['GEO'].str.contains('Canada', case=False)
-incendios_canada = CONS[filtro_canada]
+# Filtrar los datos por muertes relacionadas con incendios
+filtro_incendios = MOR['Casualties'] == 'Fire-related deaths'
+muertes_incendios = MOR[filtro_incendios]
 
-# Crear el mapa de Canadá
+# Agrupar por lugar (DGUID) y obtener la cantidad de muertes
+muertes_por_lugar = muertes_incendios.groupby('DGUID').size().reset_index(name='Deaths')
+
+# Crear el mapa
 st.pydeck_chart(pdk.Deck(
     map_style='mapbox://styles/mapbox/light-v9',
     initial_view_state=pdk.ViewState(
@@ -452,15 +455,12 @@ st.pydeck_chart(pdk.Deck(
     ),
     layers=[
         pdk.Layer(
-            'HexagonLayer',
-            data=incendios_canada,
-            get_position=['LONGITUDE', 'LATITUDE'],
-            elevation_scale=100,
-            radius=10000,
-            elevation_range=[0, 3000],
+            'ScatterplotLayer',
+            data=muertes_por_lugar,
+            get_position=['COORDINATE'],
+            get_radius=1000,
+            get_fill_color=[255, 0, 0, 255],
             pickable=True,
-            extruded=True,
         ),
     ],
 ))
-
