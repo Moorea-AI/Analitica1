@@ -69,7 +69,8 @@ desastre_df = pd.DataFrame({'EVENT TYPE': desastre.index, 'Cantidad desastres': 
 figd = px.bar(desastre_df, x='EVENT TYPE', y='Cantidad desastres', labels={'EVENT TYPE': 'Tipo de desastre', 'desastre_df': 'Tipo de desastre'})
 
 # Centrar y mostrar el gráfico con Plotly en Streamlit
-st.pyplot(figd, use_container_width=True)
+st.plotly_chart(figd, use_container_width=True)
+
 
 
 
