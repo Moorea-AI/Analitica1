@@ -61,17 +61,34 @@ st.markdown("<h3 style='text-align: center; color: #666666; font-family: helveti
 #Abstract
 st.markdown("<h6 style='text-align: left; color: #525252; font-family: monospace;'>Este trabajo de investigación examina la eficacia de los sistemas de prevención de incendios en Canadá, centrándose específicamente en los detectores de humo y los sistemas de rociadores en incidentes de incendios estructurales. El estudio comienza proporcionando una visión general del número total de desastres, incluyendo varios tipos, que han ocurrido en Canadá, según se informa en las bases de datos abiertas disponibles. A partir de ahí, el análisis se reduce para explorar los tipos específicos de incidentes de incendios, específicamente incendios forestales e incendios estructurales. Finalmente, la investigación se enfoca aún más en evaluar la eficacia de los sistemas de rociadores y detectores de humo en la mitigación de los daños causados por los incendios estructurales..</h6>", unsafe_allow_html=True)
 
-
+#VISIÓN GENERAL DE DESASTRES EN CANADA
 st.markdown("<h4 style='text-align: left; color: #990000; font-family: helvetica;'>Visión general de los desastres ocurridos en Canadá desde 1900 hasta 2022</h4>", unsafe_allow_html=True)
 
+#GRAFICA GENERAL DE DESASTRES
 desastre = DESA['EVENT TYPE'].value_counts()
 desastre_df = pd.DataFrame({'EVENT TYPE': desastre.index, 'Cantidad desastres': desastre.values})
 figd = px.bar(desastre_df, x='EVENT TYPE', y='Cantidad desastres', labels={'EVENT TYPE': 'Tipo de desastre', 'desastre_df': 'Tipo de desastre'})
 
-# Centrar y mostrar el gráfico con Plotly en Streamlit
 st.plotly_chart(figd, use_container_width=True)
 
+#EXPLICACIÓN
 st.markdown("<h6 style='text-align: left; color: #525252; font-family: monospace;'>Existe una amplia variedad de tipos de desastres, pero al observar la frecuencia de ocurrencia, se destaca que las inundaciones son el tipo de desastre más común, seguido de las tormentas y, en tercer lugar, los incendios. Por lo tanto, es pertinente poner énfasis en estos tipos de desastres debido a su relevancia en términos de frecuencia.</h6>", unsafe_allow_html=True)
+
+st.markdown("<hr>", unsafe_allow_html=True)
+
+#----------------------------------------
+c1, c2, c3 = st.columns((1,1,1)) # Dividir el ancho en  columnas de igual tamaño
+
+#--------------- Top inundaciones
+c1.markdown("<h3 style='text-align: left; color: gray;'> Top inundaciones </h3>", unsafe_allow_html=True)
+
+filtro_inundaciones = DESA['EVENT TYPE'] == 'flood'
+datos_inundaciones = DESA[filtro_inundaciones]
+muertes_inundaciones = datos_inundaciones['FATALITIES'].sum()
+
+c1.text('Inundaciones: '+str(muertes_inundaciones)+', '+str(top_perp_num)+'%')
+
+st.markdown("<hr>", unsafe_allow_html=True)
 
 
 # AGREGAMOS UNA IMAGEN
