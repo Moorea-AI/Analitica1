@@ -22,6 +22,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import base64
 import numpy as np
+import locale
 
 #BASES DE DATOS CRUDAS
 AH  = pd.read_csv('https://www.4minds.solutions/tarea/final/BDALARMAHUMO.csv', sep=';',  low_memory=False) #Base de datos de Alarmas de Humo
@@ -129,16 +130,15 @@ pe1, pe2, pe3 = st.columns((1,1,1)) # Dividir el ancho en  columnas de igual tam
 pe1.markdown("<h3 style='text-align: left; color: gray;'> INUNDACIONES </h3>", unsafe_allow_html=True)
 
 locale.setlocale(locale.LC_ALL, 'en_CA.UTF-8')
-
+c1.markdown("<h3 style='text-align: left; color: gray;'> Top inundaciones </h3>", unsafe_allow_html=True)
 DESA['EVENT TYPE'] = DESA['EVENT TYPE'].str.strip()
-filtro_pe_inundaciones = DESA['EVENT TYPE'] == 'flood'
-datos_pe_inundaciones = DESA[filtro_pe_inundaciones]
-datos_limpios_pe_inundaciones = datos_pe_inundaciones[datos_pe_inundaciones['ESTIMATED TOTAL COST'] != 'SIN']
-datos_limpios_pe_inundaciones['ESTIMATED TOTAL COST'] = pd.to_numeric(datos_limpios_pe_inundaciones['ESTIMATED TOTAL COST'])
-perdidas_economicas_inundaciones = datos_limpios_pe_inundaciones['ESTIMATED TOTAL COST'].sum()
-perdidas_formateadas_inundaciones = locale.currency(perdidas_economicas_inundaciones, grouping=True)
-
-pe1.text("Inundaciones: {}".format(perdidas_formateadas_inundaciones))
+filtro_inundaciones = DESA['EVENT TYPE'] == 'flood'
+datos_inundaciones = DESA[filtro_inundaciones]
+datos_limpios = datos_inundaciones[datos_inundaciones['ESTIMATED TOTAL COST'] != 'SIN']
+datos_limpios['ESTIMATED TOTAL COST'] = pd.to_numeric(datos_limpios['ESTIMATED TOTAL COST'])
+perdidas_economicas = datos_limpios['ESTIMATED TOTAL COST'].sum()
+perdidas_formateadas = locale.currency(perdidas_economicas, grouping=True)
+pe1.text("Pérdidas económicas por inundaciones: {}".format(perdidas_formateadas))
 
 
 #--------------- Top inundaciones
