@@ -234,25 +234,14 @@ st.markdown("<hr>", unsafe_allow_html=True)
 #EVOLUCIÓN EN EL TIEMPO DE LAS MUERTES
 st.markdown("<h2 style='text-align: center; color: #930000;'>Evolución en el tiempo de los desastres que más produjeron fatalidades</h2>", unsafe_allow_html=True)
  
-# Filtrar los datos por los tipos de eventos deseados
 eventos = ['storm', 'fire', 'flood']
 datos_filtrados = DESA[DESA['EVENT TYPE'].isin(eventos)]
-
-# Convertir la columna 'FATALITIES' a valores numéricos
 datos_filtrados['FATALITIES'] = pd.to_numeric(datos_filtrados['FATALITIES'], errors='coerce')
-
-# Eliminar filas con valores no numéricos en 'FATALITIES'
 datos_filtrados = datos_filtrados.dropna(subset=['FATALITIES'])
-
-# Agrupar por año y tipo de evento y sumar las muertes
 muertes_por_anio_evento = datos_filtrados.groupby(['YEAR', 'EVENT TYPE'])['FATALITIES'].sum().reset_index()
-
-# Crear el gráfico de líneas
 fig = px.line(muertes_por_anio_evento, x='YEAR', y='FATALITIES', color='EVENT TYPE',
               title='Muertes por año según el tipo de evento')
 fig.update_layout(xaxis_title='Año', yaxis_title='Cantidad de muertes')
-
-# Mostrar el gráfico en Streamlit
 st.plotly_chart(fig)
 
 st.markdown("<h6 style='text-align: left; color: #525252; font-family: monospace;'>En la gráfica se puede observar la evolución de la tasa de mortalidad conforme va pasando el tiempo y como esta va disminuyendo al pasar de los años ya que la atención prioritaria para emergencias tiene planes de acción rigurosos que se han pulido con el pasar de las décadas, disminuyendo la mortalidad.</h6>", unsafe_allow_html=True)
@@ -263,13 +252,9 @@ st.markdown("<h6 style='text-align: left; color: #525252; font-family: monospace
 
 #                  3
 
-#3
 st.markdown("<h2 style='text-align: center; color: #930000;'>Costo promedio de la normalización por tipo de desastre</h2>", unsafe_allow_html=True)
 
 c5, c6= st.columns((1,1))
-
-import pandas as pd
-import numpy as np
 
 #Convertimos a tipo string y removemos separador de miles y la convertimos a tipo numérico haciendo coerción en los errores para que los valores no numéricos se conviertan en NaN.
 DESA['NORMALIZED TOTAL COST'] = DESA['NORMALIZED TOTAL COST'].astype(str)
@@ -284,12 +269,8 @@ df_costos = pd.DataFrame({'Tipo de evento': costo['EVENT TYPE'], 'Costo': costo[
 figC = px.bar(df_costos, x='Tipo de evento', y='Costo',labels={'Tipo de evento': 'Tipo de evento', 'Costo': 'Costo'},title='costo por tipo de evento', width=550, height=500)
 
 c5.plotly_chart(figC)
-
-###
-st.markdown("<h6 style='text-align: center; color: #525252;'>Se tiene que el tipo de desastre que implica mayores costos para la normalización entre los tres definidos, es el desastre por incendio, ocupando a nivel general, el segundo lugar entre todos los tipos de desastres. Los incendios pueden acabar con todo a su paso si no son controlados y su costo promedio de normalización está en $39,595,179,216,216, luego están las tormentas que son incontrolables y las inundaciones que pueden acabar también con  los enseres y estructuras muy fácilmente.</h2>", unsafe_allow_html=True)
-# AGREGAMOS UNA IMAGEN
+st.markdown("<h6 style='text-align: left; color: #525252; font-family: monospace;'>Se tiene que el tipo de desastre que implica mayores costos para la normalización entre los tres definidos, es el desastre por incendio, ocupando a nivel general, el segundo lugar entre todos los tipos de desastres. Los incendios pueden acabar con todo a su paso si no son controlados y su costo promedio de normalización está en $39,595,179,216,216, luego están las tormentas que son incontrolables y las inundaciones que pueden acabar también con  los enseres y estructuras muy fácilmente.</h2>", unsafe_allow_html=True)
 imagein= "incendio.jpg"
-
 c6.image(imagein, caption="Incendios. Tomado de: https://www.istockphoto.com/es/foto/bombero-de-retenci%C3%B3n-de-la-manguera-se%C3%B1alando-corriente-de-agua-en-fuego-gm157442677-9126810?phrase=incendio%20en%20canada", width=None, use_column_width=150, clamp=False, channels="RGB", output_format="auto")
             
 
