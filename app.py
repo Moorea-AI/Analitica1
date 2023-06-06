@@ -84,13 +84,13 @@ st.markdown("<h6 style='text-align: left; color: #990000; font-family: helvetica
 im1, im2, im3 = st.columns((1,1,1)) 
 
 im1_image= "inundaciones.jpg"
-im1.image(im1_image, caption="Inundación. Imagen de istockphoto.com", width=100, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
+im1.image(im1_image, width=200, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
 
 im2_image= "tormentas.jpg"
-im2.image(im2_image, caption="Tormenta. Imagen de istockphoto.com", width=100, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
+im2.image(im2_image, width=200, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
 
 im3_image= "incendiosCanada.jpg"
-im3.image(im3_image, caption="Incendio. Imagen de istockphoto.com", width=100, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
+im3.image(im3_image,width=200, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
 
 c1, c2, c3 = st.columns((1,1,1)) 
 
