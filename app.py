@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Morales,_Moreno,_Lemus_Trabajo_Final_Segunda_Entrega_Analítica_1 (2).ipynb
+"""
 
 FACULTAD DE INGENIERÍA<br>
 DEPARTAMENTO DE INGENIERÍA INDUSTRIAL<br>
@@ -10,9 +10,7 @@ Semestre 2023-01<br>
 Equipo de trabajo: Aura Luz Moreno Díaz, Marcelo Lemus, Verónica Andrea Morales González
 
 ---
-# **Carga de datos**
-
-*Carga de las librerias necesarias para la ejecución del código. En este caso usaremos Pandas y Numpy renombrándolas como pd y np*
+#Carga de las librerias necesarias para la ejecución del código. En este caso usaremos Pandas y Numpy renombrándolas como pd y np
 """
 
 #Carga de las librerias necesarias para la ejecución del código
@@ -25,31 +23,16 @@ from plotly.subplots import make_subplots
 import base64
 import numpy as np
 
+#Hemos montado los archivos de la base de datos a un hosting para poder trabajar los 3. Modificamos los permisos y se puede acceder a los datos desde cualquier lugar, de esta manera cualquier usuario puede ejecutar la BD desde cualquier parte."""
 
-
-###Hemos montado los archivos de la base de datos a un hosting para poder trabajar los 3. Modificamos los permisos y se puede acceder a los datos desde cualquier lugar, de esta manera cualquier usuario puede ejecutar la BD desde cualquier parte."""
-
-#Realizamos pruebas para verificar que haya conexión a la base de datos
 AH  = pd.read_csv('https://www.4minds.solutions/tarea/final/BDALARMAHUMO.csv', sep=';',  low_memory=False) #Base de datos de Alarmas de Humo
 MOR = pd.read_csv('https://www.4minds.solutions/tarea/final/BDMORTALIDAD.csv', sep=';',  low_memory=False) #Base de datos de Mortalidad
 ROC = pd.read_csv('https://www.4minds.solutions/tarea/final/BDROCIADORES.csv', sep=';',  low_memory=False) #Base de datos de Rociadores
 DES = pd.read_csv('https://www.4minds.solutions/tarea/final/BDGENERALDESASTRES.csv', sep=';',  low_memory=False) #Base de datos de Desastres en general
+
+#BASES DE DATOS YA LIMPIAS
 DESA = pd.read_csv('https://www.4minds.solutions/tarea/final/DESA.csv', sep=';',  low_memory=False) #Base de datos de Desastres en general
 CONS = pd.read_csv('https://www.4minds.solutions/tarea/final/CONS.csv', sep=';',  low_memory=False) #Base de datos de Desastres en general
-### HASTA AQUÍ TODA LA PARTE DE LIMPIEZA Y TRANSFORMACIÓN DE LOS DATOS
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #INICIAMOS CON LOS ENCABEZADOS
 st.set_page_config(layout="wide")
