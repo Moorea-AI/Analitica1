@@ -498,3 +498,65 @@ c5.plotly_chart(figah)
 
 ###
 c5.markdown("<h6 style='text-align: center; color: #525252;'>El porcentaje o tasa de efectividad  de funcionamiento de las alarmas de humo es del 20%.</h6>", unsafe_allow_html=True)
+
+
+
+
+
+
+
+
+
+
+#miremos esta bellecita
+
+# Creamos mapa de incendios por localidad y año:
+
+from geopy.geocoders import Nominatim
+
+geolocator=Nominatim(user_agent="my-app")
+
+
+def obtener_coordenadas(localidad):
+    location = geolocator.geocode(localidad)
+    if location is not None:
+        return location.latitude, location.longitude
+    else:
+        return None, None
+
+    
+incendios_localidad = CONS.groupby(['YEAR'])[['GEO']].value_counts().reset_index()
+incendios_localidad['latitude'],incendios_localidad['longitude']=zip(*incendios_localidad['GEO'].apply(obtener_coordenadas))
+
+
+st.markdown("<h3 style='text-align: center; color: black;'> Incendios por localidad y año </h3>", unsafe_allow_html=True)
+anio= st.slider('Año en que ocurrio el incendio', 2005, 2014) # Crear variable que me almacene la hora seleccionada
+incidencias_anio_loc = incendios_localidad[incendios_localidad['YEAR']==anio] # Filtrar DataFrame
+st.map(incendios_localidad[incendios_localidad['YEAR']==anio][['latitude','longitude']].dropna()) # Generar mapa
+
+
+
+"""st.write(pdk.Deck( # Código para crear el mapa
+
+  #set up del mapa
+ 
+  map_style='mapbox://styles/mapbox/dark-v10',
+  initial_view_state={
+      'latitude' : incendios_localidad['latitude'].mean(),
+      'longitude': incendios_localidad['longitude'].mean(),
+      'zoom' : 9.5,
+      'pitch': 50
+        },
+    
+    #Capa con información
+    layers = [pdk.Layer(
+     'HexagonLayer',
+      data = incidencias_anio_loc[['latitude','longitude']],
+      get_position = ['longitude','latitude'],
+        radius = 1000,
+        extruded = True,
+        elevation_scale = 50,
+        elevation_range = [0,1000])]
+    ))
+"""
+
