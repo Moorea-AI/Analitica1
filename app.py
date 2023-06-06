@@ -53,13 +53,17 @@ html_code = f"""
 st.markdown(html_code, unsafe_allow_html=True)
 
 # Título principal, h1 denota el estilo del título 1
-st.markdown("<h1 style='text-align: center; color: #990000; font-family: courier; margin-top: 20px;'>Eficacia de los sistemas de incendio en Canadá</h1>", unsafe_allow_html=True)
-st.markdown("<h3 style='text-align: center; color: #666666; font-family: monospace;'>Comparativo entre aspersores y alarmas de humo</h3>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #990000; font-family: helvetica; margin-top: 20px;'>Eficacia de los sistemas de incendio en Canadá</h1>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center; color: #666666; font-family: helvetica;'>Comparativo entre aspersores y alarmas de humo</h3>", unsafe_allow_html=True)
 
 #1
 ###
-#Se revisa a nivel general, cómo es la distribución de la cantidad de desastres por cada tipo y cuál es el que tiene mayor ocurrencia en el periodo.
-st.markdown("<h6 style='text-align: left; color: #525252;'>Este trabajo de investigación examina la eficacia de los sistemas de prevención de incendios en Canadá, centrándose específicamente en los detectores de humo y los sistemas de rociadores en incidentes de incendios estructurales. El estudio comienza proporcionando una visión general del número total de desastres, incluyendo varios tipos, que han ocurrido en Canadá, según se informa en las bases de datos abiertas disponibles. A partir de ahí, el análisis se reduce para explorar los tipos específicos de incidentes de incendios, específicamente incendios forestales e incendios estructurales. Finalmente, la investigación se enfoca aún más en evaluar la eficacia de los sistemas de rociadores y detectores de humo en la mitigación de los daños causados por los incendios estructurales..</h6>", unsafe_allow_html=True)
+#Abstract
+st.markdown("<h6 style='text-align: left; color: #525252; font-family: monospace;'>Este trabajo de investigación examina la eficacia de los sistemas de prevención de incendios en Canadá, centrándose específicamente en los detectores de humo y los sistemas de rociadores en incidentes de incendios estructurales. El estudio comienza proporcionando una visión general del número total de desastres, incluyendo varios tipos, que han ocurrido en Canadá, según se informa en las bases de datos abiertas disponibles. A partir de ahí, el análisis se reduce para explorar los tipos específicos de incidentes de incendios, específicamente incendios forestales e incendios estructurales. Finalmente, la investigación se enfoca aún más en evaluar la eficacia de los sistemas de rociadores y detectores de humo en la mitigación de los daños causados por los incendios estructurales..</h6>", unsafe_allow_html=True)
+
+
+st.markdown("<h4 style='text-align: left; color: #990000; font-family: helvetica;'>Visión general de los desastres ocurridos en Canadá</h4>", unsafe_allow_html=True)
+
 
 desastre=DESA['EVENT TYPE'].value_counts()
 desastre_df = pd.DataFrame({'EVENT TYPE': desastre.index, 'Cantidad desastres': desastre.values})
