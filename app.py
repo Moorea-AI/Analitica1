@@ -122,19 +122,19 @@ st.markdown("<hr>", unsafe_allow_html=True)
 #TOP 3 DE PÉRDIDAS ECONÓMICAS POR DESASTRE
 st.markdown("<h6 style='text-align: left; color: #990000; font-family: helvetica;'>Top 3 de pérdidas económicas por desastre</h6>", unsafe_allow_html=True)
 
-c1, c2, c3 = st.columns((1,1,1)) # Dividir el ancho en  columnas de igual tamaño
+pe1, pe2, pe3 = st.columns((1,1,1)) # Dividir el ancho en  columnas de igual tamaño
 
 
 #--------------- Top inundaciones
-c1.markdown("<h3 style='text-align: left; color: gray;'> INUNDACIONES </h3>", unsafe_allow_html=True)
+pe1.markdown("<h3 style='text-align: left; color: gray;'> INUNDACIONES </h3>", unsafe_allow_html=True)
 
 DESA['EVENT TYPE'] = DESA['EVENT TYPE'].str.strip()
-filtro_inundaciones = DESA['EVENT TYPE'] == 'flood'
-datos_inundaciones = DESA[filtro_inundaciones]
-datos_limpios = datos_inundaciones[datos_inundaciones['ESTIMATED TOTAL COST'] != 'SIN']
-datos_limpios['ESTIMATED TOTAL COST'] = pd.to_numeric(datos_limpios['ESTIMATED TOTAL COST'])
-perdidas_economicas = datos_limpios['ESTIMATED TOTAL COST'].sum()
-c1.text("Inundaciones: {}".format(perdidas_economicas))
+filtro_pe_inundaciones = DESA['EVENT TYPE'] == 'flood'
+datos_pe_inundaciones = DESA[filtro_pe_inundaciones]
+datos_limpios_pe_inundaciones = datos_pe_inundaciones[datos_pe_inundaciones['ESTIMATED TOTAL COST'] != 'SIN']
+datos_limpios_pe_inundaciones['ESTIMATED TOTAL COST'] = pd.to_numeric(datos_limpios_pe_inundaciones['ESTIMATED TOTAL COST'])
+perdidas_economicas_inundaciones = datos_limpios_pe_inundaciones['ESTIMATED TOTAL COST'].sum()
+pe1.text("Inundaciones: {}".format(perdidas_economicas_inundaciones))
 
 
 #--------------- Top inundaciones
