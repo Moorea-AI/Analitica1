@@ -60,10 +60,13 @@ st.markdown("<h3 style='text-align: center; color: #666666; font-family: helveti
 #Abstract
 st.markdown("<h6 style='text-align: left; color: #525252; font-family: monospace;'>Este trabajo de investigación examina la eficacia de los sistemas de prevención de incendios en Canadá, centrándose específicamente en los detectores de humo y los sistemas de rociadores en incidentes de incendios estructurales. El estudio comienza proporcionando una visión general del número total de desastres, incluyendo varios tipos, que han ocurrido en Canadá, según se informa en las bases de datos abiertas disponibles. A partir de ahí, el análisis se reduce para explorar los tipos específicos de incidentes de incendios, específicamente incendios forestales e incendios estructurales. Finalmente, la investigación se enfoca aún más en evaluar la eficacia de los sistemas de rociadores y detectores de humo en la mitigación de los daños causados por los incendios estructurales..</h6>", unsafe_allow_html=True)
 
-#     1
+
+
+
+
+#     1  
 
 #VISIÓN GENERAL DE DESASTRES EN CANADA
-
 st.markdown("<h4 style='text-align: left; color: #990000; font-family: helvetica;'>Visión general de los desastres ocurridos en Canadá desde 1900 hasta 2022</h4>", unsafe_allow_html=True)
 
 #GRAFICA DE BARRAS  GENERAL DE DESASTRES
@@ -76,14 +79,9 @@ st.plotly_chart(figd, use_container_width=True)
 st.markdown("<h6 style='text-align: left; color: #525252; font-family: monospace;'>Existe una amplia variedad de tipos de desastres, pero al observar la frecuencia de ocurrencia, se destaca que las inundaciones son el tipo de desastre más común, seguido de las tormentas y, en tercer lugar, los incendios. Por lo tanto, es pertinente poner énfasis en estos tipos de desastres debido a su relevancia en términos de frecuencia.</h6>", unsafe_allow_html=True)
 
 
-
-
-
+# TOP 3 DE OCURRENCIAS POR FATALIDAD
 st.markdown("<hr>", unsafe_allow_html=True)
-
-
 st.markdown("<h6 style='text-align: left; color: #525252; font-family: monospace;'>Teniendo en cuenta el top 3 en ocurrencias y fatalidades, presentamos un gráfico de torta para ver la relación entre las tres según el número de fatalidades.</h6>", unsafe_allow_html=True)
-
 
 #GRAFICO DE CANTIDAD DE MUERTES POR EVENTO TOP 3
 DESA['NORMALIZED TOTAL COST'] = DESA['NORMALIZED TOTAL COST'].astype(str)
@@ -97,17 +95,14 @@ datos_filtrados = datos_filtrados.dropna(subset=['FATALITIES'])
 muertes = datos_filtrados.groupby('EVENT TYPE')['FATALITIES'].sum().reset_index()
 df_muertes = pd.DataFrame({'Tipo de evento': muertes['EVENT TYPE'], 'Cantidad de muertes': muertes['FATALITIES']})
 
-# Crear el gráfico de cantidad de muertes por evento
 fig = px.pie(df_muertes, values='Cantidad de muertes', names='Tipo de evento', 
              labels={'Cantidad de muertes': 'Cantidad de muertes', 'Tipo de evento': 'Tipo de evento'},
              title='Cantidad de muertes por tipo de evento')
 
-# Centrar el gráfico en la página
 container = st.container()
 with container:
     st.plotly_chart(fig)
 
-# Aplicar estilos CSS para centrar el contenedor en la pantalla
 container.markdown(
     """
     <style>
@@ -122,24 +117,21 @@ container.markdown(
     unsafe_allow_html=True
 )
 
-
-
-
 #SECCIÓN DE LOS TOP 3 DE MUERTES POR DESASTRE
 st.markdown("<hr>", unsafe_allow_html=True)
 st.markdown("<h6 style='text-align: left; color: #990000; font-family: helvetica;'>Top 3 de Muertes por desastre</h6>", unsafe_allow_html=True)
 
 im2, im3, im1 = st.columns((1,1,1)) 
 
+#--------------- Top inundaciones
 im1_image= "inundaciones.jpg"
 im1.image(im1_image, width=200, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
-
+#--------------- Top Tormentas
 im2_image= "tormentas.jpg"
 im2.image(im2_image, width=200, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
-
+#--------------- Top incendios
 im3_image= "incendiosCanada.jpg"
 im3.image(im3_image,width=200, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
-
 
 c2, c3, c1 = st.columns((1,1,1)) 
 
@@ -176,19 +168,13 @@ datos_limpios_incendios['FATALITIES'] = pd.to_numeric(datos_limpios_incendios['F
 muertes_incendios = datos_limpios_incendios['FATALITIES'].sum()
 c3.text("Total: {}".format(muertes_incendios))
 
-
-
 st.markdown("<h6 style='text-align: left; color: #525252; font-family: monospace;'>Como podemos ver, la tasa de mortalidad la encabezan las tormentas con 1.725 muertes. Este tipo de tormentas incluyen las tormentas de nieve que son comunes en Canadá y se agravan por ser el segundo país más frío del mundo. En segundo lugar están los incendios, que incluyen los estructurales (o de construcciones humanas) y los forestales con  388 muertes y finalmente las inundaciones.</h6>", unsafe_allow_html=True)
-
 
 st.markdown("<hr>", unsafe_allow_html=True)
 
 
-
-
-#TOP 3 DE PÉRDIDAS ECONÓMICAS POR DESASTRE
+#SECCIÓN DE LOS TOP 3 DE PERDIDAS POR DESASTRE
 st.markdown("<h6 style='text-align: left; color: #990000; font-family: helvetica;'>Top 3 de pérdidas económicas por desastre</h6>", unsafe_allow_html=True)
-
 
 DESA['NORMALIZED TOTAL COST'] = DESA['NORMALIZED TOTAL COST'].astype(str)
 DESA['NORMALIZED TOTAL COST'] = DESA['NORMALIZED TOTAL COST'].str.replace(',', '')
@@ -202,19 +188,13 @@ df_costos = pd.DataFrame({'Tipo de evento': costos['EVENT TYPE'], 'Costo económ
 fig = px.pie(df_costos, values='Costo económico', names='Tipo de evento',
              labels={'Costo económico': 'Costo económico', 'Tipo de evento': 'Tipo de evento'},
              title='Costo económico por tipo de evento')
-
 st.plotly_chart(fig)
-
-
-
 
 pe2, pe1, pe3 = st.columns((1,1,1)) # Dividir el ancho en  columnas de igual tamaño
 
 
 #--------------- Top inundaciones
 pe1.markdown("<h3 style='text-align: left; color: gray;'> INUNDACIONES </h3>", unsafe_allow_html=True)
-
-
 DESA['EVENT TYPE'] = DESA['EVENT TYPE'].str.strip()
 pe1_filtro_inundaciones = DESA['EVENT TYPE'] == 'flood'
 pe1_datos_inundaciones = DESA[pe1_filtro_inundaciones]
@@ -224,12 +204,8 @@ pe1_perdidas_economicas = pe1_datos_limpios['ESTIMATED TOTAL COST'].sum()
 pe1_perdidas_formateadas = "${:,.2f}".format(pe1_perdidas_economicas)
 pe1.text("Total: {}".format(pe1_perdidas_formateadas))
 
-
-
 #--------------- Top tormentas
 pe2.markdown("<h3 style='text-align: left; color: gray;'> TORMENTAS </h3>", unsafe_allow_html=True)
-
-
 DESA['EVENT TYPE'] = DESA['EVENT TYPE'].str.strip()
 pe2_filtro_tormentas = DESA['EVENT TYPE'] == 'storm'
 pe2_datos_tormentas = DESA[pe2_filtro_tormentas]
@@ -239,11 +215,8 @@ pe2_perdidas_economicas = pe2_datos_limpios['ESTIMATED TOTAL COST'].sum()
 pe2_perdidas_formateadas = "${:,.2f}".format(pe2_perdidas_economicas)
 pe2.text("Total: {}".format(pe2_perdidas_formateadas))
 
-
 #--------------- Top incendios
 pe3.markdown("<h3 style='text-align: left; color: gray;'> INCENDIOS </h3>", unsafe_allow_html=True)
-
-
 DESA['EVENT TYPE'] = DESA['EVENT TYPE'].str.strip()
 pe3_filtro_incendios = DESA['EVENT TYPE'] == 'fire'
 pe3_datos_incendios = DESA[pe3_filtro_incendios]
@@ -258,27 +231,11 @@ st.markdown("<h6 style='text-align: left; color: #525252; font-family: monospace
 st.markdown("<hr>", unsafe_allow_html=True)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-#Ahora graficamos la evolucion de las muertes por año para cada tipo de desastre (top 3)
-st.markdown("<h2 style='text-align: center; color: #930000;'>Evolución de las muertes causadas por los tres tipos de desastres mas comunes</h2>", unsafe_allow_html=True)
+#EVOLUCIÓN EN EL TIEMPO DE LAS MUERTES
+st.markdown("<h2 style='text-align: center; color: #930000;'>Evolución en el tiempo de los desastres que más produjeron fatalidades</h2>", unsafe_allow_html=True)
  
-
-
 muertes_por_anio = datos_filtrados.groupby(['YEAR' ,'EVENT TYPE'])['FATALITIES'].sum().reset_index()
 
-
-# Generar gráfica
 fig = px.line(muertes_por_anio, x='YEAR', y='FATALITIES', color = 'EVENT TYPE', width=1000, height=450, title="Evoluion de muertes causadas por tipo de evento")
 # Editar gráfica
 fig.update_layout(
@@ -300,7 +257,7 @@ st.plotly_chart(fig)
 
 
 # AGREGAMOS UNA IMAGEN
-imageT= "tormentas.jpg"
+#imageT= "tormentas.jpg"
 
 st.image(imageT, caption="Tormentas. Tomado de: https://www.istockphoto.com/es/foto/tormenta-entrante-sobre-el-r%C3%ADo-bow-en-calgary-gm1327119477-411576407?phrase=tormentas%20en%20canada", width=None, use_column_width=150, clamp=False, channels="RGB", output_format="auto")
 
