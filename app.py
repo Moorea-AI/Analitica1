@@ -22,6 +22,9 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import base64
 import numpy as np
+import geopy
+from geopy.geocoders import Nominatim
+
 
 #BASES DE DATOS CRUDAS
 AH  = pd.read_csv('https://www.4minds.solutions/tarea/final/BDALARMAHUMO.csv', sep=';',  low_memory=False) #Base de datos de Alarmas de Humo
