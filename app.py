@@ -109,6 +109,7 @@ with container:
 
 # Aplicar estilos CSS para centrar el contenedor en la pantalla
 container.markdown(
+    """
     <style>
     .stContainer {
         display: flex;
@@ -117,10 +118,9 @@ container.markdown(
         height: 100vh;
     }
     </style>
-    ,
+    """,
     unsafe_allow_html=True
 )
-
 
 
 
