@@ -64,12 +64,14 @@ st.markdown("<h6 style='text-align: left; color: #525252; font-family: monospace
 
 st.markdown("<h4 style='text-align: left; color: #990000; font-family: helvetica;'>Visión general de los desastres ocurridos en Canadá</h4>", unsafe_allow_html=True)
 
-
-desastre=DESA['EVENT TYPE'].value_counts()
+desastre = DESA['EVENT TYPE'].value_counts()
 desastre_df = pd.DataFrame({'EVENT TYPE': desastre.index, 'Cantidad desastres': desastre.values})
 figd = px.bar(desastre_df, x='EVENT TYPE', y='Cantidad desastres', labels={'EVENT TYPE': 'Tipo de desastre', 'desastre_df': 'Tipo de desastre'})
 
-st.plotly_chart(figd)
+# Centrar y mostrar el gráfico con Plotly en Streamlit
+st.pyplot(figd, use_container_width=True)
+
+
 
 # AGREGAMOS UNA IMAGEN
 imageI= "inundaciones.jpg"
