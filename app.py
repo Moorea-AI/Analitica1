@@ -71,7 +71,7 @@ figd = px.bar(desastre_df, x='EVENT TYPE', y='Cantidad desastres', labels={'EVEN
 # Centrar y mostrar el gráfico con Plotly en Streamlit
 st.plotly_chart(figd, use_container_width=True)
 
-
+st.markdown("<h6 style='text-align: left; color: #525252; font-family: monospace;'>Existen una gran cantidad de tipos de desastres, cuando se mira por la cantidad de ocurrencias, se tiene que el desastre de mayor ocurrencia es el de inundaciones, en segundo lugar las tormentas y en tercer lugar los incendios, por lo tanto hacer énfases en estos tipos de desastres vale la pena.</h6>", unsafe_allow_html=True)
 
 
 # AGREGAMOS UNA IMAGEN
