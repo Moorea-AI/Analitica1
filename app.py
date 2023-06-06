@@ -255,13 +255,7 @@ fig.update_layout(xaxis_title='Año', yaxis_title='Cantidad de muertes')
 # Mostrar el gráfico en Streamlit
 st.plotly_chart(fig)
 
-st.markdown("<h6 style='text-align: left; color: #525252; font-family: monospace;'>Como podemos ver, la tasa de mortalidad la encabezan las tormentas con 1.725 muertes. Este tipo de tormentas incluyen las tormentas de nieve que son comunes en Canadá y se agravan por ser el segundo país más frío del mundo. En segundo lugar están los incendios, que incluyen los estructurales (o de construcciones humanas) y los forestales con  388 muertes y finalmente las inundaciones.</h6>", unsafe_allow_html=True)
-
-# AGREGAMOS UNA IMAGEN
-#imageT= "tormentas.jpg"
-#st.image(imageT, caption="Tormentas. Tomado de: https://www.istockphoto.com/es/foto/tormenta-entrante-sobre-el-r%C3%ADo-bow-en-calgary-gm1327119477-411576407?phrase=tormentas%20en%20canada", width=None, use_column_width=150, clamp=False, channels="RGB", output_format="auto")
-
-
+st.markdown("<h6 style='text-align: left; color: #525252; font-family: monospace;'>En la gráfica se puede observar la evolución de la tasa de mortalidad conforme va pasando el tiempo y como esta va disminuyendo al pasar de los años ya que la atención prioritaria para emergencias tiene planes de acción rigurosos que se han pulido con el pasar de las décadas, disminuyendo la mortalidad.</h6>", unsafe_allow_html=True)
 
 
 
