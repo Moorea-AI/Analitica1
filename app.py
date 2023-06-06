@@ -37,10 +37,10 @@ CONS = pd.read_csv('https://www.4minds.solutions/tarea/final/CONS.csv', sep=';',
 #INICIAMOS CON LOS ENCABEZADOS
 st.set_page_config(layout="wide")
 
-st.markdown("<h5 style='text-align: center; color: red;'>UNIVERSIDAD DE ANTIOQUIA <br> FACULTAD DE INGENIERÍA <br> DEPARTAMENTO DE INGENIERÍA INDUSTRIAL <br> INTRODUCCIÓN A LA ANALÍTICA DE NEGOCIOS</h5>", unsafe_allow_html=True)
+st.markdown("<h5 style='text-align: center; color: #404040; font-family:verdana;'>UNIVERSIDAD DE ANTIOQUIA <br> FACULTAD DE INGENIERÍA <br> DEPARTAMENTO DE INGENIERÍA INDUSTRIAL <br> INTRODUCCIÓN A LA ANALÍTICA DE NEGOCIOS</h5>", unsafe_allow_html=True)
 
-st.markdown("<h6 style='text-align: center; color: red;'>Equipo de trabajo: Aura Luz Moreno Díaz, Marcelo Lemus, Verónica Andrea Morales González</h6>", unsafe_allow_html=True)
-st.markdown("<h6 style='text-align: center; color: red;'>Semestre: 2023-1</h6>", unsafe_allow_html=True)
+st.markdown("<h6 style='text-align: center; color: #404040; font-family:verdana;'>Equipo de trabajo: Aura Luz Moreno Díaz, Marcelo Lemus, Verónica Andrea Morales González</h6>", unsafe_allow_html=True)
+st.markdown("<h6 style='text-align: center; color: #404040; font-family:verdana;'>Semestre: 2023-1</h6>", unsafe_allow_html=True)
 
 # Ruta de la imagen
 image_path = "Bandera.jpg"
@@ -53,7 +53,7 @@ html_code = f"""
 st.markdown(html_code, unsafe_allow_html=True)
 
 # Título principal, h1 denota el estilo del título 1
-st.markdown("<h1 style='text-align: center; color: red; font-family: system-ui; margin-top: 20px;'>Eficacia de los sistemas de incendio en Canadá</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #990000; font-family: system-ui; margin-top: 20px;'>Eficacia de los sistemas de incendio en Canadá</h1>", unsafe_allow_html=True)
 st.markdown("<h3 style='text-align: center; color: #666666;'>Comparativo entre aspersores y alarmas de humo</h2>", unsafe_allow_html=True)
 
 #1
