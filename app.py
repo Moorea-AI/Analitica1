@@ -90,7 +90,8 @@ datos_inundaciones = DESA[filtro_inundaciones]
 muertes_inundaciones = datos_inundaciones['FATALITIES'].sum()
 
 # Mostrar el resultado en Streamlit
-c1.text("Inundaciones: " + str(muertes_inundaciones))
+c1.text("Inundaciones: {}".format(muertes_inundaciones))
+
 
 
 
