@@ -119,7 +119,8 @@ im2.image(im2_image, width=200, use_column_width=None, clamp=False, channels="RG
 im3_image= "incendiosCanada.jpg"
 im3.image(im3_image,width=200, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
 
-c1, c2, c3 = st.columns((1,1,1)) 
+
+c2, c3, c1 = st.columns((1,1,1)) 
 
 #--------------- Top inundaciones
 c1.markdown("<h3 style='text-align: left; color: gray;'> INUNDACIONES </h3>", unsafe_allow_html=True)
