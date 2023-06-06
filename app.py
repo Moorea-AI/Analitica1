@@ -81,7 +81,6 @@ c1, c2, c3 = st.columns((1,1,1)) # Dividir el ancho en  columnas de igual tamañ
 
 #--------------- Top inundaciones
 c1.markdown("<h3 style='text-align: left; color: gray;'> Top inundaciones </h3>", unsafe_allow_html=True)
-import streamlit as st
 
 # Filtrar los datos por el tipo de evento 'flood'
 filtro_inundaciones = DESA['EVENT TYPE'] == 'flood'
@@ -91,7 +90,7 @@ datos_inundaciones = DESA[filtro_inundaciones]
 muertes_inundaciones = datos_inundaciones['FATALITIES'].sum()
 
 # Mostrar el resultado en Streamlit
-c1.text("Inundaciones", muertes_inundaciones)
+c1.text("Inundaciones: " + str(muertes_inundaciones))
 
 
 
