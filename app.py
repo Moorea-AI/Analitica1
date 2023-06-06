@@ -234,7 +234,9 @@ st.markdown("<hr>", unsafe_allow_html=True)
 #EVOLUCIÓN EN EL TIEMPO DE LAS MUERTES
 st.markdown("<h2 style='text-align: center; color: #930000;'>Evolución en el tiempo de los desastres que más produjeron fatalidades</h2>", unsafe_allow_html=True)
  
-muertes_por_anio = datos_filtrados.groupby(['YEAR' ,'EVENT TYPE'])['FATALITIES'].sum().reset_index()
+# Filtrar los datos excluyendo los valores "SIN" en FATALITIES y EVENT TYPE
+muertes_por_anio = datos_filtrados[~datos_filtrados['FATALITIES'].isin(['SIN']) & ~datos_filtrados['EVENT TYPE'].isin(['SIN'])]
+muertes_por_anio = muertes_por_anio.groupby(['YEAR', 'EVENT TYPE'])['FATALITIES'].sum().reset_index()
 
 fig = px.line(muertes_por_anio, x='YEAR', y='FATALITIES', color='EVENT TYPE', width=1000, height=450, title="Evolución de muertes causadas por tipo de evento")
 # Editar gráfica
