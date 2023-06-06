@@ -108,7 +108,7 @@ st.plotly_chart(fig)
 st.markdown("<hr>", unsafe_allow_html=True)
 st.markdown("<h6 style='text-align: left; color: #990000; font-family: helvetica;'>Top 3 de Muertes por desastre</h6>", unsafe_allow_html=True)
 
-im1, im2, im3 = st.columns((1,1,1)) 
+im2, im3, im1 = st.columns((1,1,1)) 
 
 im1_image= "inundaciones.jpg"
 im1.image(im1_image, width=200, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
@@ -187,7 +187,7 @@ st.plotly_chart(fig)
 
 
 
-pe1, pe2, pe3 = st.columns((1,1,1)) # Dividir el ancho en  columnas de igual tamaño
+pe2, pe1, pe3 = st.columns((1,1,1)) # Dividir el ancho en  columnas de igual tamaño
 
 
 #--------------- Top inundaciones
