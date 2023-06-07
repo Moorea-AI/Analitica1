@@ -382,36 +382,81 @@ c8.plotly_chart(figm)
 c8.markdown("<h6 style='text-align: center; color: #525252;'>Se observa que la tasa de mortalidad en generales alta en los incendios ocurridos durante 1900 y 1998, sin embargo, para los 22 años siguientes,  la mortalidad en cada evento varió entre el 20% y el 100%.</h2>", unsafe_allow_html=True)
 
 
-#         7
-c9, c10= st.columns((1,1))
-c9.markdown("<h4 style='text-align: center; color: #930000;'>Distribución de ocurrencia de incendios por día de la semana</h4>", unsafe_allow_html=True)
+c7, c8= st.columns((1,1))
+c7.markdown("<h4 style='text-align: center; color: #930000;'>Cantidad de incendios por año</h4>", unsafe_allow_html=True)
 
-DESA['YEAR'] = pd.to_datetime(DESA['YEAR'], format='%Y', errors='coerce')
-DESA['MONTH'] = pd.to_datetime(DESA['MONTH'], format='%m', errors='coerce')
-DESA['DAY'] = pd.to_datetime(DESA['DAY'], format='%d', errors='coerce')
-DESA['WEEKDAY'] = DESA['DAY'].dt.day_name()
+
+#Filtramos los registros que corresponden a incendios
 incendios = DESA[DESA['EVENT TYPE'] == 'fire']
-ocurrencia_incendios = incendios['WEEKDAY'].value_counts()
-df_ocurrencia_incendios = pd.DataFrame({'Día de la semana': ocurrencia_incendios.index, 'Ocurrencia': ocurrencia_incendios.values})
-dias_semana_ordenados = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-df_ocurrencia_incendios['Día de la semana'] = pd.Categorical(df_ocurrencia_incendios['Día de la semana'], categories=dias_semana_ordenados, ordered=True)
-df_ocurrencia_incendios = df_ocurrencia_incendios.sort_values('Día de la semana')
-figS = px.bar(df_ocurrencia_incendios, x='Día de la semana', y='Ocurrencia', color='Día de la semana', width=500, height=400 )
-c9.plotly_chart(figS)
 
-c9.markdown("<h6 style='text-align: center; color: #525252;'>Se observa que hay mayor incidencia de incendios el Lunes, seguido del Martes y luego el Miércoles.</h2>", unsafe_allow_html=True)
+#calculamos la cantidad de incendios por año
+cantidad_incendios_por_año = incendios['YEAR'].value_counts().sort_index()
 
-#          8
+data = pd.DataFrame({'Año': cantidad_incendios_por_año.index, 'Cantidad de Incendios': cantidad_incendios_por_año.values})
 
-c10.markdown("<h4 style='text-align: center; color: #930000;'>Número de incendios por localidad</h4>", unsafe_allow_html=True)
-incendios_por_localidad = CONS['GEO'].value_counts()
-df_incendios = pd.DataFrame({'Localidad': incendios_por_localidad.index, 'Número de Incendios': incendios_por_localidad.values})
-# Definir una lista de colores para las barras
-colores = ['Yellow', 'orange', 'red', 'purple', 'blue', 'green']  # Puedes agregar más colores si es necesario
-figL = px.bar(df_incendios, x='Localidad', y='Número de Incendios', color='Localidad', color_discrete_sequence=colores, width=500, height=400)
-c10.plotly_chart(figL)
+# Generar gráfica
 
-c10.markdown("<h6 style='text-align: center; color: #525252;'>Se observa que extrañamente la localidad de Canadá es la única con datos diferentes al resto de localidades, las cuales tienen un número similar de eventos correspondiente a 4440.</h2>", unsafe_allow_html=True)
+figinc = px.line(data, x='Año', y='Cantidad de Incendios', width=650, height=450, title="Cantidad de incendios por año")
+
+#Editar gráfica
+figinc.update_layout(
+       title_x=0.5,
+       paper_bgcolor='rgba(0,0,0,0)',
+      plot_bgcolor='rgba(0,0,0,0)',
+      template = 'simple_white',
+      xaxis_title="<b>Año<b>",
+      yaxis_title='<b>Cantidad de Incendios<b>',
+      legend_title_text='',
+        
+      legend=dict(
+       orientation="v",
+       yanchor="bottom",
+       y=1.02,
+       xanchor="right",
+       x=1.5))
+c7.plotly_chart(figinc)  
+
+
+
+#6
+c8.markdown("<h4 style='text-align: center; color: #930000;'>Tasa de mortalidad de los incendios por año</h4>", unsafe_allow_html=True)
+
+# Convertimos las columnas a tipo numerico
+DESA['FATALITIES'] = pd.to_numeric(DESA['FATALITIES'], errors='coerce')
+DESA['YEAR'] = pd.to_numeric(DESA['YEAR'], errors='coerce')
+
+#Sacamos solo los que digan Fire y calculamos el total por año y cuales con muertos
+incendios = DESA[DESA['EVENT TYPE'] == 'fire']
+total_incendios = incendios.groupby('YEAR').size()
+incendios_muertos = incendios.groupby('YEAR')['FATALITIES'].count()
+
+#Ahora si calculamos la tasa de mortalidad y creamos el dataframe*1
+tasa_mortalidad = round(((incendios_muertos / total_incendios)*100),2)
+tasa_mortalidad_df = pd.DataFrame({'YEAR': tasa_mortalidad.index, 'tasa de Mortalidad (%)': tasa_mortalidad.values})
+#figm = px.bar(tasa_mortalidad_df, x='YEAR', y='tasa de Mortalidad (%)', labels={'Año': 'Año', 'tasa_mortalidad_df': 'tasa de Mortalidad (%)'}, width=500, height=400)
+figm = px.line(tasa_mortalidad_df, x='YEAR', y='tasa de Mortalidad (%)', width=600, height=400, title="Tasa de mortalidad por año")
+
+               #Editar gráfica
+figm.update_layout(
+       title_x=0.5,
+       paper_bgcolor='rgba(0,0,0,0)',
+      plot_bgcolor='rgba(0,0,0,0)',
+      template = 'simple_white',
+      xaxis_title="<b>Año<b>",
+      yaxis_title='<b>Mortalidad (%)<b>',
+      legend_title_text='',
+        
+      legend=dict(
+       orientation="v",
+       yanchor="bottom",
+       y=1.02,
+       xanchor="right",
+       x=1.5))
+ 
+c8.plotly_chart(figm)
+
+###
+c8.markdown("<h6 style='text-align: center; color: #525252;'>Se observa que la tasa de mortalidad en generales alta en los incendios ocurridos durante 1900 y 1998, sin embargo, para los 22 años siguientes,  la mortalidad en cada evento varió entre el 20% y el 100%.</h2>", unsafe_allow_html=True)
 
 
 #            9
